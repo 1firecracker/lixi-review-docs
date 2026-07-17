@@ -6,182 +6,182 @@
       "title": "第二天中断后在教材中部新增3张",
       "filename": "01-第二天中断后在教材中部新增3张.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 21,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "eb702470bda357c44ae11c2e0337e245792fc916a66c41ba9529ad14ae3beb53"
+      "digest": "9df61f27c96c29a4911adcc9f7de6831978c0fa5cd1e424784bb251e26e12b4e"
     },
     {
       "number": 2,
       "title": "第二天中断后删除未学习卡片",
       "filename": "02-第二天中断后删除未学习卡片.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "e38fa6cb607fb0f09ffeb0f6989be2df4952e38928a07e948f25e1e32aa723e1"
+      "digest": "7c6224d91203df620cf37a99ea1a76dc0711d8b279a8ae4d96dce889b53b2a84"
     },
     {
       "number": 3,
       "title": "顺延后同时增大有效页数",
       "filename": "03-顺延后同时增大有效页数.md",
       "passed": true,
-      "finalDay": 23,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "1d2800790cc25d70523682502201f868b7447fabdbd3bffd53ce9efc155a8fad"
+      "digest": "9c19d4eb5b0d7134d1addcbe257682ad241b93a5372df7fd44a11382f2e6fa1d"
     },
     {
       "number": 4,
       "title": "头部新增后删除其中一张新卡",
       "filename": "04-头部新增后删除其中一张新卡.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "253fcdbd0392b42518bc94f4b5d7a8ab14e6066a1414c5fde0d70ddafe2a66dd"
+      "digest": "0fc8fb02c586f7b97010e53e344ed133dc1cf70c34381a1ca67ddd5ec34e1904"
     },
     {
       "number": 5,
       "title": "尾部新增后修改新卡页数",
       "filename": "05-尾部新增后修改新卡页数.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "d9d1fa2ea90522da859b930dd8221e54fa1a3f025353c5ecb1a34d2b644b5f73"
+      "digest": "73671400f785dd7504da285f78f791a70bf27d111cd9717987715d38aedf8f8c"
     },
     {
       "number": 6,
       "title": "删除已学习卡片并在原位置补卡",
       "filename": "06-删除已学习卡片并在原位置补卡.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "3aa5d4dcf64c4f6a80571f799079833f6addd1fcc616e446d240f1949f5bc7d0"
+      "digest": "866867dcf2dfdd50fcc32876e29be2588fb83b60f9177d47ad05bbad0c826677"
     },
     {
       "number": 7,
       "title": "删除未学卡片后在附近新增5张",
       "filename": "07-删除未学卡片后在附近新增5张.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "9fa8280b323d115324e79bdffff248e2253bba1d1281307e6512e8d27f88d343"
+      "digest": "8cc57e1f14203cdf3cab883e96f497aeaa08e303ba6ecdbef8ef57bdb25592a8"
     },
     {
       "number": 8,
       "title": "连续两日中断后新增卡片",
       "filename": "08-连续两日中断后新增卡片.md",
       "passed": true,
-      "finalDay": 24,
+      "finalDay": 21,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "a28d52cf25cc6c26757455103a8dc77c17b6926692804c1c03e063efb7ae9970"
+      "digest": "5dcd84fde7071b08c84ce0b747c49445cfa893cd979ffd55b4961c44885eb6de"
     },
     {
       "number": 9,
       "title": "连续两日中断后删除卡片",
       "filename": "09-连续两日中断后删除卡片.md",
       "passed": true,
-      "finalDay": 23,
+      "finalDay": 21,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "bcfdb4a84145248ffe4afca982c38ed1be7904a80298ddebada512e9b6926cc1"
+      "digest": "ef93ba6cf2d99aeb3316eb20eda351761a24a4bca0b23b19456d2a6d09568f19"
     },
     {
       "number": 10,
       "title": "当天中断后新增并编辑旧卡",
       "filename": "10-当天中断后新增并编辑旧卡.md",
       "passed": true,
-      "finalDay": 23,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "b3afa4dd63a110c45ea678ef901c9a014085f6460212ad99d81541ae81ff833a"
+      "digest": "f1bbb1a658731f96cc14beaab63e4468a0f88a59a2a5b007bc10de62d6ef4038"
     },
     {
       "number": 11,
       "title": "同日头中尾三处新增",
       "filename": "11-同日头中尾三处新增.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "ff442d55cfbccf0206ab17c850b00a566f3fd31247ad1d8a5ccdda9f6d62cdcc"
+      "digest": "0281d20361d756c93df2cec025a24c5fbdb117a38e02b9fe550172eb1173192d"
     },
     {
       "number": 12,
       "title": "同日头中尾分散删除",
       "filename": "12-同日头中尾分散删除.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "efbf55e296225b2adf28d993ea47d5d94933b1da8e1500b7e753e4c583e8d59b"
+      "digest": "3c6400c579c7f6529dba85f33304bae8c567e70dc0df46308949b6a6df0f476c"
     },
     {
       "number": 13,
       "title": "同日新增删除及页数编辑",
       "filename": "13-同日新增删除及页数编辑.md",
       "passed": true,
-      "finalDay": 23,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "7ea92eae8a6249f54503eed09fc668147c406914e959f61a3488e454b0d6b921"
+      "digest": "e37004b981b24f31e76f5d8154597e698a18b2d1291e661d368f52cb48fbdfcf"
     },
     {
       "number": 14,
       "title": "重复事件重放夹杂真实编辑",
       "filename": "14-重复事件重放夹杂真实编辑.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 20,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "replayStable": true,
-      "digest": "83420568dcfeb27e471734103388a06c7c5b5ca53c1bee4f702ab862e8ded9e6"
+      "digest": "f6a663f40445570c937bb736b30089124a3d082f322e5c90d8dec5558ad99660"
     }
   ]
 }

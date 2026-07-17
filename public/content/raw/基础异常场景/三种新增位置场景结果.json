@@ -7,7 +7,7 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/09-只在教材头部新增10张卡片.md",
       "lockedThroughDay": 2,
       "effectiveFromDay": 3,
-      "finalDay": 22,
+      "finalDay": 21,
       "addedCurrentRanges": "1-10",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
@@ -49,7 +49,7 @@
         ],
         "7日复习": [
           9,
-          10,
+          9,
           10,
           10,
           10,
@@ -61,25 +61,25 @@
         ],
         "15日复习": [
           17,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 29.152648,
-        "maximum": 32.662058
+        "minimum": 30.804879,
+        "maximum": 35.199488
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
-      "deterministicDigest": "5935193a9e24d6e805a3ba24281ead8385fe36ec105ea3718243d878213d503d"
+      "deterministicDigest": "f472b8c454c77d2229207cc624e18431da83eb94ce5dac5a20ef9ba310caf90d"
     },
     {
       "passed": true,
@@ -87,7 +87,7 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/10-只在教材尾部新增10张卡片.md",
       "lockedThroughDay": 2,
       "effectiveFromDay": 3,
-      "finalDay": 22,
+      "finalDay": 21,
       "addedCurrentRanges": "598-607",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
@@ -129,7 +129,7 @@
         ],
         "7日复习": [
           9,
-          10,
+          9,
           10,
           10,
           10,
@@ -141,25 +141,25 @@
         ],
         "15日复习": [
           17,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 29.152648,
-        "maximum": 32.662058
+        "minimum": 30.804879,
+        "maximum": 35.199488
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
-      "deterministicDigest": "af2612895c0967a119233f9b564d6f36ff016d83078e4b502fd7d1aa5b1f9a8d"
+      "deterministicDigest": "7b9e6bc550a6d646cc7498a70446a76a06ee81edeffd5e914a95e45450ec9778"
     },
     {
       "passed": true,
@@ -167,7 +167,7 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/11-当天学习开始后新增10张卡片.md",
       "lockedThroughDay": 3,
       "effectiveFromDay": 4,
-      "finalDay": 23,
+      "finalDay": 21,
       "addedCurrentRanges": "301-310",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
@@ -204,8 +204,8 @@
           7,
           7,
           7,
-          7,
-          7
+          8,
+          8
         ],
         "7日复习": [
           11,
@@ -229,17 +229,17 @@
           19,
           19,
           19,
-          19
+          20
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 9.188175,
-        "maximum": 32.647346
+        "minimum": 31.933921,
+        "maximum": 35.199576
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
-      "deterministicDigest": "5f0f0b5c941c485b8b5cb1c361147d9022b3e1a8344d3c4c40d24fe558511028"
+      "deterministicDigest": "4326fc317b84784eb51a64ff67406fd32a0b9b920dcfb2d699347a87fadf18a8"
     }
   ]
 }
