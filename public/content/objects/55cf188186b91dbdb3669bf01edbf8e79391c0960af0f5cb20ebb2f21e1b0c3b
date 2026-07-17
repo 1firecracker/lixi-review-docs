@@ -3,8 +3,8 @@
   "results": [
     {
       "number": 1,
-      "title": "D2中断后在教材中部新增3张",
-      "filename": "01-D2中断后在教材中部新增3张.md",
+      "title": "第二天中断后在教材中部新增3张",
+      "filename": "01-第二天中断后在教材中部新增3张.md",
       "passed": true,
       "finalDay": 22,
       "violations": 0,
@@ -16,8 +16,8 @@
     },
     {
       "number": 2,
-      "title": "D2中断后删除未学习卡片",
-      "filename": "02-D2中断后删除未学习卡片.md",
+      "title": "第二天中断后删除未学习卡片",
+      "filename": "02-第二天中断后删除未学习卡片.md",
       "passed": true,
       "finalDay": 22,
       "violations": 0,
