@@ -5,6 +5,7 @@ import { stat } from "node:fs/promises";
 import { dirname, isAbsolute, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { promisify } from "node:util";
+import { runGitHubPagesSync } from "../sync/github-pages-sync.mjs";
 
 import {
   DEFAULT_SOURCE_DIR,
@@ -14,6 +15,8 @@ import {
 } from "./local-config.mjs";
 
 const execFile = promisify(execFileCallback);
+const moduleDir = dirname(fileURLToPath(import.meta.url));
+const siteRoot = resolve(moduleDir, "..");
 export const LOCAL_ADMIN_HOST = "127.0.0.1";
 export const LOCAL_ADMIN_PORT = 43172;
 const MAX_BODY_BYTES = 64 * 1024;
@@ -35,7 +38,10 @@ const ADMIN_HTML = `<!doctype html>
     input { width: 100%; box-sizing: border-box; padding: 11px 12px; border: 1px solid #c8d0df; border-radius: 9px; font: inherit; }
     button { border: 0; border-radius: 9px; padding: 11px 15px; font: inherit; cursor: pointer; }
     .picker { flex: 0 0 auto; background: #edf2ff; color: #274a9b; white-space: nowrap; }
-    .save { margin-top: 26px; width: 100%; background: #315bd6; color: #fff; font-weight: 600; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 26px; }
+    .save, .sync { width: 100%; font-weight: 600; }
+    .save { background: #315bd6; color: #fff; }
+    .sync { background: #e8f5ec; color: #21683a; }
     button:disabled { cursor: wait; opacity: .65; }
     #status { min-height: 24px; margin: 16px 0 0; color: #39734a; }
     #status.error { color: #b43a3a; }
@@ -54,10 +60,13 @@ const ADMIN_HTML = `<!doctype html>
       </div>
       <label for="site-name">网站名称</label>
       <input id="site-name" name="siteName" maxlength="120" autocomplete="off" required />
-      <button class="save" id="save-settings" type="submit">保存设置</button>
+      <div class="actions">
+        <button class="save" id="save-settings" type="submit">保存设置</button>
+        <button class="sync" id="sync-now" type="button">立即同步</button>
+      </div>
     </form>
     <p id="status" role="status" aria-live="polite"></p>
-    <p class="note">管理页仅绑定本机 127.0.0.1；保存后由下一次定时同步任务应用。</p>
+    <p class="note">管理页仅绑定本机 127.0.0.1；修改目录或名称后请先保存，再立即同步。</p>
   </main>
   <script>
     const ADMIN_TOKEN = __ADMIN_TOKEN__;
@@ -68,6 +77,7 @@ const ADMIN_HTML = `<!doctype html>
     const status = document.querySelector("#status");
     const saveButton = document.querySelector("#save-settings");
     const pickButton = document.querySelector("#pick-folder");
+    const syncButton = document.querySelector("#sync-now");
 
     function showStatus(message, error = false) {
       status.textContent = message;
@@ -123,6 +133,26 @@ const ADMIN_HTML = `<!doctype html>
         showStatus(error.message || "保存设置失败", true);
       } finally {
         saveButton.disabled = false;
+      }
+    });
+
+    syncButton.addEventListener("click", async () => {
+      syncButton.disabled = true;
+      saveButton.disabled = true;
+      pickButton.disabled = true;
+      showStatus("正在同步并发布，请稍候…");
+      try {
+        const result = await readJson(await fetch("/api/sync", { method: "POST", headers }));
+        const message = result.status === "unchanged"
+          ? "同步完成，文档没有变化。"
+          : "同步完成，更新已推送，GitHub Pages 正在发布。";
+        showStatus(message);
+      } catch (error) {
+        showStatus(error.message || "手动同步失败", true);
+      } finally {
+        syncButton.disabled = false;
+        saveButton.disabled = false;
+        pickButton.disabled = false;
       }
     });
 
@@ -219,6 +249,7 @@ export function createAdminServer({
   configPath = join(process.cwd(), ".local-admin", "config.json"),
   fallbackSourceDir = DEFAULT_SOURCE_DIR,
   chooseFolder = chooseFolderWithAppleScript,
+  runSync = () => runGitHubPagesSync({ siteDir: siteRoot }),
   token = randomBytes(24).toString("hex"),
 } = {}) {
   const resolvedConfigPath = resolve(configPath);
@@ -277,6 +308,15 @@ export function createAdminServer({
         }
         return;
       }
+      if (url.pathname === "/api/sync" && request.method === "POST") {
+        try {
+          const result = await runSync();
+          jsonResponse(response, 200, result);
+        } catch (error) {
+          jsonResponse(response, 500, { message: errorMessage(error, "手动同步失败") });
+        }
+        return;
+      }
       jsonResponse(response, 404, { message: "Not found" });
     })().catch((error) => {
       if (!response.headersSent) {
@@ -320,7 +360,6 @@ export async function startLocalAdmin({
 }
 
 async function main() {
-  const siteRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
   const started = await startLocalAdmin({
     port: Number(process.env.LIXI_REVIEW_ADMIN_PORT ?? LOCAL_ADMIN_PORT),
     configPath: join(siteRoot, ".local-admin", "config.json"),

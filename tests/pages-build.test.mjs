@@ -9,12 +9,20 @@ test("Pages build contains the static app and complete content snapshot", async 
     "index.html",
     "content/manifest.json",
     "content/site-config.json",
-    "content/raw/README.md",
   ];
 
   for (const path of requiredFiles) {
     assert.equal((await stat(new URL(path, artifactRoot))).isFile(), true, path);
   }
+
+  const manifest = JSON.parse(
+    await readFile(new URL("content/manifest.json", artifactRoot), "utf8"),
+  );
+  assert.ok(manifest.files.length > 0, "expected at least one published source file");
+  assert.equal(
+    (await stat(new URL(`content/raw/${manifest.files[0].path}`, artifactRoot))).isFile(),
+    true,
+  );
 
   const siteConfig = JSON.parse(
     await readFile(new URL("content/site-config.json", artifactRoot), "utf8"),

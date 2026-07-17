@@ -44,11 +44,16 @@ test("local admin serves a loopback-only settings API", async (t) => {
   const configPath = join(root, ".local-admin", "config.json");
   await mkdir(sourceDir, { recursive: true });
   await mkdir(selectedDir, { recursive: true });
+  let syncCalls = 0;
 
   const { server, token } = createAdminServer({
     configPath,
     fallbackSourceDir: sourceDir,
     chooseFolder: async () => selectedDir,
+    runSync: async () => {
+      syncCalls += 1;
+      return { status: "synced", changed: true };
+    },
   });
   const port = await listen(server);
   t.after(async () => {
@@ -62,7 +67,9 @@ test("local admin serves a loopback-only settings API", async (t) => {
 
   const page = await fetch(`${baseUrl}/`);
   assert.equal(page.status, 200);
-  assert.match(await page.text(), /选择文件夹/);
+  const pageHtml = await page.text();
+  assert.match(pageHtml, /选择文件夹/);
+  assert.match(pageHtml, /立即同步/);
 
   const initial = await fetch(`${baseUrl}/api/config`, {
     headers: { "x-admin-token": token },
@@ -97,4 +104,12 @@ test("local admin serves a loopback-only settings API", async (t) => {
     JSON.parse(await readFile(configPath, "utf8")),
     { sourceDir: selectedDir, siteName: "Radar Hub" },
   );
+
+  const synced = await fetch(`${baseUrl}/api/sync`, {
+    method: "POST",
+    headers: { "x-admin-token": token },
+  });
+  assert.equal(synced.status, 200);
+  assert.deepEqual(await synced.json(), { status: "synced", changed: true });
+  assert.equal(syncCalls, 1);
 });
