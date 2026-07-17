@@ -259,7 +259,7 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/11-当天学习开始后新增10张卡片.md",
       "lockedThroughDay": 3,
       "effectiveFromDay": 4,
-      "finalDay": 22,
+      "finalDay": 23,
       "addedCurrentRanges": "301-310",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
@@ -325,8 +325,8 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 31.933921,
-        "maximum": 35.198218
+        "minimum": 5.80173,
+        "maximum": 32.539092
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -350,7 +350,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -377,7 +377,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "9956df9b3b599d23e01c85967103b4b0796aca530e1596845a74aaf25804c547"
+      "deterministicDigest": "648b306fc8bcad815e37237b5070ba4630c35203c7ff57dad96e0ff894f7cda4"
     }
   ]
 }

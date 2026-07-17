@@ -180,6 +180,89 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
+      "lowCellDiagnostics": 35,
+      "unexplainedDays": 0,
+      "unscheduled": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "exempt"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "父卡在所有应有学习列中各保留一个 occurrence",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "子卡未来 occurrence 已全部替换",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "父卡不可拆且页数快照正确",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "超过整日上限的父卡独占整日",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        }
+      ],
+      "finalDay": 22,
+      "digest": "cf1e6b3971a439da7e81d6550fe0e8d327dd74c371d110c962aea0c7b1c515db"
+    },
+    {
+      "number": 15,
+      "title": "当天中断后合并 5 张卡片",
+      "filename": "15-当天中断后合并5张卡片.md",
+      "passed": true,
+      "parentSequentialIndex": "200",
+      "pageCount": 1.004792,
+      "parentOccurrences": 5,
+      "futureChildOccurrences": 0,
+      "parentIndivisible": true,
+      "parentRequiresWholeDay": false,
+      "parentOverflowDaysAreSingleton": false,
+      "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -247,91 +330,8 @@
           "status": "satisfied"
         }
       ],
-      "finalDay": 21,
-      "digest": "62cf32dfdd0fd9fea821c0e7355a63cf8bd9f212968acbe0abcddbd8a940f97b"
-    },
-    {
-      "number": 15,
-      "title": "当天中断后合并 5 张卡片",
-      "filename": "15-当天中断后合并5张卡片.md",
-      "passed": true,
-      "parentSequentialIndex": "200",
-      "pageCount": 1.004792,
-      "parentOccurrences": 5,
-      "futureChildOccurrences": 0,
-      "parentIndivisible": true,
-      "parentRequiresWholeDay": false,
-      "parentOverflowDaysAreSingleton": false,
-      "violations": 0,
-      "lowCellDiagnostics": 0,
-      "unexplainedDays": 0,
-      "unscheduled": 0,
-      "historyPreserved": true,
-      "replayStable": true,
-      "acceptanceChecks": [
-        {
-          "name": "状态结构与账本约束",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "所有有效 occurrence 已排入计划",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单日容量合格",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "锁定历史保持不变",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "相同事件或相同输入重放稳定",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "父卡在所有应有学习列中各保留一个 occurrence",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "子卡未来 occurrence 已全部替换",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "父卡不可拆且页数快照正确",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "超过整日上限的父卡独占整日",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单格负载偏差（仅诊断）",
-          "hard": false,
-          "passed": true,
-          "status": "satisfied"
-        }
-      ],
-      "finalDay": 21,
-      "digest": "bafe672a8f15ff45c1e432789a3258a96808e5029c09e9c810bbe17a44593072"
+      "finalDay": 22,
+      "digest": "69521a27659bb13e4c98928c4b61e60ce026433e84270b5241597910d9423377"
     },
     {
       "number": 16,
@@ -429,7 +429,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 2,
+      "lowCellDiagnostics": 36,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -496,8 +496,8 @@
           "status": "satisfied"
         }
       ],
-      "finalDay": 21,
-      "digest": "dd2648d4d52e11f392c33f2cb2317907a574a12020eaa894b08d9ddd81e75187"
+      "finalDay": 22,
+      "digest": "9f2663088bcb0f15695d77603ae634b8cedaa850b7e6e651e17560f0a9388ca0"
     },
     {
       "number": 18,
@@ -595,7 +595,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -662,8 +662,8 @@
           "status": "satisfied"
         }
       ],
-      "finalDay": 21,
-      "digest": "cca821d065244b207feccca8dea2ddfd3dc66f0c4f6ca3e7c2bb9ee72d25ec43"
+      "finalDay": 22,
+      "digest": "3ef542457b39a8ad80169ba9f44e21b00249fd97d890ef9f74abdbab39efd925"
     }
   ]
 }

@@ -58,7 +58,7 @@
       "title": "第二天中断后删除未学习卡片",
       "filename": "02-第二天中断后删除未学习卡片.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -82,7 +82,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -103,7 +103,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "9d17b2a4db942bc52e88d530512abfa57e1178056f7ddd1a7946795aa6b71f62"
+      "digest": "0d88a26b7320b1a44128db8359f376345fe6c9c3f8a5707eed301b872294a908"
     },
     {
       "number": 3,
@@ -162,7 +162,7 @@
       "title": "头部新增后删除其中一张新卡",
       "filename": "04-头部新增后删除其中一张新卡.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -186,7 +186,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -207,14 +207,14 @@
           "status": "satisfied"
         }
       ],
-      "digest": "7efd6de537d6ab0c6b01d650fc264caa78edfc04c53bfee90867bac421cb50e4"
+      "digest": "16326b7fb4338d27d9a857f2d484be74feb723cb8fd5527b211d81be2b3e5083"
     },
     {
       "number": 5,
       "title": "尾部新增后修改新卡页数",
       "filename": "05-尾部新增后修改新卡页数.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -238,7 +238,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -259,7 +259,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "a85b6a140337bb9e88bea1082d7c4aa85a4ceda4cc211c9ba836f6ac2b457252"
+      "digest": "e100831e74cb0ab1b0c0dd7098a76042899280729e20975db240e25043a4ed7b"
     },
     {
       "number": 6,
@@ -318,7 +318,7 @@
       "title": "删除未学卡片后在附近新增5张",
       "filename": "07-删除未学卡片后在附近新增5张.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -342,7 +342,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -363,14 +363,14 @@
           "status": "satisfied"
         }
       ],
-      "digest": "60b6ba44e1e15aa69c3cfeac95a11d3c741db2f02582878975532aaf80cd4905"
+      "digest": "47b4abdeb50d785325f13d59a7df6de797df7b59b0aecbf744f304e5c12bccc0"
     },
     {
       "number": 8,
       "title": "连续两日中断后新增卡片",
       "filename": "08-连续两日中断后新增卡片.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 23,
       "violations": 0,
       "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
@@ -394,7 +394,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -415,7 +415,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "56717b0923ba9a42ab7e3da2b6cc0116f352e266f378b05034d52c49d0b1f376"
+      "digest": "5c8f5161fdff9e9b36d05992fd086573131475dda98eeecdb92ee9129c18e2b5"
     },
     {
       "number": 9,
@@ -467,7 +467,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "e7eca135518dc49c8d9d7813f4f518c3650623d0608d1e717f16c91fbff6738e"
+      "digest": "524d4f1da7822aa6d33debedfb8222b8e46998b6f7e7f9f27cc450e15b829cf6"
     },
     {
       "number": 10,
@@ -519,14 +519,14 @@
           "status": "satisfied"
         }
       ],
-      "digest": "6ba8f34cb0ef707398d7ba3f6066dc4253724843f18fd2640b67dbe12755148d"
+      "digest": "48cc80995db4897c0249125aecfd5bd278cc53e61490e31b716260a4085a3d7c"
     },
     {
       "number": 11,
       "title": "同日头中尾三处新增",
       "filename": "11-同日头中尾三处新增.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -550,7 +550,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -571,7 +571,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "ce89f4600025a606d1a5c37e4baef7996e204bde6e37080f5834a026078ec246"
+      "digest": "32ce7353c260a846e1fab7c5366f4c10a474d2820cc0bbe329a5e681c95563bb"
     },
     {
       "number": 12,
@@ -675,14 +675,14 @@
           "status": "satisfied"
         }
       ],
-      "digest": "8ffaaddf5e1233578c1ef5622e07b64f99ca00417e8f9a0b638eec412a4d678a"
+      "digest": "d98cf49181c22587b85d104311204631443066cd60f87b4091969908d4135c28"
     },
     {
       "number": 14,
       "title": "重复事件重放夹杂真实编辑",
       "filename": "14-重复事件重放夹杂真实编辑.md",
       "passed": true,
-      "finalDay": 21,
+      "finalDay": 22,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -706,7 +706,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -727,7 +727,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "d3ed445849bd3f28890b35c25258a9eb2ebcae98fc9f9bf42f9e5c56469dc1e3"
+      "digest": "65cc57555c6b92875f601ee8a6fd99ae3c261c7e577520f75c33b4c6c87d851b"
     }
   ]
 }
