@@ -7,7 +7,7 @@ import {
   loadContentManifest,
   loadSiteConfig,
 } from "../../lib/content/client";
-import { findManifestFile } from "../../lib/content/manifest";
+import { findInitialDocument } from "../../lib/content/manifest";
 import { documentHref } from "../../lib/content/paths";
 import type { ContentManifest, ManifestFile } from "../../lib/content/types";
 import { documentPageTitle, type SiteConfig } from "../../lib/site-config";
@@ -55,7 +55,7 @@ export function DocsSite({
           loadContentManifest(request, basePath),
           loadSiteConfig(request, basePath),
         ]);
-        const file = findManifestFile(manifest, initialPath);
+        const file = findInitialDocument(manifest, initialPath);
         if (!file || (file.kind !== "markdown" && file.kind !== "html")) {
           throw new Error("没有找到这篇文档。");
         }

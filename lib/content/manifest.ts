@@ -5,6 +5,7 @@ const SHA256 = /^[0-9a-f]{64}$/;
 const KINDS = new Set<ContentKind>(["markdown", "html", "asset"]);
 const ROOT_ORDER = [
   "README.md",
+  "场景索引.md",
   "产品概要.md",
   "零版产品需求.md",
   "技术设计.md",
@@ -76,6 +77,18 @@ export function findManifestFile(
 ): ManifestFile | undefined {
   const safePath = validateContentPath(path);
   return manifest.files.find((file) => file.path === safePath);
+}
+
+export function homeDocument(manifest: ContentManifest): ManifestFile | undefined {
+  return orderedDocuments(manifest)[0];
+}
+
+export function findInitialDocument(
+  manifest: ContentManifest,
+  path: string,
+): ManifestFile | undefined {
+  return findManifestFile(manifest, path) ??
+    (path === "README.md" ? homeDocument(manifest) : undefined);
 }
 
 export function orderedDocuments(manifest: ContentManifest): ManifestFile[] {

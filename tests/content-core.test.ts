@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   findManifestFile,
+  findInitialDocument,
+  homeDocument,
   orderedDocuments,
   validateManifest,
 } from "../lib/content/manifest";
@@ -74,6 +76,17 @@ test("content core validates manifests and orders Project Radar documents", () =
     "测试与演示.md",
     "决策记录/采用任务边界触发.md",
   ]);
+});
+
+test("content core selects an index document when README is absent", () => {
+  const withoutReadme: ContentManifest = {
+    ...manifest,
+    files: [file("00-无异常基准计划.md"), file("场景索引.md")],
+  };
+
+  assert.equal(homeDocument(withoutReadme)?.path, "场景索引.md");
+  assert.equal(findInitialDocument(withoutReadme, "README.md")?.path, "场景索引.md");
+  assert.equal(findInitialDocument(withoutReadme, "missing.md"), undefined);
 });
 
 test("content core rejects malformed manifests", () => {

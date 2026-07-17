@@ -7,6 +7,7 @@ import {
   type NavigationNode,
 } from "../../lib/content/navigation-tree";
 import { documentHref } from "../../lib/content/paths";
+import { homeDocument } from "../../lib/content/manifest";
 import type { ContentManifest } from "../../lib/content/types";
 import { DEFAULT_SITE_NAME } from "../../lib/site-config";
 
@@ -25,6 +26,7 @@ export function Navigation({
 }: NavigationProps) {
   const [open, setOpen] = useState(false);
   const tree = buildNavigationTree(manifest);
+  const homePath = homeDocument(manifest)?.path ?? "README.md";
 
   const renderNodes = (nodes: NavigationNode[]) => (
     <ul>
@@ -74,7 +76,7 @@ export function Navigation({
         <div className="brand-block">
           <a
             className="brand"
-            href={documentHrefFor("README.md")}
+            href={documentHrefFor(homePath)}
             aria-label={`${siteName} 文档首页`}
           >
             <span className="radar-mark" aria-hidden="true" />
