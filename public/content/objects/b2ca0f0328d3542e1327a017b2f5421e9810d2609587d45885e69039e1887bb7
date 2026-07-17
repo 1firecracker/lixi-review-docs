@@ -1,5 +1,5 @@
 {
-  "passed": true,
+  "passed": false,
   "results": [
     {
       "number": 12,
@@ -15,8 +15,8 @@
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "a4ee962dd4f5babd13a384831bdf0bd06f724b8b6acfd07342a8baa3b0da5812"
+      "finalDay": 20,
+      "digest": "9cc5c34607cc639da643108f57e59f43c1b87339bfa98fe32ed78edb01bd8fa1"
     },
     {
       "number": 13,
@@ -32,8 +32,8 @@
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "aa9e19dc65ed41e1fd1fc3b325a7edb8c27bda5cd1b3ad9ec3d7a0585663f153"
+      "finalDay": 20,
+      "digest": "d35c29d77ae9b25e2c21b3cfdfc44d81f73281f6696746e23ea62d396af05f0f"
     },
     {
       "number": 14,
@@ -49,8 +49,8 @@
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "b38cce6f7d7bc0047992f5e71dac0e241e3666b7b23c2e1e99fc0897e8bb1205"
+      "finalDay": 20,
+      "digest": "e2e27ef647aea063ef9a3d455403fde7ea803198a80c78e4235db04f443259e3"
     },
     {
       "number": 15,
@@ -66,76 +66,76 @@
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "8558fe8b2b250cc3dd2a36072c07483bf58c5e25b859fd1dd8ecc0814a271b7b"
+      "finalDay": 20,
+      "digest": "786853b151b936a004b9fa301cda582ec575ad634c96680428514542f82f7913"
     },
     {
       "number": 16,
       "title": "合并未学卡形成约 10 页父卡",
-      "passed": true,
+      "passed": false,
       "parentSequentialIndex": "46",
       "pageCount": 10.223448,
       "parentOccurrences": 5,
       "futureChildOccurrences": 0,
-      "parentAlwaysSingleton": true,
+      "parentAlwaysSingleton": false,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "624b42a23522755aa916d1110d7c05ac228dbb8f73597cc6f328deefa3ab9482"
+      "finalDay": 20,
+      "digest": "d816a416b9cb3e6fdd7b71a994a28d802d90684748bba5c83d4dbbd706e56b3c"
     },
     {
       "number": 17,
       "title": "合并已有历史形成约 10 页父卡",
-      "passed": true,
+      "passed": false,
       "parentSequentialIndex": "1",
       "pageCount": 10.280204,
       "parentOccurrences": 5,
       "futureChildOccurrences": 0,
-      "parentAlwaysSingleton": true,
+      "parentAlwaysSingleton": false,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "8aeda4d3e36bd7560d92a536ae170dae0730bd8cdbbf17c5245d607b9da63192"
+      "finalDay": 20,
+      "digest": "ed18c2627080dbf7b657e9f76ac956005858e803dc8b7bfbe3c1c08dc62c5979"
     },
     {
       "number": 18,
       "title": "跨任务包形成约 10 页父卡",
-      "passed": true,
+      "passed": false,
       "parentSequentialIndex": "263",
       "pageCount": 9.927053,
       "parentOccurrences": 5,
       "futureChildOccurrences": 0,
-      "parentAlwaysSingleton": true,
+      "parentAlwaysSingleton": false,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 22,
-      "digest": "9bbf39917498507c3b9ff127b410503a6adf303d3f13b9219499b3ba5efc5ecb"
+      "finalDay": 20,
+      "digest": "4faaf02f391b1efda698a5f5e3c21a13e013b8db427e76adf3269711939ae31d"
     },
     {
       "number": 19,
       "title": "当天中断后形成约 10 页父卡",
-      "passed": true,
+      "passed": false,
       "parentSequentialIndex": "441",
       "pageCount": 9.911288,
       "parentOccurrences": 5,
       "futureChildOccurrences": 0,
-      "parentAlwaysSingleton": true,
+      "parentAlwaysSingleton": false,
       "violations": 0,
       "unexplainedCells": 0,
       "unexplainedDays": 0,
       "historyPreserved": true,
       "replayStable": true,
-      "finalDay": 23,
-      "digest": "f371d217d8529a7201659c18caccabd5819d7ace3616425d066add000413dec7"
+      "finalDay": 20,
+      "digest": "82cddfd94d27c18707952ac184803192b49aed1740910d564a67f32378fdaa21"
     }
   ]
 }
