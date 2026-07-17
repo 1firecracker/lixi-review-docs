@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "number": 12,
+      "title": "合并从未学习的连续 5 张卡片",
+      "passed": true,
+      "parentSequentialIndex": "100",
+      "pageCount": 0.148197,
+      "parentOccurrences": 5,
+      "futureChildOccurrences": 0,
+      "violations": 0,
+      "unexplainedCells": 0,
+      "unexplainedDays": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "finalDay": 21,
+      "digest": "9437ab34fa1d4fc203518f9e5ad2de0dd01b0e336a998174f31a9ea643ba5906"
+    },
+    {
+      "number": 13,
+      "title": "合并已有历史的连续 3 张卡片",
+      "passed": true,
+      "parentSequentialIndex": "1",
+      "pageCount": 0.486631,
+      "parentOccurrences": 5,
+      "futureChildOccurrences": 0,
+      "violations": 0,
+      "unexplainedCells": 0,
+      "unexplainedDays": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "finalDay": 21,
+      "digest": "5d9969fad2edb3371432ea19c90e3358a19628504356c654b9c4b6f8a0e27dcb"
+    },
+    {
+      "number": 14,
+      "title": "跨任务包合并 4 张卡片",
+      "passed": true,
+      "parentSequentialIndex": "33",
+      "pageCount": 2.897712,
+      "parentOccurrences": 5,
+      "futureChildOccurrences": 0,
+      "violations": 0,
+      "unexplainedCells": 0,
+      "unexplainedDays": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "finalDay": 22,
+      "digest": "63d7cc5ddf095579facc39821791539619fd8d6364847e49320b4b48a9c3dac6"
+    },
+    {
+      "number": 15,
+      "title": "当天中断后合并 5 张卡片",
+      "passed": true,
+      "parentSequentialIndex": "200",
+      "pageCount": 1.004792,
+      "parentOccurrences": 5,
+      "futureChildOccurrences": 0,
+      "violations": 0,
+      "unexplainedCells": 0,
+      "unexplainedDays": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "finalDay": 22,
+      "digest": "35838332e59e868b4920c40794341c1dad9da7607dd1f2774675c2edb942aa3b"
+    }
+  ]
+}

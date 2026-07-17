@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-0c0ceb229364cd5c4acef64161fbf37878690f684f2f074f5f2966032fa05403",
-  "generatedAt": "2026-07-17T06:40:06.378Z",
+  "revision": "snapshot-254be259ad675163e72532878d5b43a3b4198e83dfde79b9f7e29c98f3aded21",
+  "generatedAt": "2026-07-17T08:12:06.827Z",
   "files": [
     {
       "path": "基础异常场景/01-无异常基准计划.md",
@@ -81,6 +81,34 @@
       "kind": "markdown"
     },
     {
+      "path": "基础异常场景/12-合并从未学习的连续5张卡片.md",
+      "sha256": "ee7ab08105adc79ee36d2475b20f7e8c68376d7f745f71499c80bb97d900f5e7",
+      "bytes": 6137,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/13-合并已有历史的连续3张卡片.md",
+      "sha256": "083abae87cc659f57f8d98f788c533daf37e2334957865fd5c8904f53400750a",
+      "bytes": 6260,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/14-跨任务包合并4张卡片.md",
+      "sha256": "1e989a2759de46fd4e557bbbbbedd220360d93892e3b991c8ad8d9fcdebbc6ae",
+      "bytes": 6671,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/15-当天中断后合并5张卡片.md",
+      "sha256": "3990f3365e37f748a7920ec33f8ae778c5e8b63a1e5a00b3651a13a0b082a0af",
+      "bytes": 6461,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
       "path": "基础异常场景/三种新增位置场景结果.json",
       "sha256": "dbcf8aa8c558e3fdb0eb1ee409df069729653c2ad23470529d91c0167ab82bbe",
       "bytes": 4822,
@@ -88,9 +116,16 @@
       "kind": "asset"
     },
     {
+      "path": "基础异常场景/四种合并场景结果.json",
+      "sha256": "0b8131e8f76838bfb8dfdc7cd8c83dc912cabbd01eb79f3fa09a433911503d10",
+      "bytes": 1982,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
+    },
+    {
       "path": "基础异常场景/场景索引.md",
-      "sha256": "03aa760a489a77f3dd32b1c41e05229dba448bcad4de9c96cd0e66e3b1108c95",
-      "bytes": 2718,
+      "sha256": "ddd932a0ae7d51dec3ca5a0f9cc16937888175c2d5375e9fb00aa352977cb8a3",
+      "bytes": 3356,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
