@@ -7,14 +7,14 @@ import {
   type NavigationNode,
 } from "../../lib/content/navigation-tree";
 import { documentHref } from "../../lib/content/paths";
-import { homeDocument } from "../../lib/content/manifest";
 import type { ContentManifest } from "../../lib/content/types";
 import { DEFAULT_SITE_NAME } from "../../lib/site-config";
 
 interface NavigationProps {
   manifest: ContentManifest;
-  activePath: string;
+  activePath?: string;
   documentHrefFor?: (path: string) => string;
+  homeHref?: string;
   siteName?: string;
 }
 
@@ -22,18 +22,18 @@ export function Navigation({
   manifest,
   activePath,
   documentHrefFor = documentHref,
+  homeHref = "/",
   siteName = DEFAULT_SITE_NAME,
 }: NavigationProps) {
   const [open, setOpen] = useState(false);
   const tree = buildNavigationTree(manifest);
-  const homePath = homeDocument(manifest)?.path ?? "README.md";
 
   const renderNodes = (nodes: NavigationNode[]) => (
     <ul>
       {nodes.map((node) =>
         node.type === "folder" ? (
           <li className="nav-folder" key={node.path}>
-            <details open={activePath.startsWith(`${node.path}/`)}>
+            <details open={activePath?.startsWith(`${node.path}/`)}>
               <summary>{node.name}</summary>
               {renderNodes(node.children)}
             </details>
@@ -76,7 +76,7 @@ export function Navigation({
         <div className="brand-block">
           <a
             className="brand"
-            href={documentHrefFor(homePath)}
+            href={homeHref}
             aria-label={`${siteName} 文档首页`}
           >
             <span className="radar-mark" aria-hidden="true" />

@@ -89,10 +89,20 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px soli
 .sync-time time { display: block; color: #6f7379; }
 
 .docs-main { margin-left: 292px; min-height: 100vh; padding: 68px clamp(36px, 7vw, 108px) 110px; }
-.document-header, .markdown-document, .html-document { width: min(100%, 860px); margin-inline: auto; }
+.document-header, .document-index, .document-index-empty, .markdown-document, .html-document { width: min(100%, 860px); margin-inline: auto; }
 .document-header { margin-bottom: 34px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
 .document-header p { margin: 0 0 8px; color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .document-header h1 { margin: 0; color: #1d1f22; font-size: clamp(28px, 4vw, 44px); line-height: 1.18; letter-spacing: -.035em; }
+
+.document-index ul { margin: 0; padding: 0; list-style: none; }
+.document-index ul ul { margin: 10px 0 4px 13px; border-left: 1px solid var(--line); padding-left: 18px; }
+.document-index > ul { display: grid; gap: 10px; }
+.index-folder { border-radius: 10px; background: rgba(255,255,255,.52); padding: 12px 14px; }
+.index-folder .index-folder { background: transparent; padding: 7px 0 3px; }
+.index-folder > strong { color: #565a61; font-size: 14px; }
+.index-document a { display: block; border-radius: 8px; padding: 8px 11px; color: #4e4dcc; text-decoration: none; }
+.index-document a:hover { background: var(--paper); }
+.document-index-empty { color: var(--muted); }
 
 .markdown-document { color: #35383d; }
 .markdown-document > :first-child { margin-top: 0; }

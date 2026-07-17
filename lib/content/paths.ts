@@ -43,6 +43,5 @@ export function resolveContentPath(from: string, target: string): string {
 
 export function documentHref(path: string): string {
   const safePath = validateContentPath(path);
-  if (safePath === "README.md") return "/";
   return `/docs/${safePath.split("/").map(encodeURIComponent).join("/")}`;
 }

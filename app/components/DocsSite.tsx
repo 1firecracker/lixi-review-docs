@@ -7,25 +7,28 @@ import {
   loadContentManifest,
   loadSiteConfig,
 } from "../../lib/content/client";
-import { findInitialDocument } from "../../lib/content/manifest";
+import { findManifestFile } from "../../lib/content/manifest";
 import { documentHref } from "../../lib/content/paths";
 import type { ContentManifest, ManifestFile } from "../../lib/content/types";
 import { documentPageTitle, type SiteConfig } from "../../lib/site-config";
+import { DocumentIndex } from "./DocumentIndex";
 import { HtmlDocument } from "./HtmlDocument";
 import { MarkdownDocument } from "./MarkdownDocument";
 import { Navigation } from "./Navigation";
 
 interface DocsSiteProps {
-  initialPath: string;
+  initialPath?: string;
   basePath?: string;
   documentHrefFor?: (path: string) => string;
+  homeHref?: string;
 }
 
 type SiteState =
   | { status: "loading" }
   | { status: "error"; message: string }
+  | { status: "ready-index"; manifest: ContentManifest; siteConfig: SiteConfig }
   | {
-      status: "ready";
+      status: "ready-document";
       manifest: ContentManifest;
       siteConfig: SiteConfig;
       file: ManifestFile;
@@ -41,6 +44,7 @@ export function DocsSite({
   initialPath,
   basePath = "",
   documentHrefFor = documentHref,
+  homeHref = "/",
 }: DocsSiteProps) {
   const [state, setState] = useState<SiteState>({ status: "loading" });
 
@@ -55,7 +59,11 @@ export function DocsSite({
           loadContentManifest(request, basePath),
           loadSiteConfig(request, basePath),
         ]);
-        const file = findInitialDocument(manifest, initialPath);
+        if (!initialPath) {
+          setState({ status: "ready-index", manifest, siteConfig });
+          return;
+        }
+        const file = findManifestFile(manifest, initialPath);
         if (!file || (file.kind !== "markdown" && file.kind !== "html")) {
           throw new Error("没有找到这篇文档。");
         }
@@ -68,7 +76,7 @@ export function DocsSite({
           if (!contentResponse.ok) throw new Error("文档内容暂时不可用。");
           source = await contentResponse.text();
         }
-        setState({ status: "ready", manifest, siteConfig, file, source });
+        setState({ status: "ready-document", manifest, siteConfig, file, source });
       } catch (error) {
         if (controller.signal.aborted) return;
         setState({
@@ -82,12 +90,11 @@ export function DocsSite({
   }, [basePath, initialPath]);
 
   useEffect(() => {
-    if (state.status !== "ready") return;
+    if (state.status !== "ready-index" && state.status !== "ready-document") return;
     const previousTitle = document.title;
-    document.title = documentPageTitle(
-      state.siteConfig.siteName,
-      documentTitle(state.file),
-    );
+    document.title = state.status === "ready-index"
+      ? state.siteConfig.siteName
+      : documentPageTitle(state.siteConfig.siteName, documentTitle(state.file));
     return () => {
       document.title = previousTitle;
     };
@@ -115,20 +122,28 @@ export function DocsSite({
     );
   }
 
+  const activeFile = state.status === "ready-document" ? state.file : undefined;
+
   return (
     <div className="docs-layout">
       <Navigation
         manifest={state.manifest}
-        activePath={state.file.path}
+        activePath={activeFile?.path}
         documentHrefFor={documentHrefFor}
+        homeHref={homeHref}
         siteName={state.siteConfig.siteName}
       />
       <main className="docs-main">
         <header className="document-header">
           <p>{state.siteConfig.siteName} · 文档</p>
-          <h1>{documentTitle(state.file)}</h1>
+          <h1>{activeFile ? documentTitle(activeFile) : "文档索引"}</h1>
         </header>
-        {state.file.kind === "html" ? (
+        {state.status === "ready-index" ? (
+          <DocumentIndex
+            manifest={state.manifest}
+            documentHrefFor={documentHrefFor}
+          />
+        ) : state.file.kind === "html" ? (
           <HtmlDocument
             path={state.file.path}
             title={documentTitle(state.file)}

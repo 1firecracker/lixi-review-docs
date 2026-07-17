@@ -23,10 +23,11 @@ export function PagesApp() {
 
   return (
     <DocsSite
-      key={path}
+      key={path ?? "document-index"}
       initialPath={path}
       basePath={import.meta.env.BASE_URL}
       documentHrefFor={pagesDocumentHref}
+      homeHref="#/"
     />
   );
 }

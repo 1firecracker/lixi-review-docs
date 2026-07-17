@@ -13,7 +13,6 @@ export function withBasePath(basePath: string, pathname: string): string {
 
 export function pagesDocumentHref(path: string): string {
   const safe = validateContentPath(path);
-  if (safe === "README.md") return "#/";
   return `#/docs/${safe.split("/").map(encodeURIComponent).join("/")}`;
 }
 
@@ -29,10 +28,9 @@ export function isDocumentRouteHash(hash: string): boolean {
   return route === "/" || (route.startsWith("/docs/") && route.length > "/docs/".length);
 }
 
-export function documentPathFromHash(hash: string): string {
+export function documentPathFromHash(hash: string): string | undefined {
   const route = routePathFromHash(hash);
-  if (route === "/") return "README.md";
-  if (!route.startsWith("/docs/")) return "README.md";
+  if (route === "/" || !route.startsWith("/docs/")) return undefined;
   return validateContentPath(
     route.slice("/docs/".length).split("/").map(decodeURIComponent).join("/"),
   );

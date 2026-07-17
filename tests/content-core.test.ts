@@ -2,8 +2,6 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   findManifestFile,
-  findInitialDocument,
-  homeDocument,
   orderedDocuments,
   validateManifest,
 } from "../lib/content/manifest";
@@ -57,36 +55,37 @@ test("content core validates and resolves safe paths", () => {
 });
 
 test("content core creates stable document URLs", () => {
-  assert.equal(documentHref("README.md"), "/");
+  assert.equal(documentHref("README.md"), "/docs/README.md");
   assert.equal(
     documentHref("决策记录/采用任务边界触发.md"),
     "/docs/%E5%86%B3%E7%AD%96%E8%AE%B0%E5%BD%95/%E9%87%87%E7%94%A8%E4%BB%BB%E5%8A%A1%E8%BE%B9%E7%95%8C%E8%A7%A6%E5%8F%91.md",
   );
 });
 
-test("content core validates manifests and orders Project Radar documents", () => {
+test("content core validates manifests and orders root documents before folders", () => {
   assert.deepEqual(validateManifest(manifest), manifest);
   assert.equal(findManifestFile(manifest, "产品概要.md")?.path, "产品概要.md");
   assert.deepEqual(orderedDocuments(manifest).map((entry) => entry.path), [
-    "README.md",
-    "产品概要.md",
-    "零版产品需求.md",
-    "技术设计.md",
-    "实施计划.md",
     "测试与演示.md",
+    "产品概要.md",
+    "技术设计.md",
+    "零版产品需求.md",
+    "实施计划.md",
+    "README.md",
     "决策记录/采用任务边界触发.md",
   ]);
 });
 
-test("content core selects an index document when README is absent", () => {
-  const withoutReadme: ContentManifest = {
+test("content core orders arbitrary root documents without site-specific priority", () => {
+  const arbitraryFolder: ContentManifest = {
     ...manifest,
     files: [file("00-无异常基准计划.md"), file("场景索引.md")],
   };
 
-  assert.equal(homeDocument(withoutReadme)?.path, "场景索引.md");
-  assert.equal(findInitialDocument(withoutReadme, "README.md")?.path, "场景索引.md");
-  assert.equal(findInitialDocument(withoutReadme, "missing.md"), undefined);
+  assert.deepEqual(orderedDocuments(arbitraryFolder).map((entry) => entry.path), [
+    "00-无异常基准计划.md",
+    "场景索引.md",
+  ]);
 });
 
 test("content core rejects malformed manifests", () => {

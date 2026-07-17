@@ -36,6 +36,7 @@ test("Pages docs UI uses hash routes and content update copy", () => {
         documentHrefFor={pagesDocumentHref}
       />
       <Navigation
+        homeHref="#/"
         manifest={manifest}
         activePath="README.md"
         documentHrefFor={pagesDocumentHref}
@@ -49,13 +50,14 @@ test("Pages docs UI uses hash routes and content update copy", () => {
   assert.doesNotMatch(html, /最近同步/);
 });
 
-test("Pages brand links to the available index when README is absent", () => {
+test("Pages brand always links to the generated index", () => {
   const withoutReadme: ContentManifest = {
     ...manifest,
     files: [file("00-无异常基准计划.md"), file("场景索引.md")],
   };
   const html = renderToStaticMarkup(
     <Navigation
+      homeHref="#/"
       manifest={withoutReadme}
       activePath="场景索引.md"
       documentHrefFor={pagesDocumentHref}
@@ -64,7 +66,7 @@ test("Pages brand links to the available index when README is absent", () => {
 
   assert.match(
     html,
-    /<a class="brand" href="#\/docs\/%E5%9C%BA%E6%99%AF%E7%B4%A2%E5%BC%95.md"/,
+    /<a class="brand" href="#\/"/,
   );
 });
 
