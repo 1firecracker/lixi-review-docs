@@ -1,95 +1,11 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
-    {
-      "number": 14,
-      "title": "跨任务包合并 4 张卡片",
-      "filename": "14-跨任务包合并4张卡片.md",
-      "passed": true,
-      "parentSequentialIndex": "33",
-      "pageCount": 2.897712,
-      "parentOccurrences": 5,
-      "futureChildOccurrences": 0,
-      "parentIndivisible": true,
-      "parentRequiresWholeDay": false,
-      "parentOverflowDaysAreSingleton": false,
-      "violations": 0,
-      "lowCellDiagnostics": 0,
-      "unexplainedDays": 0,
-      "unscheduled": 0,
-      "historyPreserved": true,
-      "replayStable": true,
-      "acceptanceChecks": [
-        {
-          "name": "状态结构与账本约束",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "所有有效 occurrence 已排入计划",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单日容量合格",
-          "hard": true,
-          "passed": true,
-          "status": "exempt"
-        },
-        {
-          "name": "锁定历史保持不变",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "相同事件或相同输入重放稳定",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "父卡在所有应有学习列中各保留一个 occurrence",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "子卡未来 occurrence 已全部替换",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "父卡不可拆且页数快照正确",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "超过整日上限的父卡独占整日",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单格负载偏差（仅诊断）",
-          "hard": false,
-          "passed": true,
-          "status": "satisfied"
-        }
-      ],
-      "cellDiagnostics": [],
-      "finalDay": 22,
-      "digest": "2bc62beba9d25971ecc9c1dfd3b05a1faabf85909583359096cc0afd2580513d"
-    },
     {
       "number": 16,
       "title": "合并未学卡形成约 10 页父卡",
       "filename": "16-合并未学卡形成约10页父卡.md",
-      "passed": false,
+      "passed": true,
       "parentSequentialIndex": "46",
       "pageCount": 10.223448,
       "parentOccurrences": 5,
@@ -98,7 +14,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 7,
+      "lowCellDiagnostics": 5,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -161,20 +77,20 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         }
       ],
       "cellDiagnostics": [
         {
           "dayNumber": 3,
           "columnIndex": 2,
-          "assignmentId": "future-assignment:a505fda1cb37683d",
-          "pageCount": 3.926680000000001,
+          "assignmentId": "future-assignment:1594694d5bc6af40",
+          "pageCount": 3.9876389999999997,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.6135437500000002,
+          "loadRatio": 0.6230685937499999,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -192,12 +108,12 @@
         {
           "dayNumber": 4,
           "columnIndex": 3,
-          "assignmentId": "future-assignment:c986b16e7cfb5cd7",
-          "pageCount": 3.8383920000000002,
+          "assignmentId": "future-assignment:6f79600d16a5838f",
+          "pageCount": 3.8110660000000003,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.59974875,
+          "loadRatio": 0.5954790625,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -215,12 +131,12 @@
         {
           "dayNumber": 6,
           "columnIndex": 0,
-          "assignmentId": "future-assignment:27c5dd8da908374a",
-          "pageCount": 3.3097180000000006,
+          "assignmentId": "future-assignment:a3da95e1cc9842be",
+          "pageCount": 4.806395,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.5171434375,
+          "loadRatio": 0.75099921875,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -236,37 +152,14 @@
           "maximumWithoutOverflow": null
         },
         {
-          "dayNumber": 6,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:ce8dc5f975af4251",
-          "pageCount": 11.714871,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 1.83044859375,
-          "loadDirection": "overflow",
-          "justified": false,
-          "reasonCode": "unexplained_cell_imbalance",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r2",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 2,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        },
-        {
           "dayNumber": 11,
           "columnIndex": 2,
-          "assignmentId": "future-assignment:7b09fa2fed363344",
-          "pageCount": 3.7763790000000004,
+          "assignmentId": "future-assignment:3a9478d9e073bf1f",
+          "pageCount": 4.396492,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.59005921875,
+          "loadRatio": 0.686951875,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -284,12 +177,12 @@
         {
           "dayNumber": 18,
           "columnIndex": 0,
-          "assignmentId": "future-assignment:f4a033a0745930a8",
-          "pageCount": 2.159884,
+          "assignmentId": "future-assignment:d8ea34a268ca0035",
+          "pageCount": 4.065417,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.337481875,
+          "loadRatio": 0.63522140625,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -303,33 +196,10 @@
           "conflictingColumnIndex": 4,
           "projectedPages": 10.223448,
           "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 18,
-          "columnIndex": 4,
-          "assignmentId": "future-assignment:e177424cc9314e5a",
-          "pageCount": 11.173586,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 1.7458728125,
-          "loadDirection": "overflow",
-          "justified": false,
-          "reasonCode": "unexplained_cell_imbalance",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r4",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 4,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
         }
       ],
       "finalDay": 21,
-      "digest": "465041d60eb6543ccf5f19b88004cb39b810d8692861a98db2bc0ce800e66c1d"
+      "digest": "533d3b50459a124961e2779f3fab1ea44eefe397f3d541b5f8ccd77ae3e79004"
     }
   ]
 }
