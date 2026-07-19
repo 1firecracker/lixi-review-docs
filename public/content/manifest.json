@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-24f789ba0591585fdd73ed7984466826f5ac8aa53cb277d31abb5d919529a784",
-  "generatedAt": "2026-07-19T12:50:00.449Z",
+  "revision": "snapshot-f55ca5bf86102dd7b56e8334b11195d7dbfc21e2a309d2148e0ac6bbb77d6dfb",
+  "generatedAt": "2026-07-19T13:00:12.683Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -151,9 +151,23 @@
       "kind": "asset"
     },
     {
+      "path": "基础异常场景/合并场景14.state.json",
+      "sha256": "f55fd0e27fab5abccef2d02eb83710d3773a43bf6245bf07d75422e5a967eb30",
+      "bytes": 3662747,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
+    },
+    {
+      "path": "基础异常场景/合并场景16.state.json",
+      "sha256": "23918882eb9c8bb43d3fe83c2a85578523d688bc87467879b24e6733ae87a812",
+      "bytes": 3712827,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
+    },
+    {
       "path": "基础异常场景/合并场景结果.json",
-      "sha256": "0b757a7cef821b6f4195267e954bc673d47c26511933213ab62e201ae9437c22",
-      "bytes": 18699,
+      "sha256": "9960ee1a08783001528258cf55ea976928c023c2a2f4037036a8d1051cc85e9c",
+      "bytes": 14140,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
