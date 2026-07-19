@@ -79,11 +79,17 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [],
       "finalDay": 21,
-      "digest": "b1ab16a3938a72ab98c67eabd9ce05aa8b77ebb71d408a9f80a31cb713011ad0"
+      "digest": "d0a19b8652c46886632395e312292c5a0e9cb934416a683f7830482359f3c8bd"
     },
     {
       "number": 13,
@@ -163,11 +169,17 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [],
       "finalDay": 21,
-      "digest": "33f7f17d90139c742b207b354edd17ea0c9806767a4ce80be1bca57b47a92e0e"
+      "digest": "2d4d9be2cdaeb5fc3e95a50fee289b5d6937ae5f7cbe496d3c2c58d45c535cbe"
     },
     {
       "number": 14,
@@ -247,11 +259,17 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [],
       "finalDay": 22,
-      "digest": "0a4a6930f38e3ab443d6c9a8341e508e320b9621b1563a2485886d3a41da483a"
+      "digest": "0159e268afdaacf29f4b03d6f892b0da9ee8cce2f8fa41418b97810fac6715e0"
     },
     {
       "number": 15,
@@ -331,11 +349,17 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [],
       "finalDay": 22,
-      "digest": "938a131f4c3fe64c801d978eb62eba4315a0cc58dc0e33d4d29bbefc5b134f1d"
+      "digest": "bbe4eb6abca604d8c0e51be6343cff5001c3a4cbfab145f877b83ad29a0cfa78"
     },
     {
       "number": 16,
@@ -350,7 +374,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 5,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -414,128 +438,18 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "cellDiagnostics": [
-        {
-          "dayNumber": 3,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:9e648b90c51c86b0",
-          "pageCount": 3.987639,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.62306859375,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r0",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 0,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 4,
-          "columnIndex": 3,
-          "assignmentId": "future-assignment:aa8cb149ed8945e9",
-          "pageCount": 3.8310350000000004,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.59859921875,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r1",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 1,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 6,
-          "columnIndex": 0,
-          "assignmentId": "future-assignment:a3da95e1cc9842be",
-          "pageCount": 4.806395,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.75099921875,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r2",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 2,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 11,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:5076f8020c0db9bc",
-          "pageCount": 4.396492,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.686951875,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r3",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 3,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 18,
-          "columnIndex": 0,
-          "assignmentId": "future-assignment:850712cd703c9f70",
-          "pageCount": 4.065416999999999,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.6352214062499998,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-16:r4",
-          "blockingSequentialIndexes": [
-            "46"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 4,
-          "projectedPages": 10.223448,
-          "maximumWithoutOverflow": null
-        }
-      ],
+      "cellDiagnostics": [],
       "finalDay": 21,
-      "digest": "ae8b1417dbffc89acf4c5fb0a46589fe94b8493d06bb87f781ad37a7cf650ddf"
+      "digest": "a4b0802f153d74cddfb796323a9e94083f36178bd1c1b717981867bc4d8bb125"
     },
     {
       "number": 17,
@@ -550,7 +464,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 4,
+      "lowCellDiagnostics": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -615,41 +529,24 @@
           "hard": false,
           "passed": true,
           "status": "exempt"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [
         {
-          "dayNumber": 3,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:0840ab12740a091b",
-          "pageCount": 4.441687,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.6940135937499999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r1",
-          "blockingSequentialIndexes": [
-            "1"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 1,
-          "projectedPages": 10.280204,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 4,
+          "dayNumber": 5,
           "columnIndex": 3,
-          "assignmentId": "future-assignment:8290f8685f3a8721",
-          "pageCount": 4.07803,
+          "assignmentId": "future-assignment:858f0c0a9a821e7d",
+          "pageCount": 5.487472,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.6371921875,
+          "loadRatio": 0.8574175,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -665,37 +562,14 @@
           "maximumWithoutOverflow": null
         },
         {
-          "dayNumber": 9,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:148af8eda899de17",
-          "pageCount": 4.532077,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.7081370312499999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r3",
-          "blockingSequentialIndexes": [
-            "1"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 3,
-          "projectedPages": 10.280204,
-          "maximumWithoutOverflow": null
-        },
-        {
           "dayNumber": 17,
           "columnIndex": 1,
-          "assignmentId": "future-assignment:921f630d17c954d0",
-          "pageCount": 4.438534,
+          "assignmentId": "future-assignment:dd97ae1299d1a8f7",
+          "pageCount": 5.707136000000001,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.6935209374999999,
+          "loadRatio": 0.8917400000000001,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -712,7 +586,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "06d435a9d5813b4663a420de1dce3b644b222d7fad17668e95e6e674661ca3bb"
+      "digest": "3b95bbff513a10c87c2c201a9194be2757d8f70b52b3f6b67e9fcbdf9b638bc7"
     },
     {
       "number": 18,
@@ -727,7 +601,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 5,
+      "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -792,64 +666,24 @@
           "hard": false,
           "passed": true,
           "status": "exempt"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [
         {
-          "dayNumber": 3,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:f374453d480cc459",
-          "pageCount": 4.644538,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.7257090624999999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-18:r4",
-          "blockingSequentialIndexes": [
-            "263"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 4,
-          "projectedPages": 9.927053,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 9,
-          "columnIndex": 1,
-          "assignmentId": "future-assignment:f60a911f5c1e9cb9",
-          "pageCount": 4.184182999999999,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.6537785937499998,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-18:r0",
-          "blockingSequentialIndexes": [
-            "263"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 0,
-          "projectedPages": 9.927053,
-          "maximumWithoutOverflow": null
-        },
-        {
           "dayNumber": 11,
           "columnIndex": 2,
-          "assignmentId": "future-assignment:182c6489bb24c5a2",
-          "pageCount": 4.676067,
+          "assignmentId": "future-assignment:50d4c69d644274f0",
+          "pageCount": 5.1332699999999996,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.73063546875,
+          "loadRatio": 0.8020734374999999,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -863,56 +697,10 @@
           "conflictingColumnIndex": 1,
           "projectedPages": 9.927053,
           "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 13,
-          "columnIndex": 3,
-          "assignmentId": "future-assignment:74bfbd7e62500490",
-          "pageCount": 4.892582,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.7644659374999999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-18:r2",
-          "blockingSequentialIndexes": [
-            "263"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 2,
-          "projectedPages": 9.927053,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 16,
-          "columnIndex": 4,
-          "assignmentId": "future-assignment:a3b7cc86eddc9787",
-          "pageCount": 4.797991,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.74968609375,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-18:r3",
-          "blockingSequentialIndexes": [
-            "263"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 3,
-          "projectedPages": 9.927053,
-          "maximumWithoutOverflow": null
         }
       ],
       "finalDay": 21,
-      "digest": "70a938a81c13cfb493df0c61c4a2ca578636dd7866332f9c0c336d287b69db3b"
+      "digest": "3f92488a6bab37724bc1998d4d41b0f2a7006562746ff8f5bbc855a2d16effd0"
     },
     {
       "number": 19,
@@ -927,7 +715,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 6,
+      "lowCellDiagnostics": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -992,41 +780,24 @@
           "hard": false,
           "passed": true,
           "status": "exempt"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [
         {
-          "dayNumber": 4,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:5c7604eba5333c49",
-          "pageCount": 4.550996,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.7110931249999999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-19:r3",
-          "blockingSequentialIndexes": [
-            "441"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 3,
-          "projectedPages": 9.911288,
-          "maximumWithoutOverflow": null
-        },
-        {
           "dayNumber": 11,
           "columnIndex": 2,
-          "assignmentId": "future-assignment:463014672aea1dd2",
-          "pageCount": 3.870973,
+          "assignmentId": "future-assignment:a8be5cac6d8e7ab6",
+          "pageCount": 5.451734,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.60483953125,
+          "loadRatio": 0.8518334375,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -1042,81 +813,14 @@
           "maximumWithoutOverflow": null
         },
         {
-          "dayNumber": 17,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:691686ead48a84ff",
-          "pageCount": 3.6250289999999996,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.5664107812499999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-19:r0",
-          "blockingSequentialIndexes": [
-            "441"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 0,
-          "projectedPages": 9.911288,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 18,
-          "columnIndex": 0,
-          "assignmentId": "future-assignment:0b6a238e67d11221",
-          "pageCount": 4.300848,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.6720075,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-19:r1",
-          "blockingSequentialIndexes": [
-            "441"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 1,
-          "projectedPages": 9.911288,
-          "maximumWithoutOverflow": null
-        },
-        {
-          "dayNumber": 21,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:a94ad1dc849a5f70",
-          "pageCount": 10.803618,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 1.6880653125,
-          "loadDirection": "overflow",
-          "justified": true,
-          "reasonCode": "tail_capacity_compensation",
-          "blockingOccurrenceId": null,
-          "blockingSequentialIndexes": [],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": null,
-          "projectedPages": null,
-          "maximumWithoutOverflow": 24.242491
-        },
-        {
           "dayNumber": 21,
           "columnIndex": 3,
-          "assignmentId": "future-assignment:1b25a19ebf58b2f5",
-          "pageCount": 10.714279000000001,
+          "assignmentId": "future-assignment:0b61d0d76367d70c",
+          "pageCount": 8.125570999999999,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 1.67410609375,
+          "loadRatio": 1.2696204687499997,
           "loadDirection": "overflow",
           "justified": true,
           "reasonCode": "tail_capacity_compensation",
@@ -1127,11 +831,11 @@
           "nextNonConflictingNotBeforeDay": null,
           "conflictingColumnIndex": null,
           "projectedPages": null,
-          "maximumWithoutOverflow": 24.242491
+          "maximumWithoutOverflow": 29.315997
         }
       ],
       "finalDay": 22,
-      "digest": "f9bc8552ce1b2fbf527619d77d64243024feee4be1c4845f9f4a412ca7623d30"
+      "digest": "a12b42edda72c3d59a4ade4d7012f323eaa0ece67219bf1693abaa9ce01f85d3"
     }
   ]
 }
