@@ -49,9 +49,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "d4d3d5d0aa51482b71c661d7f5975edb66aa63e4e22b65cc846cdde479fe76b4"
+      "digest": "e60241aebdaf06f1bb05371ef80496056b2317677625443ac4c2003abfb4a376"
     },
     {
       "number": 2,
@@ -101,9 +107,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "cb422a621d7bd4478b987ab9f8d128de6ef603d7762e0c891f8a775c39457e3a"
+      "digest": "75758ec0482040747dc5d9243449aa4a991bf135a6af1455354aa7bf4b56022d"
     },
     {
       "number": 3,
@@ -153,9 +165,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "611a7026bdde9a860d23b953c0105667ec7522c6548eef69157e80d9405e0f60"
+      "digest": "602b0898bc5906687c7f2a6cd9c3d8d2c2a3240d634d1fc80d073b7f29921960"
     },
     {
       "number": 4,
@@ -205,9 +223,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "29cd9c947a823cb249ad5b5019a7d0ee343d41abf38098b69e1f5a8c45e982af"
+      "digest": "2eddbefdca4b6a4ada2a92f4b0484006c2517ea3c24e1eee483f5565800b2e6e"
     },
     {
       "number": 5,
@@ -257,9 +281,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "e6135d5b7deb9610eacf31b15a7431100b2424d1dad1aa5c28dd90cb38fc62d9"
+      "digest": "afb195e1ce4b99f08e97001d4649afb21821e850c8990745de815039bf162a67"
     },
     {
       "number": 6,
@@ -309,9 +339,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "14dab5242ad43c640717e0b292de804409da086ac770f86117b60ef883fb5f26"
+      "digest": "ade22036628e214c99922c789d710c4b0f55dad579dc7a2495872c8f003bb5a3"
     },
     {
       "number": 7,
@@ -319,58 +355,6 @@
       "filename": "07-删除未学卡片后在附近新增5张.md",
       "passed": true,
       "finalDay": 22,
-      "violations": 0,
-      "lowCellDiagnostics": 1,
-      "unexplainedDays": 0,
-      "unscheduled": 0,
-      "historyPreserved": true,
-      "replayStable": true,
-      "acceptanceChecks": [
-        {
-          "name": "状态结构与账本约束",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "所有有效 occurrence 已排入计划",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单日容量合格",
-          "hard": true,
-          "passed": true,
-          "status": "exempt"
-        },
-        {
-          "name": "锁定历史保持不变",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "相同事件或相同输入重放稳定",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单格负载偏差（仅诊断）",
-          "hard": false,
-          "passed": true,
-          "status": "exempt"
-        }
-      ],
-      "digest": "a2646c9211ac6cb62bd47f848f4aa2b4544a28469365b96fa0fc89fe84969916"
-    },
-    {
-      "number": 8,
-      "title": "连续两日中断后新增卡片",
-      "filename": "08-连续两日中断后新增卡片.md",
-      "passed": true,
-      "finalDay": 23,
       "violations": 0,
       "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
@@ -413,16 +397,22 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "400bf9a97f1362d1eae0276c54123f2429cee77af5eecc9572211dc9b8684430"
+      "digest": "fecb5465cd160598f0fc47c19047f27c0b231193f3c4f45aba80693b6dfdd263"
     },
     {
-      "number": 9,
-      "title": "连续两日中断后删除卡片",
-      "filename": "09-连续两日中断后删除卡片.md",
+      "number": 8,
+      "title": "连续两日中断后新增卡片",
+      "filename": "08-连续两日中断后新增卡片.md",
       "passed": true,
-      "finalDay": 22,
+      "finalDay": 23,
       "violations": 0,
       "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
@@ -465,9 +455,73 @@
           "hard": false,
           "passed": true,
           "status": "exempt"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "3e797e0ebdee5a34f82aeabde7973c994173a3399206eb159ca0195749c71cb2"
+      "digest": "cd52c1ed68a617ca306e468e129fe76befb0f86c772ce3d1b2e076a3e7199fbd"
+    },
+    {
+      "number": 9,
+      "title": "连续两日中断后删除卡片",
+      "filename": "09-连续两日中断后删除卡片.md",
+      "passed": true,
+      "finalDay": 22,
+      "violations": 0,
+      "lowCellDiagnostics": 0,
+      "unexplainedDays": 0,
+      "unscheduled": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "exempt"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        }
+      ],
+      "digest": "1e4e586d2c11986001eb0780bcd79aa254e2fe39ab789566be74f4995f2e2857"
     },
     {
       "number": 10,
@@ -517,9 +571,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "d1baac8e3cd1f3561978d4e6fd4280420d2c318a2ea8bb3b741aab79200299de"
+      "digest": "194aafc2333f195d89a3e33091b405751436a8de3c61b87c68db4a8f57c22395"
     },
     {
       "number": 11,
@@ -569,9 +629,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "9f7f904b1f01c97f6155e2e00e8b2f6b8b80296924a699b7203de01e525256cb"
+      "digest": "0fd69a807d9c36b6a09d52a955fd6baff6c49b63eb42ebcf7e1e7c6386f2abb6"
     },
     {
       "number": 12,
@@ -621,9 +687,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "577ca37e1c084a71bc8a4293f30b8f8d8c4c8f93fe79f5c07a7f2ef63e84cc56"
+      "digest": "dea3dafa1d4ed6bd10029999d3fe09cf4148273b7167001c0e094995c78618a3"
     },
     {
       "number": 13,
@@ -673,9 +745,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "6940fdf1d229fee4bd88f40916c93f46dabbbf6694c10a8421abf408b02971d3"
+      "digest": "aa2efd08d35a54c1bd81bd640bba27b084250b9518f5b20aac0a5581a2d891b7"
     },
     {
       "number": 14,
@@ -684,7 +762,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -724,10 +802,16 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "digest": "b8c11fd194c1252c70f76106b9769e5f896b4751927cd7291f5ea2401ba4ba54"
+      "digest": "81442f4990380cd546d1c8e6cfe9f9a63a358c58f059e2f5c48de9f2031b3b65"
     }
   ]
 }
