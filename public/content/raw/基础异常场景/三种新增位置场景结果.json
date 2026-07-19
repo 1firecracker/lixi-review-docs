@@ -74,7 +74,7 @@
       },
       "plannedDailyLoadRange": {
         "minimum": 29.895731,
-        "maximum": 32.18909
+        "maximum": 32.114472
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -125,7 +125,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "bc69e8f61fc3d60329d981a5946f9aced98d98bfd15e3a7c87402192188fe1a0"
+      "deterministicDigest": "3ea6c035a56861844d6fa10d32e29bd08b366baf59668bf203a7c2ed567610c6"
     },
     {
       "passed": true,
@@ -200,7 +200,7 @@
       },
       "plannedDailyLoadRange": {
         "minimum": 29.895731,
-        "maximum": 32.18909
+        "maximum": 32.114472
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -251,7 +251,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "9a2354ffc39c7a987389dfa125e9b86dc8a6a5c5d74c934dbb7338fe0c157c3d"
+      "deterministicDigest": "9e02bd32bf075aac4cf696fad8ad20ce8fad3bf9611d2e01c4243e94e0114e93"
     },
     {
       "passed": true,
@@ -325,8 +325,8 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 8.289535,
-        "maximum": 32.037747
+        "minimum": 8.074072,
+        "maximum": 32.147051
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -377,7 +377,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "3aa09ca0aaa5aba86db5406c07842cc6014f11dab6b3727a99bf352c22f75273"
+      "deterministicDigest": "41aaa8d26910d0319e83f2f3d41e404a4e6dbf6e0ba81f0530d840c649f1f655"
     }
   ]
 }

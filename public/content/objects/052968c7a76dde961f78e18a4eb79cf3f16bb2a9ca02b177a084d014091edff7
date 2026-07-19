@@ -8,7 +8,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 24,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -30,7 +30,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "锁定历史保持不变",
@@ -51,7 +51,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "ff3ea8945a3e5ce8fb2792ab174ee49d1f3b9a82bbd15be2a21b921763f27443"
+      "digest": "d4d3d5d0aa51482b71c661d7f5975edb66aa63e4e22b65cc846cdde479fe76b4"
     },
     {
       "number": 2,
@@ -60,7 +60,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 24,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -103,7 +103,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "869b154ffb5a6da3f9200272895e9b1cbb7301d96cf8251a3a749af94bd11cb5"
+      "digest": "cb422a621d7bd4478b987ab9f8d128de6ef603d7762e0c891f8a775c39457e3a"
     },
     {
       "number": 3,
@@ -112,7 +112,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 18,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -155,7 +155,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "d8a0700773f715bdcf4796f1dad5b03edf9c5278ec20e41bfba95bc79406259b"
+      "digest": "611a7026bdde9a860d23b953c0105667ec7522c6548eef69157e80d9405e0f60"
     },
     {
       "number": 4,
@@ -164,7 +164,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 20,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -207,7 +207,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "9fa6a355211f695dfc363791399a1021103751ee8bf70061480653072c8fb4e2"
+      "digest": "29cd9c947a823cb249ad5b5019a7d0ee343d41abf38098b69e1f5a8c45e982af"
     },
     {
       "number": 5,
@@ -216,7 +216,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 21,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -259,7 +259,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "4c95dab5ab3e6ff40179c11876a9aea5ea1bdb72d36813ca997f49a25794be5a"
+      "digest": "e6135d5b7deb9610eacf31b15a7431100b2424d1dad1aa5c28dd90cb38fc62d9"
     },
     {
       "number": 6,
@@ -268,7 +268,7 @@
       "passed": true,
       "finalDay": 21,
       "violations": 0,
-      "lowCellDiagnostics": 21,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -311,7 +311,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "1f28946143c02cc3143eb2f7003b0190b3dfa317400ead362a970b02a234db48"
+      "digest": "14dab5242ad43c640717e0b292de804409da086ac770f86117b60ef883fb5f26"
     },
     {
       "number": 7,
@@ -320,7 +320,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 28,
+      "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -360,10 +360,10 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "digest": "77f3c3e98d49d79a37bd393f2d35602f7055b1ae2cac1a156591d395c9ee4802"
+      "digest": "a2646c9211ac6cb62bd47f848f4aa2b4544a28469365b96fa0fc89fe84969916"
     },
     {
       "number": 8,
@@ -372,7 +372,7 @@
       "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 16,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -415,7 +415,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "7d25227fb2f04d5871db2f10025a09141cfbd82c6f405740901d9209f7aa3860"
+      "digest": "400bf9a97f1362d1eae0276c54123f2429cee77af5eecc9572211dc9b8684430"
     },
     {
       "number": 9,
@@ -424,7 +424,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 19,
+      "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -464,10 +464,10 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "digest": "ac47420b46a511240cd7dba6f62702977688f09cf20477a0c62a3a0a9dfcf55f"
+      "digest": "3e797e0ebdee5a34f82aeabde7973c994173a3399206eb159ca0195749c71cb2"
     },
     {
       "number": 10,
@@ -476,7 +476,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 18,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -519,7 +519,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "c8a210439e45b6b5841929a7cb3007251668fb3e6971385fda16e0640189e3f6"
+      "digest": "d1baac8e3cd1f3561978d4e6fd4280420d2c318a2ea8bb3b741aab79200299de"
     },
     {
       "number": 11,
@@ -528,7 +528,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 22,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -571,7 +571,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "c95f26f20081117ceaf2ccd359e9729bfb8bb27279b21d68f8d0979feea16de4"
+      "digest": "9f7f904b1f01c97f6155e2e00e8b2f6b8b80296924a699b7203de01e525256cb"
     },
     {
       "number": 12,
@@ -580,7 +580,7 @@
       "passed": true,
       "finalDay": 21,
       "violations": 0,
-      "lowCellDiagnostics": 22,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -623,7 +623,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "1732b8500f3583c84dd4862d18b7a3c1860e920dc6ad1eb55a5596f32dd27e6f"
+      "digest": "577ca37e1c084a71bc8a4293f30b8f8d8c4c8f93fe79f5c07a7f2ef63e84cc56"
     },
     {
       "number": 13,
@@ -632,7 +632,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 21,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -675,7 +675,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "5f95bcb9cf303690483f12a75d5657e007b086b58b78b41379cf13e26264c660"
+      "digest": "6940fdf1d229fee4bd88f40916c93f46dabbbf6694c10a8421abf408b02971d3"
     },
     {
       "number": 14,
@@ -684,7 +684,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 21,
+      "lowCellDiagnostics": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -724,10 +724,10 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "digest": "54da4edab663774b0ee2cd89803a9b18786f026b6cc91c981c8b32ae7013d785"
+      "digest": "b8c11fd194c1252c70f76106b9769e5f896b4751927cd7291f5ea2401ba4ba54"
     }
   ]
 }
