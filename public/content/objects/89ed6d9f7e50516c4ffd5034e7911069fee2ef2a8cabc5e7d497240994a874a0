@@ -21,7 +21,7 @@
           3,
           3,
           3,
-          4
+          3
         ],
         "1日复习": [
           4,
@@ -33,7 +33,7 @@
           4,
           4,
           4,
-          5
+          4
         ],
         "3日复习": [
           6,
@@ -50,7 +50,7 @@
         "7日复习": [
           9,
           9,
-          9,
+          10,
           10,
           10,
           10,
@@ -60,21 +60,21 @@
           10
         ],
         "15日复习": [
-          17,
-          17,
-          17,
           18,
           18,
           18,
           18,
           18,
           18,
-          18
+          18,
+          18,
+          19,
+          19
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 29.895731,
-        "maximum": 32.114472
+        "minimum": 30.82695,
+        "maximum": 32.05794
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -123,9 +123,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "deterministicDigest": "3ea6c035a56861844d6fa10d32e29bd08b366baf59668bf203a7c2ed567610c6"
+      "deterministicDigest": "3af930bbe8c6690b8fde960b52c1f3ce56612fa4691c87e90f6d6d1bded54600"
     },
     {
       "passed": true,
@@ -147,7 +153,7 @@
           3,
           3,
           3,
-          4
+          3
         ],
         "1日复习": [
           4,
@@ -159,7 +165,7 @@
           4,
           4,
           4,
-          5
+          4
         ],
         "3日复习": [
           6,
@@ -176,7 +182,7 @@
         "7日复习": [
           9,
           9,
-          9,
+          10,
           10,
           10,
           10,
@@ -186,21 +192,21 @@
           10
         ],
         "15日复习": [
-          17,
-          17,
-          17,
           18,
           18,
           18,
           18,
           18,
           18,
-          18
+          18,
+          18,
+          19,
+          19
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 29.895731,
-        "maximum": 32.114472
+        "minimum": 30.82695,
+        "maximum": 32.05794
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -249,9 +255,15 @@
           "hard": false,
           "passed": true,
           "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "deterministicDigest": "9e02bd32bf075aac4cf696fad8ad20ce8fad3bf9611d2e01c4243e94e0114e93"
+      "deterministicDigest": "5cda8099c57ee73bdccf63b9fe7efe07e245dfc62aa841bfa3c0acfa9e0beedb"
     },
     {
       "passed": true,
@@ -273,10 +285,10 @@
           4,
           4,
           4,
-          5
+          4
         ],
         "1日复习": [
-          4,
+          5,
           5,
           5,
           5,
@@ -296,8 +308,8 @@
           7,
           7,
           7,
-          8,
-          8
+          7,
+          7
         ],
         "7日复习": [
           11,
@@ -325,14 +337,14 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 8.074072,
-        "maximum": 32.147051
+        "minimum": 9.153491,
+        "maximum": 32.110269
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -374,10 +386,16 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
         }
       ],
-      "deterministicDigest": "41aaa8d26910d0319e83f2f3d41e404a4e6dbf6e0ba81f0530d840c649f1f655"
+      "deterministicDigest": "14b45fff839af0bd03de4bb53571c9b19d2e0ff87f98b50fb13c218dd3d494d6"
     }
   ]
 }
