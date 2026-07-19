@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-3258f01e0602a83bc511b30b1c3f90c177cb494b135681a114226204aaff8fe6",
-  "generatedAt": "2026-07-19T13:20:40.663Z",
+  "revision": "snapshot-8baef30295ef351b8080e6bed2d5ff44373a7798163336887ac399926395c162",
+  "generatedAt": "2026-07-19T13:31:25.625Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -138,8 +138,8 @@
     },
     {
       "path": "基础异常场景/19-当天中断后形成约10页父卡.md",
-      "sha256": "a97e35912db22bfa5b0ba61da5dc91435fc663a172d6093b266d05fbe517b0cc",
-      "bytes": 7835,
+      "sha256": "6667374ac86e68f8c45da70590a10855d326f135ceec78e2c0c9a73355086755",
+      "bytes": 8156,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -179,9 +179,16 @@
       "kind": "asset"
     },
     {
+      "path": "基础异常场景/合并场景19.state.json",
+      "sha256": "01e623d666932ce32fd950620e9383bda6f82568e408505885ec231312b9fd3c",
+      "bytes": 4493053,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
+    },
+    {
       "path": "基础异常场景/合并场景结果.json",
-      "sha256": "a1ba006e0d519a716848925120c747f4c2b91b721f05d9a788f5021f98361692",
-      "bytes": 6719,
+      "sha256": "28f9d4b65ba6bbb786e9797d43d5b82256e71e196548d50980340a1a64bccb3a",
+      "bytes": 22274,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
