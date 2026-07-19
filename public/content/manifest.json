@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-7cb8b03fc4436f2ab4da472a97c7d13a5b9b0af488e160b728634b4e7423d26f",
-  "generatedAt": "2026-07-19T09:03:34.330Z",
+  "revision": "snapshot-d4b1a8465421ae834fa05d93bd0c0b55314f93732919a1f1322ff766a8f01f45",
+  "generatedAt": "2026-07-19T11:49:34.587Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -89,57 +89,57 @@
     },
     {
       "path": "基础异常场景/12-合并从未学习的连续5张卡片.md",
-      "sha256": "a4cd25939e1f5b6824804e74b757ade27ad530821a1a4838d4bdf6c3467e255f",
-      "bytes": 7082,
+      "sha256": "6d6395fc04a952608594d402c0228438a5334472980be1e31426fcc4688ab7bb",
+      "bytes": 6526,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/13-合并已有历史的连续3张卡片.md",
-      "sha256": "1e12edf92f02146d79c60e49fbdd61b23796906fa481841e0bb19dee78068ad7",
-      "bytes": 7368,
+      "sha256": "a7250608d176525ac84e493235db4b8b2abf6cc586fdfab7b4fa5755fc4b103e",
+      "bytes": 6650,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/14-跨任务包合并4张卡片.md",
-      "sha256": "13f019717d774ff2deb8aeaf5137ac1b3dd4b640046cb4fb05a3d861b8c2b36a",
-      "bytes": 8006,
+      "sha256": "0070ef705dfca7d9a75def8a14cbfa4bd6278f1ac49d0165b4fff57d0c1308f9",
+      "bytes": 6552,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/15-当天中断后合并5张卡片.md",
-      "sha256": "ea3c137efc47b5f6debc361735072b539c0a9c0740fe843d5cd6b71ad2659ab0",
-      "bytes": 7483,
+      "sha256": "39a296a3f89b7357b9370d42a012c26ceb5ea997a55dd123cb94015e09e4d8a2",
+      "bytes": 6671,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/16-合并未学卡形成约10页父卡.md",
-      "sha256": "0adeea5f82b84193f3d1f204aa3a51d42bcb3c475415d3201b4ce619217f0cd1",
-      "bytes": 7699,
+      "sha256": "0bf51b1e381f86e2119e37b8cd7fef395019135e350bd508ecbabc12bf9c30cc",
+      "bytes": 7084,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/17-合并已有历史形成约10页父卡.md",
-      "sha256": "3ffe33c47cba31fd3131427b8c46569218cb97c1dbd58ba3396d6598aa14403b",
-      "bytes": 7479,
+      "sha256": "922402540391858a2f8957ecca8023c4d997491ac7dd815e85a5a39bade5a890",
+      "bytes": 7612,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/18-跨任务包形成约10页父卡.md",
-      "sha256": "f9a3f7c579064fe33b6974e8ad5985a6132ea948f2eb4f5b01ea7ea95b333cee",
-      "bytes": 6848,
+      "sha256": "ec257e78120dc56cf1bb7a42591ff126134d12020adacd399e9e51d1b9992ede",
+      "bytes": 6978,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/19-当天中断后形成约10页父卡.md",
-      "sha256": "71afdd195fdde092920ab18428b68e8d75ccc477dab19bc400cc3647bb05877f",
-      "bytes": 7176,
+      "sha256": "9336b52255f46d7bd17e5f193ed6b4f97d293497242dea7d38dbe17d255e6c91",
+      "bytes": 7023,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -152,8 +152,8 @@
     },
     {
       "path": "基础异常场景/合并场景结果.json",
-      "sha256": "a5e6f138b1ad772da78c85da72ed60999bccf26ebb79fe140a0c239044986500",
-      "bytes": 18703,
+      "sha256": "8d4bc72b30612e694f67489202225557f142179fa81650c7b1c7a438f247b70b",
+      "bytes": 18698,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },

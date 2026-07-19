@@ -14,7 +14,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 19,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -82,7 +82,7 @@
         }
       ],
       "finalDay": 21,
-      "digest": "3cde26d308b4f3472fcc968efa9380add059d08498b0506a4b248ff4c9e84ef1"
+      "digest": "543fdbfa20e2a2d5586b523028cc6a08b574666490343020d6dc9bc0d3247469"
     },
     {
       "number": 13,
@@ -97,7 +97,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 20,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -165,7 +165,7 @@
         }
       ],
       "finalDay": 21,
-      "digest": "8e7e6d8149634cd7ce4db6e646a05908269d9b47c169c700deb5d8a9c829980f"
+      "digest": "6210749bf9fda5cf54a7f3112bfe0795947671dded84d1cdb9cbf26a5696647d"
     },
     {
       "number": 14,
@@ -180,7 +180,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 25,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -248,7 +248,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "1b87cdb5c8a0f0abfa8382996284639c15726df954d5f85b9e94004998af0c88"
+      "digest": "36be918cdbec9968721b37a922b10f2417a602a5c7918b21f07e454fedde70e4"
     },
     {
       "number": 15,
@@ -263,7 +263,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 19,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -331,7 +331,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "2075ad8066360b94a0fb3cf48129f849d88e7dde6a43b7cbdebe258c5221d68e"
+      "digest": "585808b2fc089dd17fca61bc53f8f44515d637fad9579a605545653aac765775"
     },
     {
       "number": 16,
@@ -346,7 +346,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 23,
+      "lowCellDiagnostics": 6,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -414,7 +414,7 @@
         }
       ],
       "finalDay": 21,
-      "digest": "7455c528540cdfe3dea82c3f6ab48a720ad75e8e7176626b617f8d308c6424ec"
+      "digest": "ca007de642e02f5192ec56f64396bebb9e1f4c587a85fc23a07fbba463b6124e"
     },
     {
       "number": 17,
@@ -429,7 +429,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 21,
+      "lowCellDiagnostics": 5,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -497,7 +497,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "b32f7f3e7cac656e260bd47b26585923ac13622f68380075749710b6c632da78"
+      "digest": "a5c48192bfa022cc45845407ade8a1477a2902d9dd3a7006a4feab8c22dcaf9f"
     },
     {
       "number": 18,
@@ -512,7 +512,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 17,
+      "lowCellDiagnostics": 7,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -534,7 +534,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "锁定历史保持不变",
@@ -580,7 +580,7 @@
         }
       ],
       "finalDay": 21,
-      "digest": "92704e92fd239dc80a8395a4a72ede4ca11aca8ec6add8648a19d3a7272130d2"
+      "digest": "224844023ac163064a0272e6f0e0ae65101dae37186097da5720af0f368254a5"
     },
     {
       "number": 19,
@@ -595,7 +595,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 18,
+      "lowCellDiagnostics": 4,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -663,7 +663,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "99c9a69906b5d31911ea482d390b299071fb9043dfc9af9d3d63f3096a98fd95"
+      "digest": "a7581675d3f7b19d012d6fa7fc41d7c7b1ec12cad12d0e69f5d5ef522c4b87a2"
     }
   ]
 }
