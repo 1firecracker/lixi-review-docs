@@ -1,14 +1,14 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
     {
-      "number": 1,
-      "title": "第二天中断后在教材中部新增3张",
-      "filename": "01-第二天中断后在教材中部新增3张.md",
-      "passed": false,
+      "number": 4,
+      "title": "头部新增后删除其中一张新卡",
+      "filename": "04-头部新增后删除其中一张新卡.md",
+      "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 2,
+      "lowCellDiagnostics": 0,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -30,7 +30,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -47,8 +47,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -57,7 +57,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "694d1280f4ee2e9762599b62758dba67cb17d512bbc1cb3d47fa6ac52a77ee57"
+      "digest": "87200d1849aaf2443ebf5aee895ada46d6a3a0504d6726645b32196777e7317c"
     }
   ]
 }
