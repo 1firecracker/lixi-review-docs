@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-b7fe5516ca576940d6870a4dba072743cbb231ca555693991b5ab1b0d3565bdf",
-  "generatedAt": "2026-07-20T16:53:24.257Z",
+  "revision": "snapshot-719cfc7a7a3378bc271efc191fc7a1ddce7dff0800b444442f97725b32271353",
+  "generatedAt": "2026-07-20T17:03:36.505Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "基础异常场景/02-第二天中途停止并顺延.md",
-      "sha256": "5d43a90b257a9c0355acfb8c0263b2af67d026963246d477e664176b470ca1fc",
-      "bytes": 8027,
+      "sha256": "98640ecb49e8218fb8875ecc06e94fb1f8979d492c21ce69199c02c332cbb47c",
+      "bytes": 8408,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -33,36 +33,36 @@
     },
     {
       "path": "基础异常场景/04-有效页数大幅调高.md",
-      "sha256": "b5c619a58176a0de8c6f1dc1103c431cf6e15e75ef1faa67ddc5ef69915ac6e9",
-      "bytes": 7730,
+      "sha256": "042381dfafa3e17fe6274cb961e35b3e7e3d2f104e0369ae8601ce1a06ca0002",
+      "bytes": 7923,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/05-中途新增一张卡片.md",
-      "sha256": "3059f07928766a9ef41fd4621802c8487c638e3da4702e95730393a0ed9cbd8b",
-      "bytes": 8288,
+      "sha256": "f8812fe9ba4db0628dfb3dfe3e62b1df527b8ae04ae834b5066ee6aabccce18d",
+      "bytes": 8774,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/06-教材多处新增100张卡片.md",
-      "sha256": "034985f8d8c10b246504725fc433c5eb45e7bb90154a509ff61748dbc784eb71",
-      "bytes": 10203,
+      "sha256": "a9f9ad9984b1a05c01cabcc345cdd7f22c938d974f1f9f8c80773e3e1f3dc366",
+      "bytes": 10419,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/07-删除从未新学的卡片.md",
-      "sha256": "6575b659f6bcfa0af138735f8c7bb3b4d1024fb0a95a97f558b7525b382876b4",
-      "bytes": 7426,
+      "sha256": "6768a06fa21873a3551f58a30312fc0a389093ff526a462bd56715a64e3b5073",
+      "bytes": 7802,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/08-删除已经学习过的卡片.md",
-      "sha256": "ab36e5b757fcdfed75584138b3d9f1777ed0726afe55c5f3e5e3180f968dfe7a",
-      "bytes": 7542,
+      "sha256": "24010cec257712f9c15352f6c6639db11a38a4295b480f9ac84d63f561265cb2",
+      "bytes": 7627,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -222,29 +222,29 @@
     },
     {
       "path": "混合异常场景/04-头部新增后删除其中一张新卡.md",
-      "sha256": "7790d457567efd70eeaaada9cd07b5de9ae2e693d0cdf63926363c56415c4c7c",
-      "bytes": 7483,
+      "sha256": "fd9486432e53216674a4cfd93b655e19d970420cedf0dc6b15421d1c71905616",
+      "bytes": 8138,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/05-尾部新增后修改新卡页数.md",
-      "sha256": "1e6e95f8765f8c0b65b07b7da9eff1e900401f479701fb0726c941ba4b5294d1",
-      "bytes": 7337,
+      "sha256": "110ab16ab65c69d22bad05b6284926124d88e59bb13546ed405c6b9b75a25c64",
+      "bytes": 7928,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/06-删除已学习卡片并在原位置补卡.md",
-      "sha256": "b245c83d56f341e59dda9850bd97f8649b4392ea1c6f62430c48c7dfcf0b7742",
-      "bytes": 7302,
+      "sha256": "cff38498081816a840f21938887659cbe781e40dc76f6a1f4150d42a7b8925ea",
+      "bytes": 8353,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/07-删除未学卡片后在附近新增5张.md",
-      "sha256": "156a3378652fad461e645d56e2ea717856afe4d3ad6857958e22663308f84deb",
-      "bytes": 7245,
+      "sha256": "7a1cc74a5d0c57a686dc49534d22318d9fc038dcfa6c80d1b97c0d62cddae29d",
+      "bytes": 9007,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -257,57 +257,57 @@
     },
     {
       "path": "混合异常场景/09-连续两日中断后删除卡片.md",
-      "sha256": "d999f31e2c92e5d0cc4e79b41074915453dd4d373902db0344ccd9dd2a619d52",
-      "bytes": 6397,
+      "sha256": "9b66ace7f90c46238eced3aa0b8c5c1fb6c710ded1a5840f73d69cd851940f8b",
+      "bytes": 6968,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/10-当天中断后新增并编辑旧卡.md",
-      "sha256": "b4f357fefdc6b21f320693b549498a66094a5d743fdc28be9b0ecb39ed330e2c",
-      "bytes": 7102,
+      "sha256": "a6c2f5604e8227d774567fa98db201c8d4740d3fa81673c4609cad5eb313cda4",
+      "bytes": 8187,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/11-同日头中尾三处新增.md",
-      "sha256": "90f7cc26a181b333ddcedc03310fe04270a3e5af2cc4c116a490104d3d1dcfa3",
-      "bytes": 9613,
+      "sha256": "7bc5b58db6f504417f7cbd05e20e40adae440794c794c14c95bd9afc8ed6d04e",
+      "bytes": 10225,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/12-同日头中尾分散删除.md",
-      "sha256": "11a41542c72cd1ab2d42c2e081a08581e1f4f90c4e2fa43aed7922a4ba75e5ba",
-      "bytes": 6063,
+      "sha256": "529f9eb4b148b51813e45fc09be246bc2d2e64eb7549c90551d0556fd5e0e6ed",
+      "bytes": 6345,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/13-同日新增删除及页数编辑.md",
-      "sha256": "66ff23124b19d698b199ee08c469450769f0c17952f2197b4005e376ea87cf3b",
-      "bytes": 7071,
+      "sha256": "2fbfb0ac4dcdb0e9e224d7c2f6cd4ad4227782b9ca79b177051083de34b10c71",
+      "bytes": 9068,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/14-重复事件重放夹杂真实编辑.md",
-      "sha256": "fd79546d773f94a6ef90bec9b5426a6177ea6722ac5b3214299e22474979a39b",
-      "bytes": 8152,
+      "sha256": "13f2c4b48fcb6660f47744f44a803cf2d30466e84f708c676d3f5fe8d97ace88",
+      "bytes": 8598,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/混合异常场景索引.md",
-      "sha256": "ff3464a7a5bbde92ba0dfff31e6e0de2186838147bfb34f5db25dffc6a16a7e0",
-      "bytes": 235,
+      "sha256": "8328c1ac5b76a3a7b443def61064a7237a0a7987b94060d0720cd78b8ed524fb",
+      "bytes": 1641,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/混合异常场景结果.json",
-      "sha256": "889bf5ac5d0272ca104cda7bebbbd2dbdd5bcfa9228092db4d5a8016fb56dbe1",
-      "bytes": 1784,
+      "sha256": "7dc49c75064918c07f5d379244fce951c247ec767ccaa0c3329a50cf203fe937",
+      "bytes": 22572,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     }
