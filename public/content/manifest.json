@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-11f5f5a4d2453749118e5448bb10dfa6718a4023def5e854e4e3b0c34852a4c7",
-  "generatedAt": "2026-07-20T12:55:13.035Z",
+  "revision": "snapshot-6b7002ea3a531e9bebd6d1fe3da1965441478d2d4de491e14d46b850bedf0324",
+  "generatedAt": "2026-07-20T13:05:31.194Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -236,15 +236,15 @@
     },
     {
       "path": "混合异常场景/06-删除已学习卡片并在原位置补卡.md",
-      "sha256": "ade2805c6e075e0ea03dd427325b9ce3f8596d74ef788b1bd3fc4b25b9b8791a",
-      "bytes": 7095,
+      "sha256": "b245c83d56f341e59dda9850bd97f8649b4392ea1c6f62430c48c7dfcf0b7742",
+      "bytes": 7302,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/07-删除未学卡片后在附近新增5张.md",
-      "sha256": "00cb396538b91d651351d45f8546863bf6e175e6f72fb43281318f79b0872042",
-      "bytes": 7063,
+      "sha256": "156a3378652fad461e645d56e2ea717856afe4d3ad6857958e22663308f84deb",
+      "bytes": 7245,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -257,29 +257,29 @@
     },
     {
       "path": "混合异常场景/09-连续两日中断后删除卡片.md",
-      "sha256": "7f144d19c4883c3ef3530bfc5c6bc98ebc0c4662b212dd70be67ff1401bef5d0",
-      "bytes": 6380,
+      "sha256": "d999f31e2c92e5d0cc4e79b41074915453dd4d373902db0344ccd9dd2a619d52",
+      "bytes": 6397,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/10-当天中断后新增并编辑旧卡.md",
-      "sha256": "ec188505ceda79bee5e7980986f2268ba0909c51b5d9f45a1fcc42fe8140803f",
-      "bytes": 7029,
+      "sha256": "b4f357fefdc6b21f320693b549498a66094a5d743fdc28be9b0ecb39ed330e2c",
+      "bytes": 7102,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/11-同日头中尾三处新增.md",
-      "sha256": "5d628fd3da88434f2e0cdcbb572992a835b1a5cacb10925eeff9e34dcbb6bdf0",
-      "bytes": 9335,
+      "sha256": "90f7cc26a181b333ddcedc03310fe04270a3e5af2cc4c116a490104d3d1dcfa3",
+      "bytes": 9613,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "混合异常场景/12-同日头中尾分散删除.md",
-      "sha256": "cef5657241b86468f945103de67bd12cb2a3e777954dd7ca3af93bcb248045f7",
-      "bytes": 6032,
+      "sha256": "11a41542c72cd1ab2d42c2e081a08581e1f4f90c4e2fa43aed7922a4ba75e5ba",
+      "bytes": 6063,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
