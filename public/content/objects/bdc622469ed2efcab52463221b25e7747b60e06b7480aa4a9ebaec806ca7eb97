@@ -131,7 +131,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "3af930bbe8c6690b8fde960b52c1f3ce56612fa4691c87e90f6d6d1bded54600"
+      "deterministicDigest": "21ff248e1a6daa561c04e200afcb09e9577441e4288f1ae520afc733a275a6b0"
     },
     {
       "passed": true,
@@ -144,16 +144,16 @@
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
         "新学": [
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
+          21,
+          21,
+          21,
+          21,
+          22,
+          22,
+          22,
+          22,
+          22,
+          22
         ],
         "1日复习": [
           4,
@@ -192,6 +192,7 @@
           10
         ],
         "15日复习": [
+          17,
           18,
           18,
           18,
@@ -200,13 +201,12 @@
           18,
           18,
           18,
-          19,
-          19
+          18
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 30.82695,
-        "maximum": 32.05794
+        "minimum": 31.021947,
+        "maximum": 32.441568
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -263,7 +263,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "5cda8099c57ee73bdccf63b9fe7efe07e245dfc62aa841bfa3c0acfa9e0beedb"
+      "deterministicDigest": "5501f5f23c66745f03768a7fe2bbdf5c85074f99436897643a177d487b07af64"
     },
     {
       "passed": true,
@@ -276,16 +276,16 @@
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
         "新学": [
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
+          10,
+          10,
+          10,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
         ],
         "1日复习": [
           5,
@@ -315,13 +315,13 @@
           11,
           11,
           11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
         ],
         "15日复习": [
           19,
@@ -332,13 +332,13 @@
           19,
           19,
           19,
-          19,
-          19
+          20,
+          20
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 9.153491,
-        "maximum": 32.110269
+        "minimum": 8.882322,
+        "maximum": 32.016956
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -395,7 +395,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "14b45fff839af0bd03de4bb53571c9b19d2e0ff87f98b50fb13c218dd3d494d6"
+      "deterministicDigest": "d9837460402b976e2ed0cbc931ce64e4d7eb62ad2859bd0da422594a47eb6c14"
     }
   ]
 }
