@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-be337ee1440a9b96356ee07988e5d4119c751901dba3f204b11f4655adeccb75",
-  "generatedAt": "2026-07-20T16:22:48.620Z",
+  "revision": "snapshot-2bd626e5e0309b5732fb0ad2bded452e7e5561f699d38099cc43f5463a25e5ca",
+  "generatedAt": "2026-07-20T16:32:59.507Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -250,7 +250,7 @@
     },
     {
       "path": "混合异常场景/08-连续两日中断后新增卡片.md",
-      "sha256": "9ede04864da0bf628eb7b9fe88f9b0db259783f9f4211cb33604938590535fa3",
+      "sha256": "6780d1e49eb69fe767b8239ba24e9baf1dab3c07559792fca6c4d48b52c3b58d",
       "bytes": 7306,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
@@ -306,7 +306,7 @@
     },
     {
       "path": "混合异常场景/混合异常场景结果.json",
-      "sha256": "dfec03905ecbd460616c0b0c065d60018f9374565c9f8cc4fddf2548dd226ecf",
+      "sha256": "2661b87c288ac2c68268e7bbf1e1d5ef06d4ae41bbcd973f414c1254d04ca266",
       "bytes": 1786,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
