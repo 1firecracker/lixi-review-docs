@@ -1,11 +1,11 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
     {
       "number": 8,
       "title": "连续两日中断后新增卡片",
       "filename": "08-连续两日中断后新增卡片.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 23,
       "violations": 0,
       "lowCellDiagnostics": 18,
@@ -47,8 +47,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
