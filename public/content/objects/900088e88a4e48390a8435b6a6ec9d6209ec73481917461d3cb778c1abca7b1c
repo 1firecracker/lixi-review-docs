@@ -36,20 +36,20 @@
           4
         ],
         "3日复习": [
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
         ],
         "7日复习": [
-          9,
-          9,
+          10,
+          10,
           10,
           10,
           10,
@@ -68,19 +68,19 @@
           18,
           18,
           18,
-          19,
-          19
+          18,
+          18
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 30.82695,
-        "maximum": 32.05794
+        "minimum": 30.433036,
+        "maximum": 32.438189
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 0,
+      "lowCellDiagnostics": 6,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -122,7 +122,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -131,7 +131,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "21ff248e1a6daa561c04e200afcb09e9577441e4288f1ae520afc733a275a6b0"
+      "deterministicDigest": "e9fa526f6f404c95792daed117c1f1bc4f1c14cd2f740bc62cf4b2b876c61789"
     },
     {
       "passed": true,
@@ -147,7 +147,7 @@
           21,
           21,
           21,
-          21,
+          22,
           22,
           22,
           22,
@@ -156,16 +156,16 @@
           22
         ],
         "1日复习": [
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
         ],
         "3日复习": [
           6,
@@ -180,8 +180,8 @@
           6
         ],
         "7日复习": [
-          9,
-          9,
+          10,
+          10,
           10,
           10,
           10,
@@ -192,7 +192,7 @@
           10
         ],
         "15日复习": [
-          17,
+          18,
           18,
           18,
           18,
@@ -205,14 +205,14 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 31.021947,
-        "maximum": 32.441568
+        "minimum": 31.13748,
+        "maximum": 32.678876
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 0,
+      "lowCellDiagnostics": 4,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -254,7 +254,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -263,7 +263,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "5501f5f23c66745f03768a7fe2bbdf5c85074f99436897643a177d487b07af64"
+      "deterministicDigest": "f10e500bf5ff05cf7ab9bdb59bad693067761a1dc363cabf2f9c69b157c681ac"
     },
     {
       "passed": true,
@@ -278,14 +278,14 @@
         "新学": [
           10,
           10,
-          10,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
         ],
         "1日复习": [
           5,
@@ -315,13 +315,13 @@
           11,
           11,
           11,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
         ],
         "15日复习": [
           19,
@@ -332,19 +332,19 @@
           19,
           19,
           19,
-          20,
-          20
+          19,
+          19
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 8.882322,
-        "maximum": 32.016956
+        "minimum": 9.99117,
+        "maximum": 32.653657
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 0,
+      "lowCellDiagnostics": 8,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -386,7 +386,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -395,7 +395,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "d9837460402b976e2ed0cbc931ce64e4d7eb62ad2859bd0da422594a47eb6c14"
+      "deterministicDigest": "040baaf1624ef4a5ca385c8559fa69b6a193b5029da6281e698d20571ec3bd4b"
     }
   ]
 }
