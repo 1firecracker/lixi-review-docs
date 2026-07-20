@@ -9,6 +9,7 @@
       "finalDay": 23,
       "violations": 0,
       "lowCellDiagnostics": 18,
+      "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -45,6 +46,12 @@
           "status": "satisfied"
         },
         {
+          "name": "单格连续段不得超过1",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
@@ -54,7 +61,7 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
       "digest": "8a5d1b8dd755ea97d45275d5e14f36f207f8f36288a75a47e0b33d9c3a2cb324"

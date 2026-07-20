@@ -45,7 +45,7 @@
           7,
           7,
           7,
-          7
+          8
         ],
         "7日复习": [
           10,
@@ -74,13 +74,13 @@
       },
       "plannedDailyLoadRange": {
         "minimum": 30.433036,
-        "maximum": 32.438189
+        "maximum": 35.197163
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 6,
+      "lowCellDiagnostics": 7,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -131,7 +131,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "e9fa526f6f404c95792daed117c1f1bc4f1c14cd2f740bc62cf4b2b876c61789"
+      "deterministicDigest": "23f69d6bf2b11c6ea28d440d8e579543e70324a6daf570bdc51fa88191f52e4a"
     },
     {
       "passed": true,
@@ -205,8 +205,8 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 31.13748,
-        "maximum": 32.678876
+        "minimum": 30.915237,
+        "maximum": 34.357862
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -263,7 +263,7 @@
           "status": "satisfied"
         }
       ],
-      "deterministicDigest": "f10e500bf5ff05cf7ab9bdb59bad693067761a1dc363cabf2f9c69b157c681ac"
+      "deterministicDigest": "371a6a0f758107e369649aad62adb8bcda81d9f4d5fc747a3ea55507eb1507af"
     },
     {
       "passed": true,
@@ -337,14 +337,14 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 9.99117,
-        "maximum": 32.653657
+        "minimum": 13.83587,
+        "maximum": 32.460258
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 8,
+      "lowCellDiagnostics": 9,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -392,10 +392,10 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "deterministicDigest": "040baaf1624ef4a5ca385c8559fa69b6a193b5029da6281e698d20571ec3bd4b"
+      "deterministicDigest": "d118d760b52926be8bdd95958a57e14198c5c2d7527b555c68374acceb723fa2"
     }
   ]
 }
