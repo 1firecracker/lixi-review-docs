@@ -8,8 +8,8 @@
       "passed": false,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 19,
-      "maximumSegmentCount": 4,
+      "lowCellDiagnostics": 15,
+      "maximumSegmentCount": 3,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -64,7 +64,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "522f7b9b4b6f3dd20ea0dde52b110c96dcb72797b2b515892dc78211b3b09fda"
+      "digest": "740cac0e31418740d4bb109f7f6fb03a8104635e0bcf7a2ac8bff7c67ac5a3b7"
     }
   ]
 }
