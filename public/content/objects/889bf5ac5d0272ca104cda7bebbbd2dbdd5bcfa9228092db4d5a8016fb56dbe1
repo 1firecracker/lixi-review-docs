@@ -1,15 +1,15 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
     {
       "number": 8,
       "title": "连续两日中断后新增卡片",
       "filename": "08-连续两日中断后新增卡片.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 14,
-      "maximumSegmentCount": 3,
+      "lowCellDiagnostics": 44,
+      "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -48,8 +48,8 @@
         {
           "name": "单格连续段不得超过1",
           "hard": true,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "satisfied"
         },
         {
           "name": "单格负载偏差（仅诊断）",
@@ -64,7 +64,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "5285e4795162be7b256f8a00199115cf4269b3c8105fd293421938668d1cf7f1"
+      "digest": "225c907388913bb8a7db06dc2e86bd7c38209651df72fa021be512e0c78abb9d"
     }
   ]
 }
