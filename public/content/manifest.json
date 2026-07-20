@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-719cfc7a7a3378bc271efc191fc7a1ddce7dff0800b444442f97725b32271353",
-  "generatedAt": "2026-07-20T17:03:36.505Z",
+  "revision": "snapshot-03b2ca89e5bf2cc612a89923b7162ad7ae308266b046a85071bc1ab6c805220c",
+  "generatedAt": "2026-07-20T17:13:49.396Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -19,7 +19,7 @@
     },
     {
       "path": "基础异常场景/02-第二天中途停止并顺延.md",
-      "sha256": "98640ecb49e8218fb8875ecc06e94fb1f8979d492c21ce69199c02c332cbb47c",
+      "sha256": "eabfe93471de49ee694a2bda8549a7372a416233b213a87ab5b0336654cb2287",
       "bytes": 8408,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
@@ -33,14 +33,14 @@
     },
     {
       "path": "基础异常场景/04-有效页数大幅调高.md",
-      "sha256": "042381dfafa3e17fe6274cb961e35b3e7e3d2f104e0369ae8601ce1a06ca0002",
+      "sha256": "fc0db9315862d59c81e1a033b804bb687bdac0a0ef6d2418b046d2563074f3d5",
       "bytes": 7923,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/05-中途新增一张卡片.md",
-      "sha256": "f8812fe9ba4db0628dfb3dfe3e62b1df527b8ae04ae834b5066ee6aabccce18d",
+      "sha256": "0d8ba0a245c479e77d1191152734298c890e81cbe3d508a5c68abf1e32689016",
       "bytes": 8774,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
@@ -54,14 +54,14 @@
     },
     {
       "path": "基础异常场景/07-删除从未新学的卡片.md",
-      "sha256": "6768a06fa21873a3551f58a30312fc0a389093ff526a462bd56715a64e3b5073",
+      "sha256": "39122f5e33ea1e76332875f6700fb6c663b955dec7fd58e4e87265ca83714a2b",
       "bytes": 7802,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/08-删除已经学习过的卡片.md",
-      "sha256": "24010cec257712f9c15352f6c6639db11a38a4295b480f9ac84d63f561265cb2",
+      "sha256": "f6a7be962342b7912798655fa687e9aedbcb8ad1f79b24e2d3d8e6a2c4912349",
       "bytes": 7627,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
