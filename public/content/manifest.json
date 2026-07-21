@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-805efa5e9defda1f6da744252ed16a8246306e043ff8c7d3c6490a98b4ef7a20",
-  "generatedAt": "2026-07-21T09:25:41.446Z",
+  "revision": "snapshot-9ca50df006be3ea732d88704902d861c114ff453c8d0e76b60cb7475595a30fe",
+  "generatedAt": "2026-07-21T09:45:51.892Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
-      "sha256": "7533356eda78a9b282bdeb10e1c341ca2474616ef47cfa032f5a1faddc9f5b04",
-      "bytes": 599,
+      "sha256": "f21c528d72dd299c8143d18386be7c5720f46717d3fa543f42f09359c80303be",
+      "bytes": 923,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -144,6 +144,34 @@
       "kind": "markdown"
     },
     {
+      "path": "基础异常场景/20-原计划倒数第1天新增10张卡片.md",
+      "sha256": "873b6d6bb84db3ab4ad54a2fd2695f51e6b2055d5cdb15526f5e76e9e5933301",
+      "bytes": 6003,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/21-原计划倒数第3天新增10张卡片.md",
+      "sha256": "b71c788a97ec23f7d09c59fd77b0c3a25d25eb14201c0953fe3e57014c57e6fc",
+      "bytes": 6035,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/22-原计划倒数第5天新增10张卡片.md",
+      "sha256": "194bec21dde9b7c6cd0a84be2fcf634dda9307d3065c07899f87ada4dc77f981",
+      "bytes": 5865,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "sha256": "261bbe02a0595195b0fcef0d9e5e66b6e0f97d6b842082df15bb927e27e730a0",
+      "bytes": 6010,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
       "path": "基础异常场景/三种新增位置场景结果.json",
       "sha256": "220096fb2abc9539915bf0a9056b7a45d31fb5a7916d2b43eab3279a98d3e40c",
       "bytes": 8943,
@@ -215,10 +243,17 @@
     },
     {
       "path": "基础异常场景/场景索引.md",
-      "sha256": "4d5fb53a95f0f1e1b6feb702b1e1f158ad3036ebfbb4ff96fb950800d9ead34a",
-      "bytes": 4005,
+      "sha256": "aa75946b73e3ef84ca50b474e54fc8cfe90b164e4ea4d830eebb48d27a1c8a0d",
+      "bytes": 4631,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
+    },
+    {
+      "path": "基础异常场景/晚新增时点场景结果.json",
+      "sha256": "76e129d3fca7c71f87910e21e62a8e0cfa28793976296e4828ceb59fd5bc1baa",
+      "bytes": 10881,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
     },
     {
       "path": "混合异常场景/01-第二天中断后在教材中部新增3张.md",

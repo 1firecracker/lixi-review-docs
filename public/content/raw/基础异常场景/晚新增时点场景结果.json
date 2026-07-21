@@ -1,0 +1,384 @@
+{
+  "passed": false,
+  "results": [
+    {
+      "passed": false,
+      "title": "原计划倒数第1天新增10张卡片",
+      "filename": "20-原计划倒数第1天新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/20-原计划倒数第1天新增10张卡片.md",
+      "countdownDay": 1,
+      "originalFinalDay": 21,
+      "eventDay": 21,
+      "outcome": "missing_user_choice",
+      "finalDay": 21,
+      "extendedDays": 0,
+      "addedOccurrences": 0,
+      "futureDayLoads": [
+        {
+          "dayNumber": 21,
+          "pageCount": 31.984144,
+          "withinTargetBand": true
+        }
+      ],
+      "error": "No legal future plan satisfies daily capacity, indivisible cards, and same-day card exclusion",
+      "lockedHistoryPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "无法自动收口时返回晚新增结构化二选一结果",
+          "hard": true,
+          "passed": false,
+          "status": "violated"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        }
+      ],
+      "deterministicDigest": "b6167e8a58eb354dae2c1c18fe00c2713f37a67a2bad99fc70e1aad61d1ede5b"
+    },
+    {
+      "passed": false,
+      "title": "原计划倒数第3天新增10张卡片",
+      "filename": "21-原计划倒数第3天新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/21-原计划倒数第3天新增10张卡片.md",
+      "countdownDay": 3,
+      "originalFinalDay": 21,
+      "eventDay": 19,
+      "outcome": "missing_user_choice",
+      "finalDay": 21,
+      "extendedDays": 0,
+      "addedOccurrences": 0,
+      "futureDayLoads": [
+        {
+          "dayNumber": 19,
+          "pageCount": 31.517479,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 20,
+          "pageCount": 31.619434,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 21,
+          "pageCount": 31.984144,
+          "withinTargetBand": true
+        }
+      ],
+      "error": "No legal future plan satisfies daily capacity, indivisible cards, and same-day card exclusion",
+      "lockedHistoryPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "无法自动收口时返回晚新增结构化二选一结果",
+          "hard": true,
+          "passed": false,
+          "status": "violated"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        }
+      ],
+      "deterministicDigest": "913c7643954656cd43e62f20b9b53fea16d89307255054ad76c840e5f40fd1a3"
+    },
+    {
+      "passed": true,
+      "title": "原计划倒数第5天新增10张卡片",
+      "filename": "22-原计划倒数第5天新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/22-原计划倒数第5天新增10张卡片.md",
+      "countdownDay": 5,
+      "originalFinalDay": 21,
+      "eventDay": 17,
+      "outcome": "auto_scheduled",
+      "finalDay": 22,
+      "extendedDays": 1,
+      "addedOccurrences": 50,
+      "futureDayLoads": [
+        {
+          "dayNumber": 17,
+          "pageCount": 31.942321,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 18,
+          "pageCount": 32.007261,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 19,
+          "pageCount": 32.002236,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 20,
+          "pageCount": 31.995935,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 21,
+          "pageCount": 31.955994,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 22,
+          "pageCount": 31.664855,
+          "withinTargetBand": true
+        }
+      ],
+      "lockedHistoryPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "临近收口新增可自动合法排入时直接显示延长天数",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        }
+      ],
+      "deterministicDigest": "6fbb607af1ed67f870198398b9d60095478af04d1a54f9b3939d9d656a4c7588"
+    },
+    {
+      "passed": true,
+      "title": "原计划倒数第10天新增10张卡片",
+      "filename": "23-原计划倒数第10天新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "countdownDay": 10,
+      "originalFinalDay": 21,
+      "eventDay": 12,
+      "outcome": "auto_scheduled",
+      "finalDay": 22,
+      "extendedDays": 1,
+      "addedOccurrences": 50,
+      "futureDayLoads": [
+        {
+          "dayNumber": 12,
+          "pageCount": 31.956816,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 13,
+          "pageCount": 31.955761,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 14,
+          "pageCount": 31.957864,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 15,
+          "pageCount": 31.964009,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 16,
+          "pageCount": 31.958913,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 17,
+          "pageCount": 31.952601,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 18,
+          "pageCount": 33.59666,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 19,
+          "pageCount": 33.550414,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 20,
+          "pageCount": 31.94654,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 21,
+          "pageCount": 32.943968,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 22,
+          "pageCount": 27.728881,
+          "withinTargetBand": false
+        }
+      ],
+      "lockedHistoryPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "exempt"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "临近收口新增可自动合法排入时直接显示延长天数",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "exempt"
+        }
+      ],
+      "deterministicDigest": "6a80e744ef88da7f3336919c74d7cb805b22da62921cfa4cd99f052e14e4cf6c"
+    }
+  ]
+}
