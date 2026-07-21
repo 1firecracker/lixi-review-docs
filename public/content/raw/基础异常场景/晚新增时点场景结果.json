@@ -1,15 +1,15 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
     {
-      "passed": false,
+      "passed": true,
       "title": "原计划倒数第1天新增10张卡片",
       "filename": "20-原计划倒数第1天新增10张卡片.md",
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/20-原计划倒数第1天新增10张卡片.md",
       "countdownDay": 1,
       "originalFinalDay": 21,
       "eventDay": 21,
-      "outcome": "missing_user_choice",
+      "outcome": "needs_user_choice",
       "finalDay": 21,
       "extendedDays": 0,
       "addedOccurrences": 0,
@@ -20,7 +20,6 @@
           "withinTargetBand": true
         }
       ],
-      "error": "No legal future plan satisfies daily capacity, indivisible cards, and same-day card exclusion",
       "lockedHistoryPreserved": true,
       "replayStable": true,
       "acceptanceChecks": [
@@ -57,8 +56,8 @@
         {
           "name": "无法自动收口时返回晚新增结构化二选一结果",
           "hard": true,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "satisfied"
         },
         {
           "name": "单格负载偏差（仅诊断）",
@@ -76,14 +75,14 @@
       "deterministicDigest": "b6167e8a58eb354dae2c1c18fe00c2713f37a67a2bad99fc70e1aad61d1ede5b"
     },
     {
-      "passed": false,
+      "passed": true,
       "title": "原计划倒数第3天新增10张卡片",
       "filename": "21-原计划倒数第3天新增10张卡片.md",
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/21-原计划倒数第3天新增10张卡片.md",
       "countdownDay": 3,
       "originalFinalDay": 21,
       "eventDay": 19,
-      "outcome": "missing_user_choice",
+      "outcome": "needs_user_choice",
       "finalDay": 21,
       "extendedDays": 0,
       "addedOccurrences": 0,
@@ -104,7 +103,6 @@
           "withinTargetBand": true
         }
       ],
-      "error": "No legal future plan satisfies daily capacity, indivisible cards, and same-day card exclusion",
       "lockedHistoryPreserved": true,
       "replayStable": true,
       "acceptanceChecks": [
@@ -141,8 +139,8 @@
         {
           "name": "无法自动收口时返回晚新增结构化二选一结果",
           "hard": true,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "satisfied"
         },
         {
           "name": "单格负载偏差（仅诊断）",
