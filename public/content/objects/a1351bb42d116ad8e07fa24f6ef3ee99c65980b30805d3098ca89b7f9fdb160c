@@ -73,14 +73,14 @@
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 31.543752,
-        "maximum": 32.307857
+        "minimum": 31.742401,
+        "maximum": 32.177531
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 3,
+      "lowCellDiagnostics": 0,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -122,7 +122,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -131,7 +131,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "5d3dfe047834da86ec9bd238647fe327f779d9b726a7081001c43e2f06c7ea75"
+      "deterministicDigest": "9d3e78b660472237225244ce36a0339d1690b7be9f7e551adfc116efa352b2b5"
     },
     {
       "passed": true,
@@ -206,13 +206,13 @@
       },
       "plannedDailyLoadRange": {
         "minimum": 21.723087,
-        "maximum": 31.938209
+        "maximum": 31.523049
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 7,
+      "lowCellDiagnostics": 4,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -263,7 +263,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "bc700bf5be2adb70e930d509942046f1b5b03b4bbe53fb1a2be4a686d96c3522"
+      "deterministicDigest": "80afd415b5f756f26afdd170fd602f07d9c0c7dd5e137e4e21f1ea3b45df7af9"
     },
     {
       "passed": true,
@@ -395,7 +395,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "cd7e1352f3396d1d2b15cabce2bbdad22e79ce6217daa4a3e383934f14794112"
+      "deterministicDigest": "0470fca2014def08736ba57b72cb65d0ee30222a26fddb16f59125b05bc72f2f"
     }
   ]
 }
