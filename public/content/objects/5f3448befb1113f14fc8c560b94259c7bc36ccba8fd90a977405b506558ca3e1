@@ -9,10 +9,12 @@
       "countdownDay": 1,
       "originalFinalDay": 21,
       "eventDay": 21,
-      "outcome": "needs_user_choice",
+      "outcome": "deferred_to_next_stage",
       "finalDay": 21,
       "extendedDays": 0,
       "addedOccurrences": 0,
+      "targetStageNumber": 2,
+      "deferredRecordId": "deferred-addition:12d20365cf47bfa6",
       "futureDayLoads": [
         {
           "dayNumber": 21,
@@ -54,7 +56,7 @@
           "status": "satisfied"
         },
         {
-          "name": "无法自动收口时返回晚新增结构化二选一结果",
+          "name": "晚新增留到下一阶段且当前阶段不建立 occurrence",
           "hard": true,
           "passed": true,
           "status": "satisfied"
@@ -82,10 +84,12 @@
       "countdownDay": 3,
       "originalFinalDay": 21,
       "eventDay": 19,
-      "outcome": "needs_user_choice",
+      "outcome": "deferred_to_next_stage",
       "finalDay": 21,
       "extendedDays": 0,
       "addedOccurrences": 0,
+      "targetStageNumber": 2,
+      "deferredRecordId": "deferred-addition:32c0bd7896d9c1a6",
       "futureDayLoads": [
         {
           "dayNumber": 19,
@@ -137,7 +141,7 @@
           "status": "satisfied"
         },
         {
-          "name": "无法自动收口时返回晚新增结构化二选一结果",
+          "name": "晚新增留到下一阶段且当前阶段不建立 occurrence",
           "hard": true,
           "passed": true,
           "status": "satisfied"
