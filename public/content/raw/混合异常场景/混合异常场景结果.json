@@ -8,7 +8,7 @@
       "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 7,
+      "lowCellDiagnostics": 6,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -58,7 +58,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "46e042caeccf0b66a5ad1a731921f5b6a0b120e39f4e675c569250c846865244"
+      "digest": "6ffa3668683f6067d88769ec13523570c6e94e647c96daa77a29938507a43b14"
     },
     {
       "number": 2,
@@ -126,7 +126,7 @@
       "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 10,
+      "lowCellDiagnostics": 8,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -176,7 +176,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "da3fba616da339fbca3bffb0b53df606da6f904504cc9f33f0f89269c7f034bf"
+      "digest": "66262cb3e13b3bf1d75472519d8cb96b87c7826cb039b0f4a2b1870f4ee1b4e0"
     },
     {
       "number": 4,
@@ -648,7 +648,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "54532b0cd2960b05ca57aa9eb64c9c3b21d2b06713bfe0482deae5cae6ed8df2"
+      "digest": "82a244e2ddae3b575a249cbe8f2054ac94f54df5460340386a5915b3980c61cc"
     },
     {
       "number": 12,

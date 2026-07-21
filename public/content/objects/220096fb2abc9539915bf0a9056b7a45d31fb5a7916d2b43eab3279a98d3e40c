@@ -338,13 +338,13 @@
       },
       "plannedDailyLoadRange": {
         "minimum": 23.268934,
-        "maximum": 30.496924
+        "maximum": 30.800423
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 12,
+      "lowCellDiagnostics": 13,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -395,7 +395,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "22608e2fc1450332ac37a8a0107094b3b410444f557295283017d97b02f89c57"
+      "deterministicDigest": "e62f91ace2e95f5e643872c8d0429c510e1c603e720ba385f10bd04e699bfa8d"
     }
   ]
 }

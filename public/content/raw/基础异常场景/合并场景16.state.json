@@ -12592,7 +12592,7 @@
       "anchorOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:928a57ad-cea8-44ee-9094-280af14a7d94:r0",
       "dueDay": 13,
       "notBeforeDay": 1,
-      "assignedDay": 13,
+      "assignedDay": 12,
       "completedDay": null,
       "pageCountSnapshot": 0.265913,
       "orderKeySnapshot": "000000000340",
@@ -15232,7 +15232,7 @@
       "anchorOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c3c39264-f35c-404b-b235-46c53022e264:r0",
       "dueDay": 19,
       "notBeforeDay": 1,
-      "assignedDay": 18,
+      "assignedDay": 19,
       "completedDay": null,
       "pageCountSnapshot": 0.305852,
       "orderKeySnapshot": "000000000472",
@@ -77466,219 +77466,6 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "packId": "future-pack:122e70902e2b4328",
-      "nodeIds": [
-        "513d4935-bb73-4474-b9c8-697efbe95570",
-        "783c451c-0e28-4c61-882e-858a57ba2970",
-        "034fac70-3e0c-4709-b57e-510c6d486b2b",
-        "9229733a-24d8-4f97-a757-e41fd3f0d51e",
-        "6ca76493-5be9-49a9-83f7-ec1f6d5faa1d",
-        "7034e278-e3bf-4514-bb3f-8e1648718a6b",
-        "a1ffe7c1-c5ec-4529-bd4d-b0f2a28f3536",
-        "0a682048-54c4-4be5-b7e8-12284ba1fa10",
-        "27071929-a303-4c6b-a3d3-0fa3d07581b7",
-        "ce69ff77-701e-4721-9156-9bbdb535b2a1",
-        "7b419616-9e6c-4e73-a6dd-3336d0752ed0",
-        "521bc741-690f-410a-a760-63fecafdfabd",
-        "b392182c-c27d-4b88-9326-662d478c985b",
-        "a9866dea-a9cc-4036-a357-e06d222fc2c7",
-        "f72374e5-71c8-437b-9f2a-2c3f754cc1d3",
-        "04f129d7-8c83-4158-840b-b46d20f626e6",
-        "030a44f0-7fae-4506-ae24-4331c43109d5",
-        "8d0f0a66-ac8c-4572-9ad6-f0607b3f43cb",
-        "153fc49b-7b9b-478e-805a-fdfe73bdaf5b",
-        "74e120ea-6ff3-46b4-922a-c0236d5ddb17",
-        "c961b6d5-5650-4115-8f6b-ac364560aa97",
-        "d2c62158-907a-415f-bc63-c61541537726",
-        "a27903d6-2300-4b97-a2ae-029fffa167a1",
-        "5ed5e5ba-837d-4fd0-b327-cabc49c86221",
-        "8960370d-9d0e-48e3-94e5-eea36baffc92",
-        "02d7e21e-1e4a-4c96-a4a8-f4c06edb93be",
-        "1e1e5e5d-eda3-42c9-8aac-024ac65d604b",
-        "795130c0-0d00-4aa1-9c39-703bbbebddc1",
-        "4e389467-812f-4971-844f-45a89ec0c727"
-      ],
-      "nodeSnapshots": [
-        {
-          "nodeId": "513d4935-bb73-4474-b9c8-697efbe95570",
-          "pageCount": 0.713655,
-          "orderKey": "000000000311",
-          "sequentialIndex": "311"
-        },
-        {
-          "nodeId": "783c451c-0e28-4c61-882e-858a57ba2970",
-          "pageCount": 0.224922,
-          "orderKey": "000000000312",
-          "sequentialIndex": "312"
-        },
-        {
-          "nodeId": "034fac70-3e0c-4709-b57e-510c6d486b2b",
-          "pageCount": 0.134533,
-          "orderKey": "000000000313",
-          "sequentialIndex": "313"
-        },
-        {
-          "nodeId": "9229733a-24d8-4f97-a757-e41fd3f0d51e",
-          "pageCount": 0.112461,
-          "orderKey": "000000000314",
-          "sequentialIndex": "314"
-        },
-        {
-          "nodeId": "6ca76493-5be9-49a9-83f7-ec1f6d5faa1d",
-          "pageCount": 0.093542,
-          "orderKey": "000000000315",
-          "sequentialIndex": "315"
-        },
-        {
-          "nodeId": "7034e278-e3bf-4514-bb3f-8e1648718a6b",
-          "pageCount": 0.034684,
-          "orderKey": "000000000316",
-          "sequentialIndex": "316"
-        },
-        {
-          "nodeId": "a1ffe7c1-c5ec-4529-bd4d-b0f2a28f3536",
-          "pageCount": 0.03048,
-          "orderKey": "000000000317",
-          "sequentialIndex": "317"
-        },
-        {
-          "nodeId": "0a682048-54c4-4be5-b7e8-12284ba1fa10",
-          "pageCount": 0.135584,
-          "orderKey": "000000000318",
-          "sequentialIndex": "318"
-        },
-        {
-          "nodeId": "27071929-a303-4c6b-a3d3-0fa3d07581b7",
-          "pageCount": 0.173421,
-          "orderKey": "000000000319",
-          "sequentialIndex": "319"
-        },
-        {
-          "nodeId": "ce69ff77-701e-4721-9156-9bbdb535b2a1",
-          "pageCount": 0.051501,
-          "orderKey": "000000000320",
-          "sequentialIndex": "320"
-        },
-        {
-          "nodeId": "7b419616-9e6c-4e73-a6dd-3336d0752ed0",
-          "pageCount": 0.007357,
-          "orderKey": "000000000321",
-          "sequentialIndex": "321"
-        },
-        {
-          "nodeId": "521bc741-690f-410a-a760-63fecafdfabd",
-          "pageCount": 0.03048,
-          "orderKey": "000000000322",
-          "sequentialIndex": "322"
-        },
-        {
-          "nodeId": "b392182c-c27d-4b88-9326-662d478c985b",
-          "pageCount": 0.009459,
-          "orderKey": "000000000323",
-          "sequentialIndex": "323"
-        },
-        {
-          "nodeId": "a9866dea-a9cc-4036-a357-e06d222fc2c7",
-          "pageCount": 0.119818,
-          "orderKey": "000000000324",
-          "sequentialIndex": "324"
-        },
-        {
-          "nodeId": "f72374e5-71c8-437b-9f2a-2c3f754cc1d3",
-          "pageCount": 0.244892,
-          "orderKey": "000000000325",
-          "sequentialIndex": "325"
-        },
-        {
-          "nodeId": "04f129d7-8c83-4158-840b-b46d20f626e6",
-          "pageCount": 0.18183,
-          "orderKey": "000000000326",
-          "sequentialIndex": "326"
-        },
-        {
-          "nodeId": "030a44f0-7fae-4506-ae24-4331c43109d5",
-          "pageCount": 0.155554,
-          "orderKey": "000000000327",
-          "sequentialIndex": "327"
-        },
-        {
-          "nodeId": "8d0f0a66-ac8c-4572-9ad6-f0607b3f43cb",
-          "pageCount": 0.220718,
-          "orderKey": "000000000328",
-          "sequentialIndex": "328"
-        },
-        {
-          "nodeId": "153fc49b-7b9b-478e-805a-fdfe73bdaf5b",
-          "pageCount": 0.130329,
-          "orderKey": "000000000329",
-          "sequentialIndex": "329"
-        },
-        {
-          "nodeId": "74e120ea-6ff3-46b4-922a-c0236d5ddb17",
-          "pageCount": 0.251198,
-          "orderKey": "000000000330",
-          "sequentialIndex": "330"
-        },
-        {
-          "nodeId": "c961b6d5-5650-4115-8f6b-ac364560aa97",
-          "pageCount": 0.356302,
-          "orderKey": "000000000331",
-          "sequentialIndex": "331"
-        },
-        {
-          "nodeId": "d2c62158-907a-415f-bc63-c61541537726",
-          "pageCount": 0.392037,
-          "orderKey": "000000000332",
-          "sequentialIndex": "332"
-        },
-        {
-          "nodeId": "a27903d6-2300-4b97-a2ae-029fffa167a1",
-          "pageCount": 0.324771,
-          "orderKey": "000000000333",
-          "sequentialIndex": "333"
-        },
-        {
-          "nodeId": "5ed5e5ba-837d-4fd0-b327-cabc49c86221",
-          "pageCount": 0.225973,
-          "orderKey": "000000000334",
-          "sequentialIndex": "334"
-        },
-        {
-          "nodeId": "8960370d-9d0e-48e3-94e5-eea36baffc92",
-          "pageCount": 0.189187,
-          "orderKey": "000000000335",
-          "sequentialIndex": "335"
-        },
-        {
-          "nodeId": "02d7e21e-1e4a-4c96-a4a8-f4c06edb93be",
-          "pageCount": 0.248045,
-          "orderKey": "000000000336",
-          "sequentialIndex": "336"
-        },
-        {
-          "nodeId": "1e1e5e5d-eda3-42c9-8aac-024ac65d604b",
-          "pageCount": 0.467712,
-          "orderKey": "000000000337",
-          "sequentialIndex": "337"
-        },
-        {
-          "nodeId": "795130c0-0d00-4aa1-9c39-703bbbebddc1",
-          "pageCount": 0.058858,
-          "orderKey": "000000000338",
-          "sequentialIndex": "338"
-        },
-        {
-          "nodeId": "4e389467-812f-4971-844f-45a89ec0c727",
-          "pageCount": 0.315311,
-          "orderKey": "000000000339",
-          "sequentialIndex": "339"
-        }
-      ],
-      "pageCount": 5.634614000000001,
-      "fingerprint": "3b871e5efae27d4b",
-      "createdByMutationId": "merge-case-16"
-    },
-    {
       "packId": "future-pack:69fca162364a3e2d",
       "nodeIds": [
         "1d591381-b55b-4134-bfe2-082f5dc67b83",
@@ -78381,156 +78168,6 @@
       ],
       "pageCount": 5.813291000000001,
       "fingerprint": "ab979f7c16e60dc7",
-      "createdByMutationId": "merge-case-16"
-    },
-    {
-      "packId": "future-pack:0e9bfad9e125259f",
-      "nodeIds": [
-        "928a57ad-cea8-44ee-9094-280af14a7d94",
-        "a54b9a9b-97e8-4067-8a82-68f6f46045c5",
-        "f947f956-4640-44b6-afcc-7fa9039b5afe",
-        "f07f1970-aa61-4f01-8a70-04dcc993ff4b",
-        "4353f106-14ee-4579-8cb3-78e046eb5f2b",
-        "5e819ab3-7d64-47cd-a6e0-44d4c2bb6843",
-        "8ba90add-5401-4c63-943b-fba8761183d4",
-        "2e17a15c-0da1-4076-b962-6dce5d4bb0bc",
-        "a5b5999f-dbe2-4dc7-b1f1-703742f727d9",
-        "f098bcd9-828c-4783-8e1b-172605065924",
-        "ebf87cad-1920-4ad7-864e-608a17e064d7",
-        "80526f13-66d2-41f4-84b9-45de1085b63b",
-        "db64aa9f-9ef8-44ce-a319-afc4fc228899",
-        "414f1759-204a-452c-ba5a-eb813125e035",
-        "f7f14fe4-3025-4e6e-812e-68e9b61c8c2b",
-        "8e2cbc88-dadb-454b-9f35-1d4a353f0d3e",
-        "345c47e5-6f4c-4234-aea2-19b6f69ad4ca",
-        "78d94397-3b31-4c29-95d4-6c0669862e84",
-        "fae728fc-cc10-43be-878b-8ecd2fcd7dc0",
-        "598dcb7c-394b-4306-bd4c-5f37d637f1e1"
-      ],
-      "nodeSnapshots": [
-        {
-          "nodeId": "928a57ad-cea8-44ee-9094-280af14a7d94",
-          "pageCount": 0.265913,
-          "orderKey": "000000000340",
-          "sequentialIndex": "340"
-        },
-        {
-          "nodeId": "a54b9a9b-97e8-4067-8a82-68f6f46045c5",
-          "pageCount": 0.190238,
-          "orderKey": "000000000341",
-          "sequentialIndex": "341"
-        },
-        {
-          "nodeId": "f947f956-4640-44b6-afcc-7fa9039b5afe",
-          "pageCount": 0.139788,
-          "orderKey": "000000000342",
-          "sequentialIndex": "342"
-        },
-        {
-          "nodeId": "f07f1970-aa61-4f01-8a70-04dcc993ff4b",
-          "pageCount": 0.426721,
-          "orderKey": "000000000343",
-          "sequentialIndex": "343"
-        },
-        {
-          "nodeId": "4353f106-14ee-4579-8cb3-78e046eb5f2b",
-          "pageCount": 0.087236,
-          "orderKey": "000000000344",
-          "sequentialIndex": "344"
-        },
-        {
-          "nodeId": "5e819ab3-7d64-47cd-a6e0-44d4c2bb6843",
-          "pageCount": 0.6075,
-          "orderKey": "000000000345",
-          "sequentialIndex": "345"
-        },
-        {
-          "nodeId": "8ba90add-5401-4c63-943b-fba8761183d4",
-          "pageCount": 0.429875,
-          "orderKey": "000000000346",
-          "sequentialIndex": "346"
-        },
-        {
-          "nodeId": "2e17a15c-0da1-4076-b962-6dce5d4bb0bc",
-          "pageCount": 0.330026,
-          "orderKey": "000000000347",
-          "sequentialIndex": "347"
-        },
-        {
-          "nodeId": "a5b5999f-dbe2-4dc7-b1f1-703742f727d9",
-          "pageCount": 0.198646,
-          "orderKey": "000000000348",
-          "sequentialIndex": "348"
-        },
-        {
-          "nodeId": "f098bcd9-828c-4783-8e1b-172605065924",
-          "pageCount": 0.831371,
-          "orderKey": "000000000349",
-          "sequentialIndex": "349"
-        },
-        {
-          "nodeId": "ebf87cad-1920-4ad7-864e-608a17e064d7",
-          "pageCount": 0.562305,
-          "orderKey": "000000000350",
-          "sequentialIndex": "350"
-        },
-        {
-          "nodeId": "80526f13-66d2-41f4-84b9-45de1085b63b",
-          "pageCount": 0.396241,
-          "orderKey": "000000000351",
-          "sequentialIndex": "351"
-        },
-        {
-          "nodeId": "db64aa9f-9ef8-44ce-a319-afc4fc228899",
-          "pageCount": 0.660052,
-          "orderKey": "000000000352",
-          "sequentialIndex": "352"
-        },
-        {
-          "nodeId": "414f1759-204a-452c-ba5a-eb813125e035",
-          "pageCount": 0.217565,
-          "orderKey": "000000000353",
-          "sequentialIndex": "353"
-        },
-        {
-          "nodeId": "f7f14fe4-3025-4e6e-812e-68e9b61c8c2b",
-          "pageCount": 0.147145,
-          "orderKey": "000000000354",
-          "sequentialIndex": "354"
-        },
-        {
-          "nodeId": "8e2cbc88-dadb-454b-9f35-1d4a353f0d3e",
-          "pageCount": 0.116665,
-          "orderKey": "000000000355",
-          "sequentialIndex": "355"
-        },
-        {
-          "nodeId": "345c47e5-6f4c-4234-aea2-19b6f69ad4ca",
-          "pageCount": 0.033633,
-          "orderKey": "000000000356",
-          "sequentialIndex": "356"
-        },
-        {
-          "nodeId": "78d94397-3b31-4c29-95d4-6c0669862e84",
-          "pageCount": 0.134533,
-          "orderKey": "000000000357",
-          "sequentialIndex": "357"
-        },
-        {
-          "nodeId": "fae728fc-cc10-43be-878b-8ecd2fcd7dc0",
-          "pageCount": 0.15135,
-          "orderKey": "000000000358",
-          "sequentialIndex": "358"
-        },
-        {
-          "nodeId": "598dcb7c-394b-4306-bd4c-5f37d637f1e1",
-          "pageCount": 0.152401,
-          "orderKey": "000000000359",
-          "sequentialIndex": "359"
-        }
-      ],
-      "pageCount": 6.079204000000001,
-      "fingerprint": "073508fea4766e13",
       "createdByMutationId": "merge-case-16"
     },
     {
@@ -82583,7 +82220,7 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "packId": "future-pack:da55e4645c918b21",
+      "packId": "future-pack:e8bfa082ca86a65b",
       "nodeIds": [
         "b2293d34-617b-4218-a13d-27fc7803b1f8",
         "c1d29a51-6036-48f5-a731-a41963fef206",
@@ -82610,8 +82247,7 @@
         "05aebf01-d1c8-4d0d-b138-36cf80b39b7b",
         "4dea9d69-25f4-4296-a726-cdbfba1e356a",
         "02cb4b31-2622-4ff0-8b9f-af694ec3cd0c",
-        "608f2414-eac2-4001-832c-5a4e836943c0",
-        "c3c39264-f35c-404b-b235-46c53022e264"
+        "608f2414-eac2-4001-832c-5a4e836943c0"
       ],
       "nodeSnapshots": [
         {
@@ -82769,16 +82405,10 @@
           "pageCount": 0.2533,
           "orderKey": "000000000471",
           "sequentialIndex": "471"
-        },
-        {
-          "nodeId": "c3c39264-f35c-404b-b235-46c53022e264",
-          "pageCount": 0.305852,
-          "orderKey": "000000000472",
-          "sequentialIndex": "472"
         }
       ],
-      "pageCount": 6.1580319999999995,
-      "fingerprint": "3c4a2ef4588b7372",
+      "pageCount": 5.85218,
+      "fingerprint": "fc2c2b96685a859c",
       "createdByMutationId": "merge-case-16"
     },
     {
@@ -83260,8 +82890,9 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "packId": "future-pack:5d227397c20d2fbf",
+      "packId": "future-pack:832638569e27a07e",
       "nodeIds": [
+        "c3c39264-f35c-404b-b235-46c53022e264",
         "4386e15b-34de-49b7-8646-bdde6788f105",
         "92b2a7ad-4b53-4074-9df4-7c1a49844038",
         "f2b85ce2-365a-490a-92b6-792bf3fc38b0",
@@ -83290,6 +82921,12 @@
         "123d837d-7b78-41e9-9ad7-801c3f4264c0"
       ],
       "nodeSnapshots": [
+        {
+          "nodeId": "c3c39264-f35c-404b-b235-46c53022e264",
+          "pageCount": 0.305852,
+          "orderKey": "000000000472",
+          "sequentialIndex": "472"
+        },
         {
           "nodeId": "4386e15b-34de-49b7-8646-bdde6788f105",
           "pageCount": 0.376272,
@@ -83447,8 +83084,8 @@
           "sequentialIndex": "498"
         }
       ],
-      "pageCount": 5.743924999999999,
-      "fingerprint": "26ba138e1ea3c07e",
+      "pageCount": 6.049777,
+      "fingerprint": "7b683796206896be",
       "createdByMutationId": "merge-case-16"
     },
     {
@@ -93605,10 +93242,10 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "assignmentId": "future-assignment:f201d6bbb5da6a09",
+      "assignmentId": "future-assignment:f25993c1c08fff0d",
       "dayNumber": 12,
       "columnIndex": 0,
-      "packId": "future-pack:122e70902e2b4328",
+      "packId": "future-pack:c25d7f4841ba70ee",
       "occurrenceIds": [
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:513d4935-bb73-4474-b9c8-697efbe95570:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:783c451c-0e28-4c61-882e-858a57ba2970:r0",
@@ -93638,7 +93275,8 @@
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:02d7e21e-1e4a-4c96-a4a8-f4c06edb93be:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1e1e5e5d-eda3-42c9-8aac-024ac65d604b:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:795130c0-0d00-4aa1-9c39-703bbbebddc1:r0",
-        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:4e389467-812f-4971-844f-45a89ec0c727:r0"
+        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:4e389467-812f-4971-844f-45a89ec0c727:r0",
+        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:928a57ad-cea8-44ee-9094-280af14a7d94:r0"
       ],
       "completedOccurrenceIds": [],
       "status": "active",
@@ -93794,12 +93432,11 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "assignmentId": "future-assignment:b064282f22a6da91",
+      "assignmentId": "future-assignment:9b5bf95b9d5ca4ef",
       "dayNumber": 13,
       "columnIndex": 0,
-      "packId": "future-pack:0e9bfad9e125259f",
+      "packId": "future-pack:fb1ca9367a33eea5",
       "occurrenceIds": [
-        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:928a57ad-cea8-44ee-9094-280af14a7d94:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a54b9a9b-97e8-4067-8a82-68f6f46045c5:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:f947f956-4640-44b6-afcc-7fa9039b5afe:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:f07f1970-aa61-4f01-8a70-04dcc993ff4b:r0",
@@ -94735,10 +94372,10 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "assignmentId": "future-assignment:ea4e2cfd41adcd3a",
+      "assignmentId": "future-assignment:ad2cc8f4a2481831",
       "dayNumber": 18,
       "columnIndex": 0,
-      "packId": "future-pack:da55e4645c918b21",
+      "packId": "future-pack:e8bfa082ca86a65b",
       "occurrenceIds": [
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b2293d34-617b-4218-a13d-27fc7803b1f8:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c1d29a51-6036-48f5-a731-a41963fef206:r0",
@@ -94765,8 +94402,7 @@
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:05aebf01-d1c8-4d0d-b138-36cf80b39b7b:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:4dea9d69-25f4-4296-a726-cdbfba1e356a:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:02cb4b31-2622-4ff0-8b9f-af694ec3cd0c:r0",
-        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r0",
-        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c3c39264-f35c-404b-b235-46c53022e264:r0"
+        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r0"
       ],
       "completedOccurrenceIds": [],
       "status": "active",
@@ -94909,11 +94545,12 @@
       "createdByMutationId": "merge-case-16"
     },
     {
-      "assignmentId": "future-assignment:94fde16721924e06",
+      "assignmentId": "future-assignment:899cdc878408d40d",
       "dayNumber": 19,
       "columnIndex": 0,
-      "packId": "future-pack:5d227397c20d2fbf",
+      "packId": "future-pack:832638569e27a07e",
       "occurrenceIds": [
+        "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c3c39264-f35c-404b-b235-46c53022e264:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:4386e15b-34de-49b7-8646-bdde6788f105:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:92b2a7ad-4b53-4074-9df4-7c1a49844038:r0",
         "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:f2b85ce2-365a-490a-92b6-792bf3fc38b0:r0",
