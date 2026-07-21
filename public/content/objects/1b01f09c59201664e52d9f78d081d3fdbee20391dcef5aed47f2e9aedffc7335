@@ -1,14 +1,14 @@
 {
-  "passed": false,
+  "passed": true,
   "results": [
     {
       "number": 1,
       "title": "第二天中断后在教材中部新增3张",
       "filename": "01-第二天中断后在教材中部新增3张.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 11,
+      "lowCellDiagnostics": 7,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -48,8 +48,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -58,16 +58,16 @@
           "status": "satisfied"
         }
       ],
-      "digest": "82beb1752172b079d5d1a1656fb757a10dfe78fbbf3671fdcbd03c19c37c25f9"
+      "digest": "46e042caeccf0b66a5ad1a731921f5b6a0b120e39f4e675c569250c846865244"
     },
     {
       "number": 2,
       "title": "第二天中断后删除未学习卡片",
       "filename": "02-第二天中断后删除未学习卡片.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -107,8 +107,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -117,16 +117,16 @@
           "status": "satisfied"
         }
       ],
-      "digest": "7398982f07b2a66b7ea8d44d1345b1fbb47b82c2076960536b090d6184124d75"
+      "digest": "70e983726333fb6691e5f363c78e52155a79db20db667165ae7a47bc3613d38d"
     },
     {
       "number": 3,
       "title": "顺延后同时增大有效页数",
       "filename": "03-顺延后同时增大有效页数.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 15,
+      "lowCellDiagnostics": 10,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -166,8 +166,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -176,7 +176,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "567df69613ce387bb02009cfaf9c8301d2ebe6ae06814b11b8abd8c7b58caa17"
+      "digest": "da3fba616da339fbca3bffb0b53df606da6f904504cc9f33f0f89269c7f034bf"
     },
     {
       "number": 4,
@@ -300,10 +300,10 @@
       "number": 6,
       "title": "删除已学习卡片并在原位置补卡",
       "filename": "06-删除已学习卡片并在原位置补卡.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 5,
+      "lowCellDiagnostics": 3,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -343,8 +343,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -353,7 +353,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "df85c1a1d690e1f7a7edc15ad0da96b1c092be00ffef4e495b5b7a0fa87c578d"
+      "digest": "91d5bf81bdf4d5697f7f786895d3dac690e6fc94343475b904721fc3c1e61e09"
     },
     {
       "number": 7,
@@ -477,10 +477,10 @@
       "number": 9,
       "title": "连续两日中断后删除卡片",
       "filename": "09-连续两日中断后删除卡片.md",
-      "passed": false,
+      "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 9,
+      "lowCellDiagnostics": 8,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -520,8 +520,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": false,
-          "status": "violated"
+          "passed": true,
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -530,7 +530,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "cbf59ac8c3816992ea6e4548dc8585acc8eb5b2c8edfaa30a56edc1b65b27598"
+      "digest": "1f50f3e2447f38eb29f8a255f704e7dbfad9704e51b328d4121327d73f04cb2c"
     },
     {
       "number": 10,
@@ -589,7 +589,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "298b7af34e022a4f09f402810367ae2f4f0263e21f30dbd5946e2b7ca08fd620"
+      "digest": "64b6280cd493f310f6fe9435721b86e1a42bec3c22f17a36f8133103808584e4"
     },
     {
       "number": 11,
@@ -648,7 +648,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "5d707b902141a66036a8f45a76817d41af12c5841b7b7ef965c4830b4cfc684c"
+      "digest": "54532b0cd2960b05ca57aa9eb64c9c3b21d2b06713bfe0482deae5cae6ed8df2"
     },
     {
       "number": 12,
@@ -766,7 +766,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "d6f45e15b00ff32ad0d3e49eade434148a6d124d58d6494f5bc5a7c632388e4d"
+      "digest": "00f45ba96d1e37472e59ee9718f25f3261b480eadb8ba79100d29366f68fd06a"
     },
     {
       "number": 14,
