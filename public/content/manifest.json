@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-cd105330bbd397ec1ad4e665c39e0eddc2cae500ff6c3afdd5fcdbe1703c13b0",
-  "generatedAt": "2026-07-21T08:55:14.998Z",
+  "revision": "snapshot-d211777ddef09b53ac6cd301ffaeb3ea096f1b32aa17694d4390ca80e5febe0e",
+  "generatedAt": "2026-07-21T09:15:26.895Z",
   "files": [
     {
       "path": "全部场景统一验收结果.md",
@@ -33,8 +33,8 @@
     },
     {
       "path": "基础异常场景/04-有效页数大幅调高.md",
-      "sha256": "379acf954c5b0370a95c0468d37a8048640e6bf8bcefcdff7eeb163846586e9b",
-      "bytes": 7975,
+      "sha256": "bcba298d87fb825866f79a88f9c7205a94d32d1fd031d159637402ed12ca55a4",
+      "bytes": 8143,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -54,15 +54,15 @@
     },
     {
       "path": "基础异常场景/07-删除从未新学的卡片.md",
-      "sha256": "223da5428aa15221cb20a4eda5ac3b4a64da3bd10b101b63a7f1966f4e542ffb",
-      "bytes": 8396,
+      "sha256": "a06a92b7363355d7ee70d88d821c9d8ee37d27128425d07fe349342f3e6492ef",
+      "bytes": 8563,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/08-删除已经学习过的卡片.md",
-      "sha256": "09c986c2050fc2c5666a10924b66090a19a6648df55390a07de0d8a9af5c7ae8",
-      "bytes": 8208,
+      "sha256": "671831e584b3044f3023617a04ccf8eb7cab122dc8cba7314b14260033b6bff2",
+      "bytes": 8428,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -75,36 +75,36 @@
     },
     {
       "path": "基础异常场景/10-只在教材尾部新增10张卡片.md",
-      "sha256": "bab66c5e6cb97f02b0bc345584c31187fc71b70b87aaadde3e29060ce3499112",
-      "bytes": 6776,
+      "sha256": "a0ec6b76a0b117bd512487ae13770224188e5e534608d7e6ca29025560f2e862",
+      "bytes": 6990,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/11-当天学习开始后新增10张卡片.md",
-      "sha256": "40b52d390ca946f105404e3f591d20af94c867cc22e2686f8d58c57182626335",
-      "bytes": 9017,
+      "sha256": "0cef794245cc8605d93a6fd05c3f5e955b54bc1ee28e095a496fc5472d637bd8",
+      "bytes": 9616,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/12-合并从未学习的连续5张卡片.md",
-      "sha256": "083ec27b11476fb194371b4fcd276eac77f0690886d9e87a52ecdd1ea16b972e",
-      "bytes": 6744,
+      "sha256": "945ce8241b588e0ee635c3cdd44b492bdb79f55d8b91ce0e0266cdc22bfc84c3",
+      "bytes": 6668,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/13-合并已有历史的连续3张卡片.md",
-      "sha256": "ad825b4f5ba473f1c9d08dad8e70ea52ebe0707cdf8061c580ff3aa75853af74",
-      "bytes": 7019,
+      "sha256": "4a78571cf0472d84e8476cdbd16a69598b62d2ab8b94019a71a84cf24c559419",
+      "bytes": 7020,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/14-跨任务包合并4张卡片.md",
-      "sha256": "69f5b04eeb4fa6a68c7839f2c2638a0a18f8459c85a02ff69555a860e58f540d",
-      "bytes": 7196,
+      "sha256": "253a08658d9844db1d048c6343529ec496ee8eac47ca532b21361b926634fd2c",
+      "bytes": 7336,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -117,15 +117,15 @@
     },
     {
       "path": "基础异常场景/16-合并未学卡形成约10页父卡.md",
-      "sha256": "7395a7f19aea8015d94394c4c553b368c0717d478faf66cc3eb9b2809037dc9f",
-      "bytes": 7988,
+      "sha256": "8cabde5bfcb8d93bde158657c5c04653597f82421938d59d9366b27ce652f4cd",
+      "bytes": 8146,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "基础异常场景/17-合并已有历史形成约10页父卡.md",
-      "sha256": "643cabcc659309de9202e9e809063f5c39ea134aa3025cb9ead9df6427fa09e6",
-      "bytes": 8019,
+      "sha256": "2cd926262f8a77ea87d944ac168e4590596d209da4af6df51bccf54ef9218196",
+      "bytes": 8412,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -278,8 +278,8 @@
     },
     {
       "path": "混合异常场景/09-连续两日中断后删除卡片.md",
-      "sha256": "f95a431291e2f5078fe3ce7196f8ef6dd9740c954c52f8f51cf2fea51cfc4a2d",
-      "bytes": 7223,
+      "sha256": "400b3d67edf17009896e8de4c6aea7acdedb43438005eebc537e87fdcb06a93e",
+      "bytes": 7694,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
