@@ -24,6 +24,18 @@
           3
         ],
         "1日复习": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "3日复习": [
           4,
           4,
           4,
@@ -35,46 +47,34 @@
           4,
           4
         ],
-        "3日复习": [
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6,
-          6
-        ],
         "7日复习": [
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
         ],
         "15日复习": [
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
-          17,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
           17,
           17
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 30.990913,
-        "maximum": 32.173556
+        "minimum": 31.543752,
+        "maximum": 32.307857
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -128,10 +128,10 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "deterministicDigest": "c79596924bac38f31dbd9158811dd1e7587b99d1aa65f42e92fc634aa038149b"
+      "deterministicDigest": "5d3dfe047834da86ec9bd238647fe327f779d9b726a7081001c43e2f06c7ea75"
     },
     {
       "passed": true,
@@ -139,15 +139,15 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/10-只在教材尾部新增10张卡片.md",
       "lockedThroughDay": 2,
       "effectiveFromDay": 3,
-      "finalDay": 22,
+      "finalDay": 23,
       "addedCurrentRanges": "598-607",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
         "新学": [
           21,
-          21,
-          21,
-          21,
+          22,
+          22,
+          22,
           22,
           22,
           22,
@@ -156,43 +156,7 @@
           22
         ],
         "1日复习": [
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "3日复习": [
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          7
-        ],
-        "7日复习": [
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          11,
-          12
-        ],
-        "15日复习": [
-          19,
+          18,
           19,
           19,
           19,
@@ -202,17 +166,53 @@
           19,
           19,
           19
+        ],
+        "3日复习": [
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
+        "7日复习": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          9,
+          9,
+          9
+        ],
+        "15日复习": [
+          16,
+          16,
+          16,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 27.738503,
-        "maximum": 33.573307
+        "minimum": 21.723087,
+        "maximum": 31.938209
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 20,
+      "lowCellDiagnostics": 7,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -260,10 +260,10 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "deterministicDigest": "f2453e360e45fe7e30e0826ba2749126daa63e6aa7b48d2fa0d8c79be0591069"
+      "deterministicDigest": "bc700bf5be2adb70e930d509942046f1b5b03b4bbe53fb1a2be4a686d96c3522"
     },
     {
       "passed": true,
@@ -271,74 +271,74 @@
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/11-当天学习开始后新增10张卡片.md",
       "lockedThroughDay": 3,
       "effectiveFromDay": 4,
-      "finalDay": 23,
+      "finalDay": 24,
       "addedCurrentRanges": "301-310",
       "addedOccurrences": 50,
       "occurrenceDaysByColumn": {
         "新学": [
-          10,
-          10,
           11,
           11,
           11,
           11,
           11,
           11,
-          11,
-          11
-        ],
-        "1日复习": [
-          5,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5,
-          5
-        ],
-        "3日复习": [
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8,
-          8
-        ],
-        "7日复习": [
-          11,
-          11,
-          12,
-          12,
-          12,
-          12,
           12,
           12,
           12,
           12
         ],
+        "1日复习": [
+          9,
+          9,
+          9,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "3日复习": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          16,
+          16,
+          16
+        ],
+        "7日复习": [
+          19,
+          19,
+          19,
+          19,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
         "15日复习": [
-          21,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21,
-          21
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 27.297564,
-        "maximum": 33.491327
+        "minimum": 23.268934,
+        "maximum": 30.095981
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
@@ -395,7 +395,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "8f2f1b6ce03a50efa6b3830fe14e7fca33f23e3771ef2d723fafd5851c7b225c"
+      "deterministicDigest": "cd7e1352f3396d1d2b15cabce2bbdad22e79ce6217daa4a3e383934f14794112"
     }
   ]
 }
