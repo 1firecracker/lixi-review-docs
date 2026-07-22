@@ -1,0 +1,145 @@
+{
+  "passedCount": 14,
+  "results": [
+    {
+      "number": 1,
+      "title": "提高每日复习时长",
+      "group": "固定每日时长",
+      "filename": "01-提高每日复习时长.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 274.52691700000014
+    },
+    {
+      "number": 2,
+      "title": "降低每日复习时长",
+      "group": "固定每日时长",
+      "filename": "02-降低每日复习时长.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 41.29237499999999
+    },
+    {
+      "number": 3,
+      "title": "降低复习效率",
+      "group": "固定每日时长",
+      "filename": "03-降低复习效率.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 1755.1931659999998
+    },
+    {
+      "number": 4,
+      "title": "时长效率同时变化但容量不变",
+      "group": "固定每日时长",
+      "filename": "04-时长效率同时变化但容量不变.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 6.370625000000018
+    },
+    {
+      "number": 5,
+      "title": "当天开始后修改每日参数",
+      "group": "固定每日时长",
+      "filename": "05-当天开始后修改每日参数.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 57573.599
+    },
+    {
+      "number": 6,
+      "title": "延长固定结束日期",
+      "group": "固定总复习天数",
+      "filename": "06-延长固定结束日期.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 898.3703339999993
+    },
+    {
+      "number": 7,
+      "title": "缩短结束日期但仍可完成",
+      "group": "固定总复习天数",
+      "filename": "07-缩短结束日期但仍可完成.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 539.2205410000024
+    },
+    {
+      "number": 8,
+      "title": "缩短到五轮五天临界值",
+      "group": "固定总复习天数",
+      "filename": "08-缩短到五轮五天临界值.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 54.364041000000725
+    },
+    {
+      "number": 9,
+      "title": "缩短后只剩四天导致无解",
+      "group": "固定总复习天数",
+      "filename": "09-缩短后只剩四天导致无解.md",
+      "passed": true,
+      "status": "infeasible",
+      "failures": [],
+      "elapsedMs": 1.8742920000004233
+    },
+    {
+      "number": 10,
+      "title": "固定天数下只修改效率",
+      "group": "固定总复习天数",
+      "filename": "10-固定天数下只修改效率.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 3.8312910000022384
+    },
+    {
+      "number": 11,
+      "title": "中断后降低每日时长",
+      "group": "混合异常",
+      "filename": "11-中断后降低每日时长.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 55291.207292
+    },
+    {
+      "number": 12,
+      "title": "新增卡片后缩短固定结束日期",
+      "group": "混合异常",
+      "filename": "12-新增卡片后缩短固定结束日期.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 698.3309169999993
+    },
+    {
+      "number": 13,
+      "title": "合并约十页大卡后降低效率",
+      "group": "混合异常",
+      "filename": "13-合并约十页大卡后降低效率.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 15936.834249999985
+    },
+    {
+      "number": 14,
+      "title": "连续两次修改并重复提交",
+      "group": "混合异常",
+      "filename": "14-连续两次修改并重复提交.md",
+      "passed": true,
+      "status": "scheduled",
+      "failures": [],
+      "elapsedMs": 41.074791999999434
+    }
+  ]
+}

@@ -1,8 +1,120 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-69ae6bd05ab9257d7f9baf66cb6cc000fda9d6b565412a6293881eb30e375c56",
-  "generatedAt": "2026-07-22T09:05:43.877Z",
+  "revision": "snapshot-ac9f05e9722d7254cba422aac147f8e86d87b6950c1bd41db3dbe1df9d74e601",
+  "generatedAt": "2026-07-22T11:59:58.987Z",
   "files": [
+    {
+      "path": "参数变更场景/全部参数变更场景验收结果.json",
+      "sha256": "fa333e5e34199037560102c060e6a22249f22ccefabfbe39fbc2d428ab76dd28",
+      "bytes": 4044,
+      "mediaType": "application/json; charset=utf-8",
+      "kind": "asset"
+    },
+    {
+      "path": "参数变更场景/全部参数变更场景验收结果.md",
+      "sha256": "33352ee33090bedb30e1cb1ce9c96bdff03995261292a1554c281b71871d1879",
+      "bytes": 2179,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定总复习天数/06-延长固定结束日期.md",
+      "sha256": "1b80664f9e64ab8e96e4890c01f34eb4a69f91cc588f5f9dd45cdb9526875891",
+      "bytes": 6275,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定总复习天数/07-缩短结束日期但仍可完成.md",
+      "sha256": "7b2cb46596cb050e45bc296b7bd721ab7231a54b60af631ddc17cf87408cdfb3",
+      "bytes": 5183,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定总复习天数/08-缩短到五轮五天临界值.md",
+      "sha256": "3ae1e0c028b0f12880ebdd7a70697a18ece43f0d0b70807b2ab5089e6abb06ba",
+      "bytes": 3732,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定总复习天数/09-缩短后只剩四天导致无解.md",
+      "sha256": "adf4b4daa9a5987f81bfe332c7c4afec186a113bff61f15f907800445b5059c8",
+      "bytes": 4240,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定总复习天数/10-固定天数下只修改效率.md",
+      "sha256": "d3c90a489b1c0146d27ffaf51282598880afdf431c51f02b2ffaf74a611aada5",
+      "bytes": 5417,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定每日时长/01-提高每日复习时长.md",
+      "sha256": "12680177a5cb9fb7ad545a74bfc6e3346c5d6c87352a36d49e84cb7fb9b92dc7",
+      "bytes": 5243,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定每日时长/02-降低每日复习时长.md",
+      "sha256": "045302d4763fceb66d07c91c11705651ba1fc95d801b15f35df5417e5f45c1b4",
+      "bytes": 6875,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定每日时长/03-降低复习效率.md",
+      "sha256": "499aecf5c16611f5fd8296843fa65927a7b4a8d604f297aa8ec2dad5ffb9f5a0",
+      "bytes": 8026,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定每日时长/04-时长效率同时变化但容量不变.md",
+      "sha256": "6813e413e9f38e46fea1afb3df660d2b65fa01186d868e70c2072418da7257ff",
+      "bytes": 5462,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/固定每日时长/05-当天开始后修改每日参数.md",
+      "sha256": "f533ae09d394353babdc35cab732c4ec271a771f28bec0e665bdbd6c901d036c",
+      "bytes": 7354,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/混合异常/11-中断后降低每日时长.md",
+      "sha256": "2cc18ac546a1e6e8501bd6d401b63e4e6e108da1b04a4aaeb564574788b862a9",
+      "bytes": 7337,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/混合异常/12-新增卡片后缩短固定结束日期.md",
+      "sha256": "e216df05dc4a0514ebe57bfc445f8329c8c5518e4adae780d9f613ec94100173",
+      "bytes": 5225,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/混合异常/13-合并约十页大卡后降低效率.md",
+      "sha256": "a62850247f25bebccb0a426cf0bc4d14eb164f99bfe8bdc38d1677ffe2e45fc0",
+      "bytes": 9022,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "参数变更场景/混合异常/14-连续两次修改并重复提交.md",
+      "sha256": "0c1f59b4d0c00b5392f628fbbfecf1418af2d44ae3ed3a4fb5202826a3ae204d",
+      "bytes": 5230,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
     {
       "path": "固定总复习天数/全部场景统一验收结果.json",
       "sha256": "4d3c8c5983d65af2e3e0ac732eab8ca53cdc969a751dd2d679cddd73b83d9c2e",
