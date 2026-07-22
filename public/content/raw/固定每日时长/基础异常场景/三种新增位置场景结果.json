@@ -4,7 +4,7 @@
     {
       "passed": true,
       "title": "只在教材头部新增 10 张卡片",
-      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/09-只在教材头部新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/固定每日时长/基础异常场景/09-只在教材头部新增10张卡片.md",
       "lockedThroughDay": 2,
       "effectiveFromDay": 3,
       "finalDay": 22,
@@ -136,7 +136,7 @@
     {
       "passed": true,
       "title": "只在教材尾部新增 10 张卡片",
-      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/10-只在教材尾部新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/固定每日时长/基础异常场景/10-只在教材尾部新增10张卡片.md",
       "lockedThroughDay": 2,
       "effectiveFromDay": 3,
       "finalDay": 23,
@@ -268,7 +268,7 @@
     {
       "passed": true,
       "title": "当天学习开始后新增 10 张卡片",
-      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/基础异常场景/11-当天学习开始后新增10张卡片.md",
+      "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/固定每日时长/基础异常场景/11-当天学习开始后新增10张卡片.md",
       "lockedThroughDay": 3,
       "effectiveFromDay": 4,
       "finalDay": 24,
