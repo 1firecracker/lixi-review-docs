@@ -9,7 +9,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 274.52691700000014
+      "elapsedMs": 278.3104579999999
     },
     {
       "number": 2,
@@ -19,7 +19,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 41.29237499999999
+      "elapsedMs": 42.13458400000013
     },
     {
       "number": 3,
@@ -29,7 +29,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 1755.1931659999998
+      "elapsedMs": 1772.725375
     },
     {
       "number": 4,
@@ -39,7 +39,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 6.370625000000018
+      "elapsedMs": 6.207124999999905
     },
     {
       "number": 5,
@@ -49,7 +49,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 57573.599
+      "elapsedMs": 57733.440041
     },
     {
       "number": 6,
@@ -59,7 +59,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 898.3703339999993
+      "elapsedMs": 865.5868330000012
     },
     {
       "number": 7,
@@ -69,7 +69,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 539.2205410000024
+      "elapsedMs": 535.3647500000006
     },
     {
       "number": 8,
@@ -79,7 +79,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 54.364041000000725
+      "elapsedMs": 56.063666999994894
     },
     {
       "number": 9,
@@ -89,7 +89,7 @@
       "passed": true,
       "status": "infeasible",
       "failures": [],
-      "elapsedMs": 1.8742920000004233
+      "elapsedMs": 1.8897090000027674
     },
     {
       "number": 10,
@@ -99,7 +99,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 3.8312910000022384
+      "elapsedMs": 4.348791000003985
     },
     {
       "number": 11,
@@ -109,7 +109,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 55291.207292
+      "elapsedMs": 55418.412459
     },
     {
       "number": 12,
@@ -119,7 +119,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 698.3309169999993
+      "elapsedMs": 580.3523330000025
     },
     {
       "number": 13,
@@ -129,7 +129,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 15936.834249999985
+      "elapsedMs": 16194.858042000007
     },
     {
       "number": 14,
@@ -139,7 +139,7 @@
       "passed": true,
       "status": "scheduled",
       "failures": [],
-      "elapsedMs": 41.074791999999434
+      "elapsedMs": 40.46395800000755
     }
   ]
 }
