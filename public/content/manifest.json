@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-c291b8a7e80773173ec93f36a75d89ad1443a14d761708cd731722aa1ffcaa4d",
-  "generatedAt": "2026-07-28T16:04:03.599Z",
+  "revision": "snapshot-e372d295a5a8026096be9236c30cfdace20aa370817f47962af14bd5286e4674",
+  "generatedAt": "2026-07-28T16:14:14.651Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -502,8 +502,8 @@
     },
     {
       "path": "固定每日时长/基础异常场景/14-跨任务包合并4张卡片.md",
-      "sha256": "253a08658d9844db1d048c6343529ec496ee8eac47ca532b21361b926634fd2c",
-      "bytes": 7336,
+      "sha256": "b7cbb5458650ffd4646f19bba54fc6ca967e066ac102874ac635fd15d70ec9a2",
+      "bytes": 7733,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -635,8 +635,8 @@
     },
     {
       "path": "固定每日时长/基础异常场景/合并场景结果.json",
-      "sha256": "e5f6a280d419af282c8faff8b8aa606e603da9f358e5663d69ef1a222b2a17af",
-      "bytes": 26459,
+      "sha256": "d87c08316b84d3f8623da9289b4effa145176e6bf4e04a3ead8dc6e9bf04a35a",
+      "bytes": 121837,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
