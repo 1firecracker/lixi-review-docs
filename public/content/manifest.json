@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-06c862c44bfba3854d09c09d9e4537b0c0c6848294faa620c939b9afc734988b",
-  "generatedAt": "2026-07-28T15:53:44.853Z",
+  "revision": "snapshot-c291b8a7e80773173ec93f36a75d89ad1443a14d761708cd731722aa1ffcaa4d",
+  "generatedAt": "2026-07-28T16:04:03.599Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -551,22 +551,22 @@
     },
     {
       "path": "固定每日时长/基础异常场景/21-原计划倒数第3天新增10张卡片.md",
-      "sha256": "4a95e348d592c75c6658cd8d6a220069c77f9f2c6295e8c61dc5e59c53165de6",
-      "bytes": 5889,
+      "sha256": "2330e3e04384056cfb2c8401b86e76041ae8b367120dc1d69962538b56d70861",
+      "bytes": 6243,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定每日时长/基础异常场景/22-原计划倒数第5天新增10张卡片.md",
-      "sha256": "194bec21dde9b7c6cd0a84be2fcf634dda9307d3065c07899f87ada4dc77f981",
+      "sha256": "a86edd9067c187b4dd9f08b178935f50f806f0fa1e658106f108e831814c3479",
       "bytes": 5865,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定每日时长/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
-      "sha256": "261bbe02a0595195b0fcef0d9e5e66b6e0f97d6b842082df15bb927e27e730a0",
-      "bytes": 6010,
+      "sha256": "61221605c3b6f8357684677339e34df91784ea88bacc57162c0255d58c48bffd",
+      "bytes": 8055,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -635,8 +635,8 @@
     },
     {
       "path": "固定每日时长/基础异常场景/合并场景结果.json",
-      "sha256": "7af17f66ecbf32ef9583f8fede366b3aa824e78a9e3d1db15fef1f0b0abea557",
-      "bytes": 500623,
+      "sha256": "e5f6a280d419af282c8faff8b8aa606e603da9f358e5663d69ef1a222b2a17af",
+      "bytes": 26459,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
@@ -649,8 +649,8 @@
     },
     {
       "path": "固定每日时长/基础异常场景/晚新增时点场景结果.json",
-      "sha256": "385e69079899e9e1bf92d621502c1fe60e32cb768deb9e575886cd37e67e0fce",
-      "bytes": 10928,
+      "sha256": "fac5501b566d99778e392b505d1545cbc8307aa6963c9d8d3d5cb31227cf28df",
+      "bytes": 11169,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
