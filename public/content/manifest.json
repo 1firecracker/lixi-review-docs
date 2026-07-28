@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-b2dca3dae89c53c6c2f1011cb31607e0e13546bac97dbd98408d09b71a900375",
-  "generatedAt": "2026-07-22T12:10:08.967Z",
+  "revision": "snapshot-06c862c44bfba3854d09c09d9e4537b0c0c6848294faa620c939b9afc734988b",
+  "generatedAt": "2026-07-28T15:53:44.853Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -572,7 +572,7 @@
     },
     {
       "path": "固定每日时长/基础异常场景/三种新增位置场景结果.json",
-      "sha256": "408337da5812f356da89d90ce43da2c127749844ca851ed03e704f3f03f54611",
+      "sha256": "1f79f6473cc5ca87fc2bfa22244c543350d8d4eb38c29d09a7c9ce0f692e3ff2",
       "bytes": 9000,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
