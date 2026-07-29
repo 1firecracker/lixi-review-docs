@@ -10,7 +10,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 1044.5132910000002,
+      "elapsedMs": 1281.550625,
       "deterministic": true,
       "failures": [],
       "digest": "bb8bb2198aa65ed30feb6bdbde0800c76130f4528db668245043641ad5b86dac"
@@ -23,7 +23,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 657.4305420000001,
+      "elapsedMs": 838.4989999999998,
       "deterministic": true,
       "failures": [],
       "digest": "d2545586f10a23f2cec9afe4c57a7d1133ac87facb16146afb836ccfb68ccc38"
@@ -36,7 +36,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 587.8007500000003,
+      "elapsedMs": 657.661959,
       "deterministic": true,
       "failures": [],
       "digest": "3e9f07913865f7af04dd86cf5a253055f2e24b8f8df4e113c5bebdcaa56513bb"
@@ -49,7 +49,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 568.8453749999999,
+      "elapsedMs": 630.7423330000001,
       "deterministic": true,
       "failures": [],
       "digest": "45dd13b22567e2ee6c07018f8d6e8a060fb91504a9f6472fb56bef910ad12d03"
@@ -62,7 +62,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 585.2697499999995,
+      "elapsedMs": 632.0062079999998,
       "deterministic": true,
       "failures": [],
       "digest": "3e9f07913865f7af04dd86cf5a253055f2e24b8f8df4e113c5bebdcaa56513bb"
@@ -75,7 +75,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 3176.6153749999994,
+      "elapsedMs": 3542.1286659999987,
       "deterministic": true,
       "failures": [],
       "digest": "14be8490ef18b93dbc05a913decfcae871b3aa7b354aa907fd44da0e41aee47d"
@@ -88,7 +88,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 622.6569170000002,
+      "elapsedMs": 643.5339999999997,
       "deterministic": true,
       "failures": [],
       "digest": "0f3ec20759a459132a6390e32a6df614a39cec687fb83060771c8f978e71e07b"
@@ -101,7 +101,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 650.8094999999994,
+      "elapsedMs": 669.2572089999994,
       "deterministic": true,
       "failures": [],
       "digest": "4792892be0bc11c74e33648e433a5b9bb78ef6914ea6fadea7a91c88c8b4b068"
@@ -114,7 +114,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 622.4437079999989,
+      "elapsedMs": 651.9397080000017,
       "deterministic": true,
       "failures": [],
       "digest": "fefab187184f58bd89904f66540b85a02e15588cc34aeb28c3a7342e804cbfd6"
@@ -127,7 +127,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 616.9358749999992,
+      "elapsedMs": 656.2008749999986,
       "deterministic": true,
       "failures": [],
       "digest": "271b137b31f29573b949c1581196ed61cebabaa6845f50b72e202c77c88ddca1"
@@ -140,7 +140,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 558.8245829999978,
+      "elapsedMs": 587.6258750000015,
       "deterministic": true,
       "failures": [],
       "digest": "4441335ecd06520d05e1d96c221f5d1ff606ba2efba3573be74f333e263c559d"
@@ -153,7 +153,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 619.6659589999981,
+      "elapsedMs": 672.7903750000005,
       "deterministic": true,
       "failures": [],
       "digest": "a44e82ec724c7acecf4964be369d9191d37d4972b03d9af2016e5be51beb3d4f"
@@ -166,7 +166,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 620.7298330000012,
+      "elapsedMs": 665.3469169999989,
       "deterministic": true,
       "failures": [],
       "digest": "fe9796d88590c4aab8c7d3b5ebe19e38c5e6aaf1ab19f2efab08972a2c2ceae4"
@@ -179,7 +179,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 637.1297080000004,
+      "elapsedMs": 677.6631659999985,
       "deterministic": true,
       "failures": [],
       "digest": "392d44b172c000afc5c0e30e6f08eff79402068a559d088f56c205c6914cfe67"
@@ -192,7 +192,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 538.7247079999979,
+      "elapsedMs": 593.1674170000006,
       "deterministic": true,
       "failures": [],
       "digest": "30cb15d744c9e0d9c344dfcfffbeccd2bbf19767b28ea11ef8717b2674d6288c"
@@ -205,7 +205,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 593.6317090000011,
+      "elapsedMs": 624.5491659999971,
       "deterministic": true,
       "failures": [],
       "digest": "837c5e078985077da11140cceb2f52221a086aab9ce9e666e4ad254186735d76"
@@ -218,7 +218,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 600.9104580000021,
+      "elapsedMs": 644.0190000000002,
       "deterministic": true,
       "failures": [],
       "digest": "3aee445e89da527d5a11e2347fc8547a66b2b1e7b35b35c046bf50a481253cf6"
@@ -231,7 +231,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 577.6678329999995,
+      "elapsedMs": 622.0329579999998,
       "deterministic": true,
       "failures": [],
       "digest": "ab961da3dbd66231b469cf1f0c12843f58be0669d829d409326161962c8e0edc"
@@ -244,7 +244,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 503.1522909999985,
+      "elapsedMs": 597.4305830000012,
       "deterministic": true,
       "failures": [],
       "digest": "44b3d26b6c54ebfb6a1b57a947b6d6e00c2aa70e36146fc9375aa0c8765021cd"
@@ -257,7 +257,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.14149999999790452,
+      "elapsedMs": 0.2333330000001297,
       "deterministic": true,
       "failures": [],
       "digest": "641670f0ea97f31a2770a6837ebcfdb46ba43fb433e68cebef06df597acd1182"
@@ -270,7 +270,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.7625420000003942,
+      "elapsedMs": 0.46441699999923003,
       "deterministic": true,
       "failures": [],
       "digest": "ebaa00a0cd85fb1e54e6704279e7efcd84bed5db3f4e47a3711a2f6eb160a476"
@@ -283,7 +283,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 18.566749999998137,
+      "elapsedMs": 19.00733300000138,
       "deterministic": true,
       "failures": [],
       "digest": "7b71b323909f6e5d881a61a4c670053daa00c5fedbf19b66bc22176bf770a4ea"
@@ -296,7 +296,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 129.64854200000264,
+      "elapsedMs": 140.24495799999931,
       "deterministic": true,
       "failures": [],
       "digest": "9f99ca4264655687f9da95c6236b9711eb749098d40c7cd55621b0a93590ffd7"
@@ -309,7 +309,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.44725000000107684,
+      "elapsedMs": 0.5394999999989523,
       "deterministic": true,
       "failures": [],
       "digest": "128672969e583880e592b5c5580a7613c525574c19fcae5094d9d4a04a1007ae"
@@ -322,7 +322,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 692.604292,
+      "elapsedMs": 729.7716670000009,
       "deterministic": true,
       "failures": [],
       "digest": "55a690eeadc49193b3001f790fee8e1a4bd20dd51c1bab92f0ce99d2b0fe9efe"
@@ -335,7 +335,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 655.5022499999977,
+      "elapsedMs": 731.5674169999984,
       "deterministic": true,
       "failures": [],
       "digest": "7a6a224886fdad250d22744bdd73a8e7bd8c4bc61d8318d31cca8e11ffdae821"
@@ -348,7 +348,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 660.1469999999972,
+      "elapsedMs": 755.6318329999995,
       "deterministic": true,
       "failures": [],
       "digest": "5ed65da65ee540afdb4b0474cfd49ddfb8a080509aa3dff7dae6cfc13f7a3794"
@@ -361,7 +361,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 642.5852080000041,
+      "elapsedMs": 773.0214579999956,
       "deterministic": true,
       "failures": [],
       "digest": "ec0033024a7ba3ddcbc8d8cf3c40934716c6d176bc1f29347a81b6b2c07ed904"
@@ -374,7 +374,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 634.3267919999998,
+      "elapsedMs": 709.9381670000002,
       "deterministic": true,
       "failures": [],
       "digest": "57cac076356d33ec8831ad6fa7ce5745293f1ab0bcb23da511fe0d37ed81b1ec"
@@ -387,7 +387,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 647.5620829999971,
+      "elapsedMs": 720.5039170000018,
       "deterministic": true,
       "failures": [],
       "digest": "230bfb04fbcefdce6bac890fdf044a9f9c61cf2a8a5029b9a2f3971db0673fcf"
@@ -400,7 +400,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 630.3149169999961,
+      "elapsedMs": 730.6495409999989,
       "deterministic": true,
       "failures": [],
       "digest": "5094cd31963c10d29ab9bb1d0352dc8f6fb7d8bfd2bf09066b56d77566143cee"
@@ -413,7 +413,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 602.2464580000014,
+      "elapsedMs": 705.0492499999964,
       "deterministic": true,
       "failures": [],
       "digest": "49271247047f16ec68de15b2f954aad46b9ecdbfd75242ffa89fc912ca306fa2"
@@ -426,7 +426,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 601.4016250000059,
+      "elapsedMs": 688.9353340000016,
       "deterministic": true,
       "failures": [],
       "digest": "54baaf0fcff2233e57949184fbc47b461f55e692ff9ccd932fcb717af07ebe0a"
@@ -439,7 +439,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 555.3951659999948,
+      "elapsedMs": 648.4662919999973,
       "deterministic": true,
       "failures": [],
       "digest": "112ad768bea363151f10de484718250360f53aabd779e8376d5d0d5a421ab76f"
@@ -452,7 +452,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 648.9490839999999,
+      "elapsedMs": 760.5747919999994,
       "deterministic": true,
       "failures": [],
       "digest": "4a92a4385a1466de97527c01b81496b1dc598245f747fdb89d4f755bedec0c8c"
@@ -465,7 +465,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 678.4093750000029,
+      "elapsedMs": 793.1925829999964,
       "deterministic": true,
       "failures": [],
       "digest": "7d3f009b340ca6d8181df5da267e10ececc356d6a5bce715b042016f585f872c"
@@ -478,7 +478,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 753.1307089999973,
+      "elapsedMs": 1234.3529159999962,
       "deterministic": true,
       "failures": [],
       "digest": "99b955c06bacb7047a489cb1b6450cabc348ab3ee22b9cd1691e7952f3796252"
@@ -491,7 +491,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 771.083292000003,
+      "elapsedMs": 1004.9567080000052,
       "deterministic": true,
       "failures": [],
       "digest": "29a93220ce4e72edce236a22f9237d19dffbb50b234f5cd2d91dcbb7bf1a01c6"
