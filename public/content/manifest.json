@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-452e858412ca7dff71593b5f451109ea2211918810f7b9f264470c022dca6bfe",
-  "generatedAt": "2026-07-29T15:39:00.780Z",
+  "revision": "snapshot-9d6388bbe7de246299f065c636d44a777c630e2f5b329d9a5059f9279f79928c",
+  "generatedAt": "2026-07-29T15:59:13.374Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -117,15 +117,15 @@
     },
     {
       "path": "固定总复习天数/全部场景统一验收结果.json",
-      "sha256": "912cb55ec8ecee440a3866dbaafdfd054f81b831821defe20f03c883455f3a69",
-      "bytes": 27221,
+      "sha256": "e14f766a92b2ac87e318c295480339173048a1bd7ace291b834d69c510d3a8bc",
+      "bytes": 27204,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
     {
       "path": "固定总复习天数/全部场景统一验收结果.md",
-      "sha256": "ce032d177e1fef03f4fa15363ff55318871da23e62f32b23d4c5e9de91213adb",
-      "bytes": 6340,
+      "sha256": "c9493165b9f03794d2c83d0937824b5eb310fd0cc793a5969e3702e7d037979c",
+      "bytes": 6317,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -138,133 +138,133 @@
     },
     {
       "path": "固定总复习天数/基础异常场景/01-无异常基准计划.md",
-      "sha256": "d9c86d8c5a7381b5b42b299ef774cb0a494ef45e3110cbef3c93a794f11ae96e",
+      "sha256": "2cac0ed1d41e78d791ff2cb39b8e8a49157324957b09013a4117363e981e7408",
       "bytes": 5773,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/02-第二天中途停止并顺延.md",
-      "sha256": "3fd153327dcfd921ce16612a4359092c391a681285d7194337f4ffacde0aa6e2",
+      "sha256": "6e74e2553a3b588ae46283d1588b5f1675b5eed61537befa9057d30fd5eaa5bb",
       "bytes": 5690,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/03-只编辑卡片内容.md",
-      "sha256": "5ff558297904a9375b85c22915856732fa5af5055b9dd6b43747120a272a95d1",
+      "sha256": "a137aeb5d104ab9e509d2f63e36c98d4ed2957a9f26cd113c294ecb63177c90c",
       "bytes": 5702,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/04-有效页数大幅调高.md",
-      "sha256": "f89a074bcd1fd8f1f5e4a8a46c0fd4946a7fc1359ee765b8c3306fa7dbc5fbfb",
+      "sha256": "5de208169b127861be16d6ef92f0f1db8d719c3c2454f6b13ccd34315c6bb87c",
       "bytes": 5713,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/05-中途新增一张卡片.md",
-      "sha256": "11d44030f36622d70aa056582c83b141404816984090e736f2da11de1fb16bbf",
+      "sha256": "6b0367f90b8672e5cae6bdb9478e1aca1ded0a4ecab7f5cfc721aca7c2d9ae32",
       "bytes": 5801,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/06-教材多处新增100张卡片.md",
-      "sha256": "12545a64f32296daa1dbe81b89ec5022750d070f80dc3ce23f29159392696d57",
-      "bytes": 6481,
+      "sha256": "4f5b86a812f758add844c05ccb4c689022fd3d0bd07730d37333bdbb47da8559",
+      "bytes": 6275,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/07-删除从未新学的卡片.md",
-      "sha256": "8617d16b7cce9b5177ddf7c03dbf351a9baa7e07e0c90d68935641f16010db39",
+      "sha256": "c69fa8dba22536718b5ad21058caac7524786c27362de01e2e73e527d23d1835",
       "bytes": 5847,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/08-删除已经学习过的卡片.md",
-      "sha256": "9334e236ca2458536f63d013fcccd2f38059dec56d37eddaae0dab15ee19a462",
+      "sha256": "e80c6b1a7e52bc4ee71c319d9ef1d2f94c744edeab1a550392ed4643d0ef3c88",
       "bytes": 5953,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/09-只在教材头部新增10张卡片.md",
-      "sha256": "f8fc746b202bc80bcd5005bf651a85d7c6b2907b77affabc504638f1ea3400dc",
+      "sha256": "e49e4d782c2d2b0de33943be47d8dd295fb8af5d230c956a9d70e1e0302c7d45",
       "bytes": 5924,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/10-只在教材尾部新增10张卡片.md",
-      "sha256": "6478dc010967440055cd687f1bd09c8f7260f1b404c5c6d9abd575cafb995ddf",
+      "sha256": "b620f6f43766e15fec2af1ca1f3eb87d12b9bd748bb614560627c3f93939c699",
       "bytes": 5727,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/11-当天学习开始后新增10张卡片.md",
-      "sha256": "09ff7ce789b29a98c9dde7623289d60a4256cdd1f56fc87fee87588c97cda175",
+      "sha256": "17fe5ff6bdcd4dd3d56e7b9a1552ffe184d74bb8e6fc96d93be8c54ca8d2ca87",
       "bytes": 5957,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/12-合并从未学习的连续5张卡片.md",
-      "sha256": "443adddb5c12f4f400a77f1347dc0957a09ca23dba278bd7ec07cab3b567ccf8",
+      "sha256": "a4afc9059474c8a8927a0d9f4646a450ebe709db64a3e5348d29645652ae7254",
       "bytes": 5920,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/13-合并已有历史的连续3张卡片.md",
-      "sha256": "becc951e803f43f05275feb9f9736ef39df66308d63f457c656d4f790ac62dbf",
+      "sha256": "691dbd9fdfc5bd302aade081840fa8bb6e16aa7837f2f49c662998935a4de395",
       "bytes": 6009,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/14-跨任务包合并4张卡片.md",
-      "sha256": "e1accc1f05df84f1d6135f18614af0eeee43410e136172eb94ea55b85ab6d14e",
+      "sha256": "ac97c48386494861f559f440cc69e06c322ac27834aad43d500d211d74a1f61f",
       "bytes": 6051,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/15-当天中断后合并5张卡片.md",
-      "sha256": "66cc0bcbf291944d009505f2c428c1299f408d41b8b2961911f2f5f180772a1c",
+      "sha256": "c3d38f44dbca706ec81cc05b2c0f4b38293be8d3bc48361035636bc2f46de2cc",
       "bytes": 6096,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/16-合并未学卡形成约10页父卡.md",
-      "sha256": "2ba2448e4fe58bec47180a297ae4cdfdd65b27d449a98f7626d11bb002855f8b",
+      "sha256": "3f8425747f88febf256598d28bf7e555b7103c792569e5483f31a6eb2d67ff68",
       "bytes": 5916,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/17-合并已有历史形成约10页父卡.md",
-      "sha256": "f178304c6ecc18aed0c5ef3719a39b9b008e50cf90f459d2815f3dc081aeb808",
+      "sha256": "a539aa6597d7c9c5aa99e196cc6094a9c6a9cc9fcdeaffd1517cfb2d2df2634a",
       "bytes": 5980,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/18-跨任务包形成约10页父卡.md",
-      "sha256": "789ea2bac86996e15c19e9c2b7e8534d8de3018e4895002d7918e22fe50f8e5c",
+      "sha256": "b7a3fae2ab158fd529c08103daaea731bd7bab6bc2b0cd331d978572c6621c21",
       "bytes": 5871,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/19-当天中断后形成约10页父卡.md",
-      "sha256": "baf1c4a80eb8a9e6d4956642be59abacf00e115a4eee3eb07557cd989c0e429a",
+      "sha256": "4bc2e3fcccc12bf2cdd203c38c60178ae96bf8f575b156329e1e121379c20553",
       "bytes": 5943,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
@@ -285,14 +285,14 @@
     },
     {
       "path": "固定总复习天数/基础异常场景/22-原计划倒数第5天新增10张卡片.md",
-      "sha256": "cbe44a19c35c07444c9b2d7ebc927c920eb2c8483a10b6e1ef1a86f3ef0ee391",
+      "sha256": "f2e401a44a0641e77ea705ce09867100fdcd8a2f6699902d48a8d960038192ce",
       "bytes": 5856,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
-      "sha256": "32e9ffe5b126665544bb2f46951d109dfddcc420dec31a0362a1028208d948fe",
+      "sha256": "9cc3e7aa53b0e993cc586ec30e15ab5674da7a02fda4e8266e38ddf932cab5f2",
       "bytes": 5849,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
@@ -306,98 +306,98 @@
     },
     {
       "path": "固定总复习天数/混合异常场景/01-第二天中断后在教材中部新增3张.md",
-      "sha256": "8a32d541b3bff10e52ab542d79e4615eb3b5616df490ff93fef2e14c89e5d202",
+      "sha256": "48693420833ee5219dc932a4b696b8dc10984e3fbe7e5a563e1cb52d8e00cd45",
       "bytes": 5746,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/02-第二天中断后删除未学习卡片.md",
-      "sha256": "2f93b5be7c2de48feec5452408e54755e0aa414a08a7c32e31f7dddcbe1f5f2b",
+      "sha256": "e80438b3d034bd64de7e25ec3f63c29390a4ee6016840d01d95d8c35ee073171",
       "bytes": 5779,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/03-顺延后同时增大有效页数.md",
-      "sha256": "26a253e07acfedf6d607722338b9874e90723e47ccda0d39f756e19f79fada0c",
+      "sha256": "924b1a13874d0413181dba5891b8aaf0a0b9a612dc6f5d4a417e08bb24257c57",
       "bytes": 5696,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/04-头部新增后删除其中一张新卡.md",
-      "sha256": "fdc7f9f934eddad3726a234309e61af09dcf120ebdf3fa37a365cd54d57479a3",
+      "sha256": "245b5ea060aa0e418498fbeb962aa66087f94487cf8166cfcc4c0767771694c7",
       "bytes": 6027,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/05-尾部新增后修改新卡页数.md",
-      "sha256": "a8fba796aeb6c2e71f2b2c010946ccc7b0cbe8c895c1818b4387c0698bf91c5f",
+      "sha256": "f7ec5c96be1713fd49cb2bb79174c914d466604e0205c822a2b542249a35fb36",
       "bytes": 5828,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/06-删除已学习卡片并在原位置补卡.md",
-      "sha256": "050673087c1986166d99052a1ae15541c19aa857c8d4a9f3a01e15fd6579e990",
+      "sha256": "f68de7924c19c59af9d7fe42c401e6471b370b17dd48c3f4762574c375867ae0",
       "bytes": 5921,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/07-删除未学卡片后在附近新增5张.md",
-      "sha256": "dacd3be7d61cb6b675dc43d6e54e36d2988a90637ef495223ac448b009a966d7",
+      "sha256": "44d52090dce19b02bc3ef1d4187c193ec94cf4bf8a5d0fa35632f70cfe6024e9",
       "bytes": 5910,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/08-连续两日中断后新增卡片.md",
-      "sha256": "723ba1b15a8d384e91156b75e4fae6d00937b0f3e788b57dbe3f31f3abcc5512",
+      "sha256": "a44d2c7fa2374e8350300ab809a46665d3b215323769f7fb99695c5cc393106b",
       "bytes": 5705,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/09-连续两日中断后删除卡片.md",
-      "sha256": "6dba6b2419c3ce2557a0027dc263fc3df6b1863c4b57020370e324307aae7eeb",
+      "sha256": "3c42d1870a1aa43e8f95133042a0a31bdaa3a476f1444e205ccae59179d94ecd",
       "bytes": 5724,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/10-当天中断后新增并编辑旧卡.md",
-      "sha256": "b6166111a1e4d4bb3bdcb9ea76625e88017d0efd38dba5325fe46e96799c1538",
+      "sha256": "e6418b20bf9aacaea5bc9adefcddbf6670a6276046e3193d533c67f9747c8996",
       "bytes": 6032,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/11-同日头中尾三处新增.md",
-      "sha256": "3d6f6ea4208731d1da4b7ab2a5a3e49ff090c3cd823be409c4fa200c5c71c349",
+      "sha256": "2ca82d520384feb060d32d384aebc2bf2db1dda2f5b43dc09af8b2940f244c48",
       "bytes": 6030,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/12-同日头中尾分散删除.md",
-      "sha256": "dc211fea05a3eddf9f29f5e37d579c67b0f7ccd0bbbb069c31a80f2590ba2bfa",
+      "sha256": "bb523aa952aeadbb48b95486b68f4b5e2f1b442016f07d0a5609b8ea998138ec",
       "bytes": 6123,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/13-同日新增删除及页数编辑.md",
-      "sha256": "556a4c308e6be4709399871e8264f5acfd8601f764c76248076b041bc6e4327e",
+      "sha256": "1351c76960b680ffa47ad7f756b745daab80fae859d2f1260652b48b1d31a84f",
       "bytes": 5946,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/14-重复事件重放夹杂真实编辑.md",
-      "sha256": "f355f240a633b1cdb09d9db573bfa383bd057017abd2498ef819638808c72006",
+      "sha256": "8a779defa59dcc16a298bce5c049b592d11180101f178d1196894213600bae7f",
       "bytes": 6106,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
