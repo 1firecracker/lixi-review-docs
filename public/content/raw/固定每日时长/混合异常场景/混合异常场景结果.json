@@ -8,7 +8,66 @@
       "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 8,
+      "lowCellDiagnostics": 7,
+      "maximumSegmentCount": 2,
+      "unexplainedDays": 0,
+      "unscheduled": 0,
+      "historyPreserved": true,
+      "replayStable": true,
+      "acceptanceChecks": [
+        {
+          "name": "状态结构与账本约束",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "所有有效 occurrence 已排入计划",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单日容量合格",
+          "hard": true,
+          "passed": true,
+          "status": "exempt"
+        },
+        {
+          "name": "锁定历史保持不变",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "相同事件或相同输入重放稳定",
+          "hard": true,
+          "passed": true,
+          "status": "satisfied"
+        },
+        {
+          "name": "单格负载偏差（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "exempt"
+        },
+        {
+          "name": "单格卡号连续性（仅诊断）",
+          "hard": false,
+          "passed": true,
+          "status": "exempt"
+        }
+      ],
+      "digest": "e5284158ca5532fd07b7da090d4326fa7b171427edcf456633f027a7c79df52e"
+    },
+    {
+      "number": 2,
+      "title": "第二天中断后删除未学习卡片",
+      "filename": "02-第二天中断后删除未学习卡片.md",
+      "passed": true,
+      "finalDay": 22,
+      "violations": 0,
+      "lowCellDiagnostics": 0,
       "maximumSegmentCount": 1,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -49,7 +108,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -58,66 +117,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "0d38a930cb2041d16f0b1842d85fc21d24c787e2e6465e7aeea6865e8404c0e8"
-    },
-    {
-      "number": 2,
-      "title": "第二天中断后删除未学习卡片",
-      "filename": "02-第二天中断后删除未学习卡片.md",
-      "passed": true,
-      "finalDay": 21,
-      "violations": 0,
-      "lowCellDiagnostics": 0,
-      "maximumSegmentCount": 7,
-      "unexplainedDays": 0,
-      "unscheduled": 0,
-      "historyPreserved": true,
-      "replayStable": true,
-      "acceptanceChecks": [
-        {
-          "name": "状态结构与账本约束",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "所有有效 occurrence 已排入计划",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单日容量合格",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "锁定历史保持不变",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "相同事件或相同输入重放稳定",
-          "hard": true,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单格负载偏差（仅诊断）",
-          "hard": false,
-          "passed": true,
-          "status": "satisfied"
-        },
-        {
-          "name": "单格卡号连续性（仅诊断）",
-          "hard": false,
-          "passed": true,
-          "status": "exempt"
-        }
-      ],
-      "digest": "be31a4a83af64f65ce00e7fa8ced7333b70d895d888140762b90d5f105f64b55"
+      "digest": "a352da2dc742ed2a4bde085bc2a5803bc4499aae2693ad7a64f80e8feef85e39"
     },
     {
       "number": 3,
@@ -176,7 +176,7 @@
           "status": "satisfied"
         }
       ],
-      "digest": "a830c45b26d7847323e0f5ea73caa2ba48cbbe5c607223891bd4196038750d6c"
+      "digest": "a091f665e594ab4a6fe3e61d666df3a7e549c526f7b4d20d1ee22a58c9ee0c9f"
     },
     {
       "number": 4,
@@ -235,7 +235,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "5c4b8ab9e379de8a64354791c39a95e2a3c7e0a6a10b3f0b7f8f8befc0de9748"
+      "digest": "4a705e49edafdf7a08fb8e74f3db36e8e3d1509e2b553a5d3807dd2586cd5b80"
     },
     {
       "number": 5,
@@ -244,7 +244,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -285,7 +285,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -294,7 +294,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "c2d7e5fe370dc654318e175f26f55d20432361b28af903c26f465ab642e6c92b"
+      "digest": "d28fda4fd78e53f6fcfd0de88ffa75906bb62e296cf16af472ecf639ee4c916b"
     },
     {
       "number": 6,
@@ -353,7 +353,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "b43e33ec76ef73e60978d88094ef096221c6b6acc6ccfa9243916e3c2e67df2a"
+      "digest": "cdf25315a59f998fdfcc030835ae77c06c8df13da62f02e90cc8535a1cbc9558"
     },
     {
       "number": 7,
@@ -412,7 +412,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "529c9061658de3def026412e48c52f53a5aa749523258ee36d6df174e04f0fb9"
+      "digest": "faf8866d4fedc8f325ad813a545e73081b85ba5dc633bb08ee58b0dfcbe3a019"
     },
     {
       "number": 8,
@@ -421,7 +421,7 @@
       "passed": true,
       "finalDay": 23,
       "violations": 0,
-      "lowCellDiagnostics": 7,
+      "lowCellDiagnostics": 3,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -471,7 +471,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "c28d84c5930b36003426749194a0b2dafe2043c5896445482e0b75e74504da73"
+      "digest": "5407e6b241f5c64ea7272870c3da262d07b9500b132d1f352ed5f765e36a9c8c"
     },
     {
       "number": 9,
@@ -527,10 +527,10 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         }
       ],
-      "digest": "65aaa3907f1a4be9756fbcfc89e36f7e2b18959917f0277b7add6fe695a89dd4"
+      "digest": "948d0748d1e234daf5246bee0aaa4e263f60aaf5c68d3f083de818f3f6cd22db"
     },
     {
       "number": 10,
@@ -539,7 +539,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 2,
+      "lowCellDiagnostics": 1,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -589,7 +589,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "a503c126d27f2f0eded09228f3c3f1216086623235fc05ce975beead865e8570"
+      "digest": "e6d1ed6b800612821c4087434a0726788815dd69ae1efaaf9fe1480c3e11aa81"
     },
     {
       "number": 11,
@@ -598,7 +598,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "maximumSegmentCount": 3,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -639,7 +639,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -648,7 +648,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "f6e5255b857c3155e6874c539d6491504fe17730ca2455129ccdaa115afb2f35"
+      "digest": "f62abf3181f495d4b17c12fb17cd5e383b048b528b3ddc02107c6525af1a97d8"
     },
     {
       "number": 12,
@@ -716,7 +716,7 @@
       "passed": true,
       "finalDay": 22,
       "violations": 0,
-      "lowCellDiagnostics": 1,
+      "lowCellDiagnostics": 0,
       "maximumSegmentCount": 2,
       "unexplainedDays": 0,
       "unscheduled": 0,
@@ -757,7 +757,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -766,7 +766,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "4048bb5e46a84e0a3a868e0c23a11c13b0743482eb2c3270eb4a8935408a9a8e"
+      "digest": "4e78436344860abf120c8454a02f37d0114176e7647a8cb155316af09623a23c"
     },
     {
       "number": 14,
@@ -825,7 +825,7 @@
           "status": "exempt"
         }
       ],
-      "digest": "5ff72668ab9f0ad24acba11f7abaca6a56d637f8aa37ff04d501d6fc3e46e847"
+      "digest": "0e404f23f81802ec1c0d576a18fb8b7f0fc6adf4070e53c71df4b8511d19a716"
     }
   ]
 }

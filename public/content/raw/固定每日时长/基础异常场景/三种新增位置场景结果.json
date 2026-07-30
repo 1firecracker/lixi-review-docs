@@ -24,18 +24,6 @@
           3
         ],
         "1日复习": [
-          21,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "3日复习": [
           4,
           4,
           4,
@@ -47,40 +35,52 @@
           4,
           4
         ],
+        "3日复习": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "7日复习": [
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          8,
-          8,
-          8,
-          8
+          9,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
         ],
         "15日复习": [
-          15,
-          15,
-          15,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
+          17,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 30.666367,
-        "maximum": 32.424526
+        "minimum": 29.152648,
+        "maximum": 32.662058
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 4,
+      "lowCellDiagnostics": 0,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -122,7 +122,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -131,7 +131,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "8295705a2f6cef6b8c633acd1bf16906f9b711d5f15904e0e6c9734c6c399b1a"
+      "deterministicDigest": "5935193a9e24d6e805a3ba24281ead8385fe36ec105ea3718243d878213d503d"
     },
     {
       "passed": true,
@@ -156,18 +156,6 @@
           3
         ],
         "1日复习": [
-          21,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22,
-          22
-        ],
-        "3日复习": [
           4,
           4,
           4,
@@ -179,40 +167,52 @@
           4,
           4
         ],
+        "3日复习": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
         "7日复习": [
-          7,
-          7,
-          7,
-          7,
-          7,
-          7,
-          8,
-          8,
-          8,
-          8
+          9,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
         ],
         "15日复习": [
-          15,
-          15,
-          15,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16,
-          16
+          17,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 30.666367,
-        "maximum": 32.424526
+        "minimum": 29.152648,
+        "maximum": 32.662058
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 4,
+      "lowCellDiagnostics": 0,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -254,7 +254,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -263,7 +263,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "2f4dd9588087a45cb91adc25571d4628b087d920e9be83670abc7b5fda10e942"
+      "deterministicDigest": "af2612895c0967a119233f9b564d6f36ff016d83078e4b502fd7d1aa5b1f9a8d"
     },
     {
       "passed": true,
@@ -288,42 +288,6 @@
           4
         ],
         "1日复习": [
-          12,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12,
-          12
-        ],
-        "3日复习": [
-          14,
-          14,
-          14,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15,
-          15
-        ],
-        "7日复习": [
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18,
-          18
-        ],
-        "15日复习": [
           5,
           5,
           5,
@@ -334,17 +298,53 @@
           5,
           5,
           5
+        ],
+        "3日复习": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "7日复习": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "15日复习": [
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
         ]
       },
       "plannedDailyLoadRange": {
-        "minimum": 16.232238,
-        "maximum": 32.247375
+        "minimum": 10.168794,
+        "maximum": 32.316273
       },
       "plannedOutOfBandDays": [],
       "hardInvariantFailures": 0,
       "lockedHistoryPreserved": true,
       "replayStable": true,
-      "lowCellDiagnostics": 11,
+      "lowCellDiagnostics": 0,
       "acceptanceChecks": [
         {
           "name": "状态结构与账本约束",
@@ -386,7 +386,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -395,7 +395,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "92c9733c1072ef735f835843b513bf45291d78c98d1407900c07ae49c887328b"
+      "deterministicDigest": "abc292cebd4c0bb7ca729e3c58edb84512cea99a8b68e626c378d81189341681"
     }
   ]
 }

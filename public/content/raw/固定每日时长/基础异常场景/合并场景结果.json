@@ -408,7 +408,7 @@
       ],
       "cellDiagnostics": [],
       "finalDay": 22,
-      "digest": "4ba130c567199a1200f8d7848aa1e526fccc0408edd63cd1c752ac60a4b58d0b"
+      "digest": "03f0ab7cb19339a8e5267136673a7e41ab0ae4ddc5dc1b5da2851347bd221af3"
     },
     {
       "number": 16,
@@ -4420,7 +4420,7 @@
       "parentRequiresWholeDay": false,
       "parentOverflowDaysAreSingleton": false,
       "violations": 0,
-      "lowCellDiagnostics": 7,
+      "lowCellDiagnostics": 17,
       "unexplainedDays": 0,
       "unscheduled": 0,
       "historyPreserved": true,
@@ -4490,86 +4490,19 @@
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         }
       ],
       "cellDiagnostics": [
         {
           "dayNumber": 3,
-          "columnIndex": 1,
-          "assignmentId": "future-assignment:1d4b7d3517993b8b",
-          "pageCount": 2.476245,
+          "columnIndex": 0,
+          "assignmentId": "future-assignment:fbc73832aa609305",
+          "pageCount": 5.106993999999999,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.38691328124999996,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "cell_capacity_block",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r1",
-          "blockingSequentialIndexes": [
-            "1"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": null,
-          "projectedPages": null,
-          "maximumWithoutOverflow": null,
-          "repairAudit": {
-            "dayNumber": 3,
-            "columnIndex": 1,
-            "repairable": false,
-            "checkedFromDay": 3,
-            "checkedThroughDay": 4,
-            "examinedBlockCount": 1,
-            "legalBlockCount": 0,
-            "sourceDay": null,
-            "movedOccurrenceIds": [],
-            "movedSequentialIndexes": [],
-            "projectedPages": null,
-            "blockingConstraintIds": [
-              "优化-单格均衡"
-            ],
-            "blockerCodes": [
-              "cell_capacity"
-            ],
-            "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r1"
-            ],
-            "blockingSequentialIndexes": [
-              "1"
-            ],
-            "conflictingColumnIndex": null,
-            "searches": [
-              {
-                "sourceDay": 4,
-                "sourceSide": "next_day_head",
-                "examinedBlockCount": 1
-              }
-            ],
-            "blockingBlocks": [
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 4,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "dayNumber": 4,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:3563d73c6cee354a",
-          "pageCount": 2.8672340000000003,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.44800531250000003,
+          "loadRatio": 0.7979678124999998,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -4584,12 +4517,238 @@
           "projectedPages": 10.280204,
           "maximumWithoutOverflow": null,
           "repairAudit": {
+            "dayNumber": 3,
+            "columnIndex": 0,
+            "repairable": false,
+            "checkedFromDay": 3,
+            "checkedThroughDay": 4,
+            "examinedBlockCount": 5,
+            "legalBlockCount": 1,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "日量-02",
+              "优化-单格均衡"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "daily_capacity",
+              "cell_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:bf89cce9-bd36-4955-aa98-875615ca83d8:r0",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:8e541653-6cb3-44af-88c6-f127caf11f53:r0",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:07d7f533-dc5d-40e2-9a96-977ae881eabd:r0"
+            ],
+            "blockingSequentialIndexes": [
+              "16",
+              "17",
+              "18"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 5
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "14",
+                  "15",
+                  "16"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "14",
+                  "15",
+                  "16",
+                  "17"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 3,
+          "columnIndex": 2,
+          "assignmentId": "future-assignment:214d7670d72c92b0",
+          "pageCount": 4.635079,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.7242310937499999,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "oversized_card_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r1",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 1,
+          "projectedPages": 10.280204,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 3,
+            "columnIndex": 2,
+            "repairable": false,
+            "checkedFromDay": 3,
+            "checkedThroughDay": 4,
+            "examinedBlockCount": 11,
+            "legalBlockCount": 1,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "日量-02"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "daily_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2276869c-85c5-4bb4-8add-f538c9d061a1:r2",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r2"
+            ],
+            "blockingSequentialIndexes": [
+              "556",
+              "557"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 11
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "547",
+                  "548",
+                  "549",
+                  "550",
+                  "551",
+                  "552",
+                  "553",
+                  "554",
+                  "555",
+                  "556"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 4,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "547",
+                  "548",
+                  "549",
+                  "550",
+                  "551",
+                  "552",
+                  "553",
+                  "554",
+                  "555",
+                  "556",
+                  "557"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 4,
+          "columnIndex": 1,
+          "assignmentId": "future-assignment:b94086d490c7d03e",
+          "pageCount": 7.060873,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.10326140625,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "daily_total_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b1f41e53-c426-4c42-81f5-b04d3fc85b88:r1",
+          "blockingSequentialIndexes": [
+            "12"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": 30.087015,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 4,
+          "columnIndex": 2,
+          "assignmentId": "future-assignment:d75bcf67a4cbb3d1",
+          "pageCount": 1.766797,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.27606203124999995,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "cell_capacity_block",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:f40e5bcb-9f7c-4c2f-87e1-54ebbee2afd5:r2",
+          "blockingSequentialIndexes": [
+            "546",
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": null,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
             "dayNumber": 4,
             "columnIndex": 2,
             "repairable": false,
             "checkedFromDay": 3,
             "checkedThroughDay": 5,
-            "examinedBlockCount": 36,
+            "examinedBlockCount": 28,
             "legalBlockCount": 0,
             "sourceDay": null,
             "movedOccurrenceIds": [],
@@ -4597,33 +4756,31 @@
             "projectedPages": null,
             "blockingConstraintIds": [
               "日量-02",
-              "优化-单格均衡",
-              "相邻连续块页数不足"
+              "优化-单格均衡"
             ],
             "blockerCodes": [
               "daily_capacity",
-              "cell_capacity",
-              "insufficient_contiguous_pages"
+              "cell_capacity"
             ],
             "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b9a10ae1-5137-4029-a58c-bcfdde34447a:r2"
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:f40e5bcb-9f7c-4c2f-87e1-54ebbee2afd5:r2",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r2"
             ],
             "blockingSequentialIndexes": [
-              "557",
-              "5"
+              "546",
+              "1"
             ],
             "conflictingColumnIndex": null,
             "searches": [
               {
                 "sourceDay": 3,
                 "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 32
+                "examinedBlockCount": 27
               },
               {
                 "sourceDay": 5,
                 "sourceSide": "next_day_head",
-                "examinedBlockCount": 4
+                "examinedBlockCount": 1
               }
             ],
             "blockingBlocks": [
@@ -4633,461 +4790,11 @@
                 "sourceDay": 3,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "531",
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "530",
-                  "531",
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "529",
-                  "530",
-                  "531",
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "528",
-                  "529",
-                  "530",
-                  "531",
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "527",
-                  "528",
-                  "529",
-                  "530",
-                  "531",
-                  "532",
-                  "533",
-                  "534",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 3,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
+                  "521",
+                  "522",
+                  "523",
+                  "524",
+                  "525",
                   "526",
                   "527",
                   "528",
@@ -5108,1197 +4815,113 @@
                   "543",
                   "544",
                   "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "insufficient_contiguous_pages",
-                "constraintId": "相邻连续块页数不足",
-                "sourceDay": 5,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "2",
-                  "3",
-                  "4",
-                  "5"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "dayNumber": 5,
-          "columnIndex": 2,
-          "assignmentId": "future-assignment:a4325613ce5a7c46",
-          "pageCount": 2.476245,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.38691328124999996,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "oversized_card_compensation",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r3",
-          "blockingSequentialIndexes": [
-            "1"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": 3,
-          "projectedPages": 10.280204,
-          "maximumWithoutOverflow": null,
-          "repairAudit": {
-            "dayNumber": 5,
-            "columnIndex": 2,
-            "repairable": false,
-            "checkedFromDay": 4,
-            "checkedThroughDay": 6,
-            "examinedBlockCount": 43,
-            "legalBlockCount": 0,
-            "sourceDay": null,
-            "movedOccurrenceIds": [],
-            "movedSequentialIndexes": [],
-            "projectedPages": null,
-            "blockingConstraintIds": [
-              "排程-03",
-              "日量-02",
-              "优化-单格均衡"
-            ],
-            "blockerCodes": [
-              "same_day_conflict",
-              "daily_capacity",
-              "cell_capacity"
-            ],
-            "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:4bda842d-fe7a-4fc7-a2a4-be14e4c15a30:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:5dec73ca-3158-4de2-b796-6ff0aec118c0:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:3b9cc3f0-61ba-4a1b-92a0-abad81e7d923:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c50350ce-b4c1-47ea-8635-471f12997c68:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:8a916108-0b7f-4305-8991-2965b2dfab79:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:cf30a219-5e23-4d32-8e6c-7319cd5b2e20:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:20bd56f3-f676-4d34-8ea4-463d30b8698a:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:d3fe6c6d-03e9-4753-acf2-73c18ee3345c:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a8442a35-e312-4377-bfa4-9b2a9281d749:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a0a2a274-182d-414b-aa30-d01fcf72b52a:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:08fb1b19-dccb-4292-9737-cd6cddff3785:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:d69a6db0-f832-4596-b4f4-1c954275d77f:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:23f6bd82-a4f9-43af-b2df-95ff601c3d1e:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ab7a1667-f1c3-4206-bce3-33429a0d962c:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:39311893-db46-44ca-b909-e713edaee8da:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ddf1c4ef-9c12-43a0-bfdc-d4428ea17ca9:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2039693b-aca6-4fe3-b047-ad43dc7ff6dd:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1c0ce0ef-49aa-402e-a697-c781b416a628:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:5a23d869-85fc-4a02-8284-773897487c71:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b7ada725-08b3-4ff8-8c23-e5589a1eea1d:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:e9d0bd75-3837-4c7d-8b8b-d9322e44159f:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2ae3a211-fe00-40a9-af15-93edc8374eda:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:88862922-aaea-4bb8-a8ab-73eb2623779f:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:e521c0e0-8c6e-49a0-8976-f7ec5ba99b6f:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c1da2e12-05b6-47d1-afb1-f02ecd8e65d1:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b7889a5f-5d15-4257-86a7-f717145efac9:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:8d284bb2-e739-44bc-add4-747695f7c223:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:999c202c-833a-41a7-9c62-46b0fec5a191:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:9e21c205-7324-42b3-a1ed-5eddc02355ad:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:eae40a38-f616-4007-bcd6-81949bff9638:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:3f7e0b0f-d628-4ced-b00f-ebd9bfea3214:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:9d35b51b-1aae-458e-9ec8-ad9f31fe6336:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:49e8233a-f400-4e64-9d0e-ae7d78870b87:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:52ad38f8-1738-459d-928b-e70e3f70207b:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:127f1b7d-a849-4689-bbfb-a95c3009dbc9:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a8b7fbd5-e23f-47af-8c49-a5d3336d3c58:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:453fe00b-39c4-42c3-87ff-721242af3d34:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:557c175d-69d1-47c1-bfe4-b13c2b9dd48b:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ea94bb98-6f69-4067-a27f-f4470e46784d:r2",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b1f41e53-c426-4c42-81f5-b04d3fc85b88:r2"
-            ],
-            "blockingSequentialIndexes": [
-              "86",
-              "85",
-              "84",
-              "83",
-              "82",
-              "81",
-              "80",
-              "79",
-              "78",
-              "77",
-              "76",
-              "75",
-              "74",
-              "73",
-              "72",
-              "71",
-              "70",
-              "69",
-              "68",
-              "67",
-              "66",
-              "65",
-              "64",
-              "63",
-              "62",
-              "61",
-              "60",
-              "59",
-              "58",
-              "57",
-              "56",
-              "55",
-              "54",
-              "53",
-              "52",
-              "51",
-              "9",
-              "10",
-              "11",
-              "12"
-            ],
-            "conflictingColumnIndex": 0,
-            "searches": [
-              {
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 36
-              },
-              {
-                "sourceDay": 6,
-                "sourceSide": "next_day_head",
-                "examinedBlockCount": 7
-              }
-            ],
-            "blockingBlocks": [
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "55",
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "54",
-                  "55",
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "53",
-                  "54",
-                  "55",
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "52",
-                  "53",
-                  "54",
-                  "55",
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
-                ]
-              },
-              {
-                "code": "same_day_conflict",
-                "constraintId": "排程-03",
-                "sourceDay": 4,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "51",
-                  "52",
-                  "53",
-                  "54",
-                  "55",
-                  "56",
-                  "57",
-                  "58",
-                  "59",
-                  "60",
-                  "61",
-                  "62",
-                  "63",
-                  "64",
-                  "65",
-                  "66",
-                  "67",
-                  "68",
-                  "69",
-                  "70",
-                  "71",
-                  "72",
-                  "73",
-                  "74",
-                  "75",
-                  "76",
-                  "77",
-                  "78",
-                  "79",
-                  "80",
-                  "81",
-                  "82",
-                  "83",
-                  "84",
-                  "85",
-                  "86"
+                  "546"
                 ]
               },
               {
                 "code": "daily_capacity",
                 "constraintId": "日量-02",
-                "sourceDay": 6,
-                "sourceSide": "next_day_head",
+                "sourceDay": 3,
+                "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 6,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 6,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10",
-                  "11"
+                  "520",
+                  "521",
+                  "522",
+                  "523",
+                  "524",
+                  "525",
+                  "526",
+                  "527",
+                  "528",
+                  "529",
+                  "530",
+                  "531",
+                  "532",
+                  "533",
+                  "534",
+                  "535",
+                  "536",
+                  "537",
+                  "538",
+                  "539",
+                  "540",
+                  "541",
+                  "542",
+                  "543",
+                  "544",
+                  "545",
+                  "546"
                 ]
               },
               {
                 "code": "cell_capacity",
                 "constraintId": "优化-单格均衡",
-                "sourceDay": 6,
+                "sourceDay": 5,
                 "sourceSide": "next_day_head",
                 "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10",
-                  "11",
-                  "12"
+                  "1"
                 ]
               }
             ]
           }
         },
         {
-          "dayNumber": 8,
+          "dayNumber": 4,
           "columnIndex": 3,
-          "assignmentId": "future-assignment:0b915a6d64bb8a27",
-          "pageCount": 4.875767,
+          "assignmentId": "future-assignment:8d8e3050cc665e85",
+          "pageCount": 7.090303000000001,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.76183859375,
+          "loadRatio": 1.1078598437500002,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "daily_total_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r3",
+          "blockingSequentialIndexes": [
+            "449"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": 30.170047,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 4,
+          "columnIndex": 4,
+          "assignmentId": "future-assignment:d4d084084ccfe81d",
+          "pageCount": 7.566421,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.18225328125,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "daily_total_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:027185d5-815d-4617-93a8-6bfdf28682ab:r4",
+          "blockingSequentialIndexes": [
+            "262"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": 29.865246,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 5,
+          "columnIndex": 3,
+          "assignmentId": "future-assignment:48b52311227e5fa8",
+          "pageCount": 5.017658,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.7840090624999999,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -6313,41 +4936,506 @@
           "projectedPages": 10.280204,
           "maximumWithoutOverflow": null,
           "repairAudit": {
-            "dayNumber": 8,
+            "dayNumber": 5,
             "columnIndex": 3,
             "repairable": false,
-            "checkedFromDay": 7,
-            "checkedThroughDay": 9,
-            "examinedBlockCount": 17,
-            "legalBlockCount": 0,
+            "checkedFromDay": 4,
+            "checkedThroughDay": 6,
+            "examinedBlockCount": 13,
+            "legalBlockCount": 8,
             "sourceDay": null,
             "movedOccurrenceIds": [],
             "movedSequentialIndexes": [],
             "projectedPages": null,
             "blockingConstraintIds": [
+              "优化-每日总量",
               "日量-02",
               "优化-单格均衡"
             ],
             "blockerCodes": [
+              "daily_priority",
               "daily_capacity",
               "cell_capacity"
             ],
             "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c652e1f4-6e87-4e08-8777-961e5bb2d418:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b9a10ae1-5137-4029-a58c-bcfdde34447a:r3"
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:123d837d-7b78-41e9-9ad7-801c3f4264c0:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1e9ec47e-5858-467c-95eb-a4e7379bad09:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:5479d9c6-889e-4806-b4ed-ed6e2f55c289:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1372ee6d-6e43-4158-8bfe-58896e3367a3:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:77ccc85a-389f-4b4a-acf1-5efa4f60ab5d:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c36c2031-f787-4a1f-8160-6693df80716b:r3"
             ],
             "blockingSequentialIndexes": [
-              "557",
-              "4",
-              "5"
+              "449",
+              "476",
+              "477",
+              "478",
+              "479",
+              "480",
+              "481"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "examinedBlockCount": 7
+              },
+              {
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 6
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "447",
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "446",
+                  "447",
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "445",
+                  "446",
+                  "447",
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "444",
+                  "445",
+                  "446",
+                  "447",
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 4,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "443",
+                  "444",
+                  "445",
+                  "446",
+                  "447",
+                  "448",
+                  "449"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476",
+                  "477"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476",
+                  "477",
+                  "478"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476",
+                  "477",
+                  "478",
+                  "479"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476",
+                  "477",
+                  "478",
+                  "479",
+                  "480"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 6,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "476",
+                  "477",
+                  "478",
+                  "479",
+                  "480",
+                  "481"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 8,
+          "columnIndex": 1,
+          "assignmentId": "future-assignment:74f8a9d5fc801571",
+          "pageCount": 5.0544410000000015,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.7897564062500002,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "oversized_card_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r3",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 3,
+          "projectedPages": 10.280204,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 8,
+            "columnIndex": 1,
+            "repairable": false,
+            "checkedFromDay": 7,
+            "checkedThroughDay": 9,
+            "examinedBlockCount": 13,
+            "legalBlockCount": 9,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "优化-单格均衡"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "cell_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:9cfd05f6-8fae-4d52-8e8e-2abe94d288fa:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:9128b7ab-f375-49e9-9e27-a8872d17cb83:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:33f6fca2-993c-4994-80d9-f68ca4ad401e:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ad6b1d9e-0d76-4935-a2a5-822a39bab71a:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c77bf832-11b4-4803-a067-0404b5884e09:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:02b9608e-3fc8-442e-af5f-1525ec203d15:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2aadb5fb-82b9-42a0-8559-5615d58d422c:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ff02e68b-aba3-4076-ad42-3ea73ef2770c:r1"
+            ],
+            "blockingSequentialIndexes": [
+              "96",
+              "150",
+              "151",
+              "152",
+              "153",
+              "154",
+              "155",
+              "156"
             ],
             "conflictingColumnIndex": null,
             "searches": [
               {
                 "sourceDay": 7,
                 "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 13
+                "examinedBlockCount": 5
+              },
+              {
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 8
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 7,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "95",
+                  "96"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 7,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "94",
+                  "95",
+                  "96"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 7,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "93",
+                  "94",
+                  "95",
+                  "96"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 7,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151",
+                  "152"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151",
+                  "152",
+                  "153"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151",
+                  "152",
+                  "153",
+                  "154"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151",
+                  "152",
+                  "153",
+                  "154",
+                  "155"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "149",
+                  "150",
+                  "151",
+                  "152",
+                  "153",
+                  "154",
+                  "155",
+                  "156"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 8,
+          "columnIndex": 3,
+          "assignmentId": "future-assignment:0702b7c41e7f5338",
+          "pageCount": 11.268181,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.76065328125,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "indivisible_boundary_choice",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r3",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 3,
+          "projectedPages": 0.9879770000000008,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 8,
+          "columnIndex": 4,
+          "assignmentId": "future-assignment:0614c0d1acd95a37",
+          "pageCount": 5.159544,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.80617875,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "oversized_card_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r3",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 3,
+          "projectedPages": 10.280204,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 8,
+            "columnIndex": 4,
+            "repairable": false,
+            "checkedFromDay": 7,
+            "checkedThroughDay": 9,
+            "examinedBlockCount": 8,
+            "legalBlockCount": 4,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "优化-单格均衡"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "cell_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:80526f13-66d2-41f4-84b9-45de1085b63b:r4",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:6fcb5682-2d51-4d33-8671-a2787b38dbec:r4",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a1c9e9b8-4ba4-41da-a708-568db268abe7:r4",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c3c6cc27-bbe6-44e1-a11c-d422e25a01f7:r4"
+            ],
+            "blockingSequentialIndexes": [
+              "329",
+              "352",
+              "353",
+              "354"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 7,
+                "sourceSide": "previous_day_tail",
+                "examinedBlockCount": 4
               },
               {
                 "sourceDay": 9,
@@ -6357,147 +5445,24 @@
             ],
             "blockingBlocks": [
               {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
                 "sourceDay": 7,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "328",
+                  "329"
                 ]
               },
               {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
                 "sourceDay": 7,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 7,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "327",
+                  "328",
+                  "329"
                 ]
               },
               {
@@ -6506,30 +5471,31 @@
                 "sourceDay": 7,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "326",
+                  "327",
+                  "328",
+                  "329"
                 ]
               },
               {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
                 "sourceDay": 9,
                 "sourceSide": "next_day_head",
                 "movedSequentialIndexes": [
-                  "2",
-                  "3",
-                  "4"
+                  "351",
+                  "352"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 9,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "351",
+                  "352",
+                  "353"
                 ]
               },
               {
@@ -6538,24 +5504,24 @@
                 "sourceDay": 9,
                 "sourceSide": "next_day_head",
                 "movedSequentialIndexes": [
-                  "2",
-                  "3",
-                  "4",
-                  "5"
+                  "351",
+                  "352",
+                  "353",
+                  "354"
                 ]
               }
             ]
           }
         },
         {
-          "dayNumber": 9,
-          "columnIndex": 3,
-          "assignmentId": "future-assignment:39cdaaaf5ac4d75b",
-          "pageCount": 2.476245,
+          "dayNumber": 16,
+          "columnIndex": 1,
+          "assignmentId": "future-assignment:b623b47e69dcfcb0",
+          "pageCount": 5.4811630000000005,
           "targetPages": 6.4,
           "minimumPages": 5.76,
           "maximumPages": 7.04,
-          "loadRatio": 0.38691328124999996,
+          "loadRatio": 0.85643171875,
           "loadDirection": "underfill",
           "justified": true,
           "reasonCode": "oversized_card_compensation",
@@ -6570,12 +5536,478 @@
           "projectedPages": 10.280204,
           "maximumWithoutOverflow": null,
           "repairAudit": {
-            "dayNumber": 9,
+            "dayNumber": 16,
+            "columnIndex": 1,
+            "repairable": false,
+            "checkedFromDay": 15,
+            "checkedThroughDay": 17,
+            "examinedBlockCount": 8,
+            "legalBlockCount": 4,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "优化-单格均衡"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "cell_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:8e2cbc88-dadb-454b-9f35-1d4a353f0d3e:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c3c6cc27-bbe6-44e1-a11c-d422e25a01f7:r1",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:7e1991ae-20c4-4ed2-8d9e-a960c0075ee6:r1"
+            ],
+            "blockingSequentialIndexes": [
+              "333",
+              "354",
+              "355"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "examinedBlockCount": 6
+              },
+              {
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 2
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "331",
+                  "332",
+                  "333"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "330",
+                  "331",
+                  "332",
+                  "333"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "328",
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "354"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "354",
+                  "355"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 16,
+          "columnIndex": 3,
+          "assignmentId": "future-assignment:c089f5a2efc3e347",
+          "pageCount": 4.681324,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.731456875,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "oversized_card_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r4",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 4,
+          "projectedPages": 10.280204,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 16,
             "columnIndex": 3,
             "repairable": false,
-            "checkedFromDay": 8,
-            "checkedThroughDay": 10,
-            "examinedBlockCount": 25,
+            "checkedFromDay": 15,
+            "checkedThroughDay": 17,
+            "examinedBlockCount": 20,
+            "legalBlockCount": 5,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "优化-每日总量",
+              "日量-02",
+              "优化-单格均衡"
+            ],
+            "blockerCodes": [
+              "daily_priority",
+              "daily_capacity",
+              "cell_capacity"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:65422ca9-1968-4164-8a11-eca176ad2d4c:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:d9506b01-64ba-403b-bfc6-c80f9bf35937:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:74be166d-399f-4852-b5b7-1def9998b318:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a3caa52f-919f-48e2-b336-98f8c76ffb1d:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1d591381-b55b-4134-bfe2-082f5dc67b83:r3"
+            ],
+            "blockingSequentialIndexes": [
+              "230",
+              "253",
+              "254",
+              "255",
+              "256"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "examinedBlockCount": 7
+              },
+              {
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 13
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "228",
+                  "229",
+                  "230"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "227",
+                  "228",
+                  "229",
+                  "230"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "226",
+                  "227",
+                  "228",
+                  "229",
+                  "230"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "225",
+                  "226",
+                  "227",
+                  "228",
+                  "229",
+                  "230"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 15,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "224",
+                  "225",
+                  "226",
+                  "227",
+                  "228",
+                  "229",
+                  "230"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "244",
+                  "245",
+                  "246",
+                  "247",
+                  "248",
+                  "249",
+                  "250",
+                  "251",
+                  "252",
+                  "253"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "244",
+                  "245",
+                  "246",
+                  "247",
+                  "248",
+                  "249",
+                  "250",
+                  "251",
+                  "252",
+                  "253",
+                  "254"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "244",
+                  "245",
+                  "246",
+                  "247",
+                  "248",
+                  "249",
+                  "250",
+                  "251",
+                  "252",
+                  "253",
+                  "254",
+                  "255"
+                ]
+              },
+              {
+                "code": "cell_capacity",
+                "constraintId": "优化-单格均衡",
+                "sourceDay": 17,
+                "sourceSide": "next_day_head",
+                "movedSequentialIndexes": [
+                  "244",
+                  "245",
+                  "246",
+                  "247",
+                  "248",
+                  "249",
+                  "250",
+                  "251",
+                  "252",
+                  "253",
+                  "254",
+                  "255",
+                  "256"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 16,
+          "columnIndex": 4,
+          "assignmentId": "future-assignment:0a5586b5d4f51e98",
+          "pageCount": 11.268181,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.76065328125,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "indivisible_boundary_choice",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:merge-parent-17:r4",
+          "blockingSequentialIndexes": [
+            "1"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": 4,
+          "projectedPages": 0.9879770000000008,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 21,
+          "columnIndex": 0,
+          "assignmentId": "future-assignment:d620a4fa127c7b42",
+          "pageCount": 9.609646999999997,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.5015073437499995,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "daily_total_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:cde63243-bde7-4f82-99a9-0740ba023af7:r0",
+          "blockingSequentialIndexes": [
+            "535",
+            "536",
+            "537",
+            "538",
+            "539",
+            "540",
+            "541",
+            "542",
+            "543",
+            "544",
+            "545",
+            "546",
+            "547",
+            "548",
+            "549",
+            "550",
+            "551",
+            "552",
+            "553",
+            "554",
+            "555"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": 28.522020999999995,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 21,
+          "columnIndex": 2,
+          "assignmentId": "future-assignment:1fe671ece0ff4586",
+          "pageCount": 9.839817000000002,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 1.5374714062500001,
+          "loadDirection": "overflow",
+          "justified": true,
+          "reasonCode": "daily_total_compensation",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:33755486-de75-4407-8cc7-82da24d19a10:r2",
+          "blockingSequentialIndexes": [
+            "426",
+            "427",
+            "428",
+            "429",
+            "430",
+            "431",
+            "432",
+            "433",
+            "434",
+            "435",
+            "436",
+            "437",
+            "438",
+            "439",
+            "440",
+            "441",
+            "442",
+            "443"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": 27.82728699999999,
+          "maximumWithoutOverflow": null,
+          "repairAudit": null
+        },
+        {
+          "dayNumber": 21,
+          "columnIndex": 3,
+          "assignmentId": "future-assignment:168dc34a1753ea8d",
+          "pageCount": 3.102662,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.48479093749999996,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "cell_capacity_block",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:598dcb7c-394b-4306-bd4c-5f37d637f1e1:r3",
+          "blockingSequentialIndexes": [
+            "337",
+            "353"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": null,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 21,
+            "columnIndex": 3,
+            "repairable": false,
+            "checkedFromDay": 20,
+            "checkedThroughDay": 22,
+            "examinedBlockCount": 18,
             "legalBlockCount": 0,
             "sourceDay": null,
             "movedOccurrenceIds": [],
@@ -6583,1035 +6015,415 @@
             "projectedPages": null,
             "blockingConstraintIds": [
               "日量-02",
-              "优化-单格均衡"
-            ],
-            "blockerCodes": [
-              "daily_capacity",
-              "cell_capacity"
-            ],
-            "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:123d837d-7b78-41e9-9ad7-801c3f4264c0:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:453fe00b-39c4-42c3-87ff-721242af3d34:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:557c175d-69d1-47c1-bfe4-b13c2b9dd48b:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ea94bb98-6f69-4067-a27f-f4470e46784d:r3",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b1f41e53-c426-4c42-81f5-b04d3fc85b88:r3"
-            ],
-            "blockingSequentialIndexes": [
-              "476",
-              "9",
-              "10",
-              "11",
-              "12"
-            ],
-            "conflictingColumnIndex": null,
-            "searches": [
-              {
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 18
-              },
-              {
-                "sourceDay": 10,
-                "sourceSide": "next_day_head",
-                "examinedBlockCount": 7
-              }
-            ],
-            "blockingBlocks": [
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "463",
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "462",
-                  "463",
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "461",
-                  "462",
-                  "463",
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "460",
-                  "461",
-                  "462",
-                  "463",
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 8,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "459",
-                  "460",
-                  "461",
-                  "462",
-                  "463",
-                  "464",
-                  "465",
-                  "466",
-                  "467",
-                  "468",
-                  "469",
-                  "470",
-                  "471",
-                  "472",
-                  "473",
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 10,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 10,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 10,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10",
-                  "11"
-                ]
-              },
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 10,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10",
-                  "11",
-                  "12"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "dayNumber": 13,
-          "columnIndex": 4,
-          "assignmentId": "future-assignment:6a5bdf9f7561df27",
-          "pageCount": 3.6481549999999996,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.5700242187499999,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "cell_capacity_block",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r4",
-          "blockingSequentialIndexes": [
-            "449",
-            "476",
-            "477",
-            "478",
-            "479",
-            "480",
-            "481"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": null,
-          "projectedPages": null,
-          "maximumWithoutOverflow": null,
-          "repairAudit": {
-            "dayNumber": 13,
-            "columnIndex": 4,
-            "repairable": false,
-            "checkedFromDay": 12,
-            "checkedThroughDay": 14,
-            "examinedBlockCount": 22,
-            "legalBlockCount": 8,
-            "sourceDay": null,
-            "movedOccurrenceIds": [],
-            "movedSequentialIndexes": [],
-            "projectedPages": null,
-            "blockingConstraintIds": [
               "优化-单格均衡",
-              "日量-02",
-              "优化-单格均衡"
+              "相邻连续块页数不足"
             ],
             "blockerCodes": [
-              "underfill_shift",
               "daily_capacity",
-              "cell_capacity"
+              "cell_capacity",
+              "insufficient_contiguous_pages"
             ],
             "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:608f2414-eac2-4001-832c-5a4e836943c0:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:123d837d-7b78-41e9-9ad7-801c3f4264c0:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1e9ec47e-5858-467c-95eb-a4e7379bad09:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:5479d9c6-889e-4806-b4ed-ed6e2f55c289:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1372ee6d-6e43-4158-8bfe-58896e3367a3:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:77ccc85a-389f-4b4a-acf1-5efa4f60ab5d:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c36c2031-f787-4a1f-8160-6693df80716b:r4"
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:598dcb7c-394b-4306-bd4c-5f37d637f1e1:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:a1c9e9b8-4ba4-41da-a708-568db268abe7:r3"
             ],
             "blockingSequentialIndexes": [
-              "449",
-              "476",
-              "477",
-              "478",
-              "479",
-              "480",
-              "481"
+              "337",
+              "353"
             ],
             "conflictingColumnIndex": null,
             "searches": [
               {
-                "sourceDay": 12,
+                "sourceDay": 20,
                 "sourceSide": "previous_day_tail",
                 "examinedBlockCount": 14
               },
               {
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "examinedBlockCount": 8
-              }
-            ],
-            "blockingBlocks": [
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "440",
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "439",
-                  "440",
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "438",
-                  "439",
-                  "440",
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "437",
-                  "438",
-                  "439",
-                  "440",
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 12,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "436",
-                  "437",
-                  "438",
-                  "439",
-                  "440",
-                  "441",
-                  "442",
-                  "443",
-                  "444",
-                  "445",
-                  "446",
-                  "447",
-                  "448",
-                  "449"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476",
-                  "477"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476",
-                  "477",
-                  "478"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476",
-                  "477",
-                  "478",
-                  "479"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476",
-                  "477",
-                  "478",
-                  "479",
-                  "480"
-                ]
-              },
-              {
-                "code": "cell_capacity",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 14,
-                "sourceSide": "next_day_head",
-                "movedSequentialIndexes": [
-                  "474",
-                  "475",
-                  "476",
-                  "477",
-                  "478",
-                  "479",
-                  "480",
-                  "481"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "dayNumber": 17,
-          "columnIndex": 4,
-          "assignmentId": "future-assignment:ed711021dd3addc4",
-          "pageCount": 3.4600170000000006,
-          "targetPages": 6.4,
-          "minimumPages": 5.76,
-          "maximumPages": 7.04,
-          "loadRatio": 0.5406276562500001,
-          "loadDirection": "underfill",
-          "justified": true,
-          "reasonCode": "cell_capacity_block",
-          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r4",
-          "blockingSequentialIndexes": [
-            "557",
-            "8",
-            "9"
-          ],
-          "blockingNotBeforeDay": null,
-          "nextNonConflictingSequentialIndex": null,
-          "nextNonConflictingNotBeforeDay": null,
-          "conflictingColumnIndex": null,
-          "projectedPages": null,
-          "maximumWithoutOverflow": null,
-          "repairAudit": {
-            "dayNumber": 17,
-            "columnIndex": 4,
-            "repairable": false,
-            "checkedFromDay": 16,
-            "checkedThroughDay": 18,
-            "examinedBlockCount": 28,
-            "legalBlockCount": 7,
-            "sourceDay": null,
-            "movedOccurrenceIds": [],
-            "movedSequentialIndexes": [],
-            "projectedPages": null,
-            "blockingConstraintIds": [
-              "优化-单格均衡",
-              "日量-02",
-              "优化-单格均衡"
-            ],
-            "blockerCodes": [
-              "underfill_shift",
-              "daily_capacity",
-              "cell_capacity"
-            ],
-            "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1f1d205a-c9b1-4a50-a1b7-8bf9a280e449:r4",
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:453fe00b-39c4-42c3-87ff-721242af3d34:r4"
-            ],
-            "blockingSequentialIndexes": [
-              "557",
-              "8",
-              "9"
-            ],
-            "conflictingColumnIndex": null,
-            "searches": [
-              {
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 24
-              },
-              {
-                "sourceDay": 18,
+                "sourceDay": 22,
                 "sourceSide": "next_day_head",
                 "examinedBlockCount": 4
               }
             ],
             "blockingBlocks": [
               {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "327",
+                  "328",
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333",
+                  "334",
+                  "335",
+                  "336",
+                  "337"
                 ]
               },
               {
                 "code": "daily_capacity",
                 "constraintId": "日量-02",
-                "sourceDay": 16,
+                "sourceDay": 20,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "326",
+                  "327",
+                  "328",
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333",
+                  "334",
+                  "335",
+                  "336",
+                  "337"
                 ]
               },
               {
                 "code": "daily_capacity",
                 "constraintId": "日量-02",
-                "sourceDay": 16,
+                "sourceDay": 20,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
-                ]
-              },
-              {
-                "code": "daily_capacity",
-                "constraintId": "日量-02",
-                "sourceDay": 16,
-                "sourceSide": "previous_day_tail",
-                "movedSequentialIndexes": [
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "325",
+                  "326",
+                  "327",
+                  "328",
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333",
+                  "334",
+                  "335",
+                  "336",
+                  "337"
                 ]
               },
               {
                 "code": "cell_capacity",
                 "constraintId": "优化-单格均衡",
-                "sourceDay": 16,
+                "sourceDay": 20,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "5",
-                  "535",
-                  "536",
-                  "537",
-                  "538",
-                  "539",
-                  "540",
-                  "541",
-                  "542",
-                  "543",
-                  "544",
-                  "545",
-                  "546",
-                  "547",
-                  "548",
-                  "549",
-                  "550",
-                  "551",
-                  "552",
-                  "553",
-                  "554",
-                  "555",
-                  "556",
-                  "557"
+                  "324",
+                  "325",
+                  "326",
+                  "327",
+                  "328",
+                  "329",
+                  "330",
+                  "331",
+                  "332",
+                  "333",
+                  "334",
+                  "335",
+                  "336",
+                  "337"
                 ]
               },
               {
-                "code": "underfill_shift",
-                "constraintId": "优化-单格均衡",
-                "sourceDay": 18,
+                "code": "insufficient_contiguous_pages",
+                "constraintId": "相邻连续块页数不足",
+                "sourceDay": 22,
                 "sourceSide": "next_day_head",
                 "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8"
+                  "350",
+                  "351",
+                  "352",
+                  "353"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "dayNumber": 21,
+          "columnIndex": 4,
+          "assignmentId": "future-assignment:aca94784b87262e4",
+          "pageCount": 1.587068,
+          "targetPages": 6.4,
+          "minimumPages": 5.76,
+          "maximumPages": 7.04,
+          "loadRatio": 0.24797937499999997,
+          "loadDirection": "underfill",
+          "justified": true,
+          "reasonCode": "cell_capacity_block",
+          "blockingOccurrenceId": "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ba51da01-f051-4a81-a947-fd513b64d3ce:r4",
+          "blockingSequentialIndexes": [
+            "97",
+            "125"
+          ],
+          "blockingNotBeforeDay": null,
+          "nextNonConflictingSequentialIndex": null,
+          "nextNonConflictingNotBeforeDay": null,
+          "conflictingColumnIndex": null,
+          "projectedPages": null,
+          "maximumWithoutOverflow": null,
+          "repairAudit": {
+            "dayNumber": 21,
+            "columnIndex": 4,
+            "repairable": false,
+            "checkedFromDay": 20,
+            "checkedThroughDay": 22,
+            "examinedBlockCount": 29,
+            "legalBlockCount": 0,
+            "sourceDay": null,
+            "movedOccurrenceIds": [],
+            "movedSequentialIndexes": [],
+            "projectedPages": null,
+            "blockingConstraintIds": [
+              "日量-02",
+              "优化-单格均衡",
+              "相邻连续块页数不足"
+            ],
+            "blockerCodes": [
+              "daily_capacity",
+              "cell_capacity",
+              "insufficient_contiguous_pages"
+            ],
+            "blockingOccurrenceIds": [
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:ba51da01-f051-4a81-a947-fd513b64d3ce:r4",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2fc8db78-22d0-4802-bff7-bafc4456bf54:r4"
+            ],
+            "blockingSequentialIndexes": [
+              "97",
+              "125"
+            ],
+            "conflictingColumnIndex": null,
+            "searches": [
+              {
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "examinedBlockCount": 18
+              },
+              {
+                "sourceDay": 22,
+                "sourceSide": "next_day_head",
+                "examinedBlockCount": 11
+              }
+            ],
+            "blockingBlocks": [
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "82",
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "daily_capacity",
+                "constraintId": "日量-02",
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "81",
+                  "82",
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
                 ]
               },
               {
                 "code": "cell_capacity",
                 "constraintId": "优化-单格均衡",
-                "sourceDay": 18,
+                "sourceDay": 20,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "80",
+                  "81",
+                  "82",
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97"
+                ]
+              },
+              {
+                "code": "insufficient_contiguous_pages",
+                "constraintId": "相邻连续块页数不足",
+                "sourceDay": 22,
                 "sourceSide": "next_day_head",
                 "movedSequentialIndexes": [
-                  "6",
-                  "7",
-                  "8",
-                  "9"
+                  "115",
+                  "116",
+                  "117",
+                  "118",
+                  "119",
+                  "120",
+                  "121",
+                  "122",
+                  "123",
+                  "124",
+                  "125"
                 ]
               }
             ]
@@ -7619,7 +6431,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "837ef2623da4957567e2f3bda2bc30070bf7ae18f9da9797e09cfbdd45bcaa3f"
+      "digest": "bc3992a048a4c0c498bd3b6859e8d0bb889a80f356c274416deea56832fb0f44"
     },
     {
       "number": 18,
@@ -7830,8 +6642,8 @@
             "repairable": false,
             "checkedFromDay": 8,
             "checkedThroughDay": 10,
-            "examinedBlockCount": 11,
-            "legalBlockCount": 8,
+            "examinedBlockCount": 13,
+            "legalBlockCount": 9,
             "sourceDay": null,
             "movedOccurrenceIds": [],
             "movedSequentialIndexes": [],
@@ -7845,13 +6657,13 @@
               "cell_capacity"
             ],
             "blockingOccurrenceIds": [
-              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2b5442ee-ace9-43e7-84d0-2183c51c988d:r3",
+              "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:2baa6dcf-b151-478f-9596-0eadff09e77c:r3",
               "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:1b93bb15-a743-462d-a2ff-deac4513525b:r3",
               "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:c652e1f4-6e87-4e08-8777-961e5bb2d418:r3",
               "5e5c919f-3133-4644-9bea-0bf38d62b244:occ:b9a10ae1-5137-4029-a58c-bcfdde34447a:r3"
             ],
             "blockingSequentialIndexes": [
-              "567",
+              "33",
               "43",
               "44",
               "45"
@@ -7861,7 +6673,7 @@
               {
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
-                "examinedBlockCount": 7
+                "examinedBlockCount": 9
               },
               {
                 "sourceDay": 10,
@@ -7876,7 +6688,8 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "567"
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7885,8 +6698,9 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "566",
-                  "567"
+                  "31",
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7895,9 +6709,10 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "565",
-                  "566",
-                  "567"
+                  "30",
+                  "31",
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7906,10 +6721,11 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "564",
-                  "565",
-                  "566",
-                  "567"
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7918,11 +6734,12 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "563",
-                  "564",
-                  "565",
-                  "566",
-                  "567"
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7931,12 +6748,29 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
-                  "33",
-                  "563",
-                  "564",
-                  "565",
-                  "566",
-                  "567"
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33"
+                ]
+              },
+              {
+                "code": "daily_priority",
+                "constraintId": "优化-每日总量",
+                "sourceDay": 8,
+                "sourceSide": "previous_day_tail",
+                "movedSequentialIndexes": [
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33"
                 ]
               },
               {
@@ -7945,13 +6779,15 @@
                 "sourceDay": 8,
                 "sourceSide": "previous_day_tail",
                 "movedSequentialIndexes": [
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
                   "32",
-                  "33",
-                  "563",
-                  "564",
-                  "565",
-                  "566",
-                  "567"
+                  "33"
                 ]
               },
               {
@@ -11631,7 +10467,7 @@
         }
       ],
       "finalDay": 22,
-      "digest": "95852b7cf3b4b13e7c3b2fdebeadc667cd64875126dbff8252c01f1a5eb98cb6"
+      "digest": "3bd86ee59b87ebc7d2146cb883b163033aaa0cf5228aa7162dff06ff4d4667a1"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "passed": true,
+  "passed": false,
   "results": [
     {
       "passed": true,
@@ -84,27 +84,35 @@
       "countdownDay": 3,
       "originalFinalDay": 21,
       "eventDay": 19,
-      "outcome": "deferred_to_next_stage",
-      "finalDay": 21,
-      "extendedDays": 0,
-      "addedOccurrences": 0,
-      "targetStageNumber": 2,
-      "deferredRecordId": "deferred-addition:32c0bd7896d9c1a6",
+      "outcome": "auto_scheduled",
+      "finalDay": 23,
+      "extendedDays": 2,
+      "addedOccurrences": 50,
       "futureDayLoads": [
         {
           "dayNumber": 19,
-          "pageCount": 31.517479,
+          "pageCount": 30.433037,
           "withinTargetBand": true
         },
         {
           "dayNumber": 20,
-          "pageCount": 31.619434,
+          "pageCount": 29.256929,
           "withinTargetBand": true
         },
         {
           "dayNumber": 21,
-          "pageCount": 31.984144,
+          "pageCount": 30.963816,
           "withinTargetBand": true
+        },
+        {
+          "dayNumber": 22,
+          "pageCount": 30.067275,
+          "withinTargetBand": true
+        },
+        {
+          "dayNumber": 23,
+          "pageCount": 6.4,
+          "withinTargetBand": false
         }
       ],
       "lockedHistoryPreserved": true,
@@ -126,7 +134,7 @@
           "name": "单日容量合格",
           "hard": true,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "锁定历史保持不变",
@@ -141,7 +149,7 @@
           "status": "satisfied"
         },
         {
-          "name": "晚新增留到下一阶段且当前阶段不建立 occurrence",
+          "name": "临近收口新增可自动合法排入时直接显示延长天数",
           "hard": true,
           "passed": true,
           "status": "satisfied"
@@ -150,19 +158,19 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "satisfied"
+          "status": "exempt"
         }
       ],
-      "deterministicDigest": "913c7643954656cd43e62f20b9b53fea16d89307255054ad76c840e5f40fd1a3"
+      "deterministicDigest": "82b981a5be3f96c79963a992a52ebb269f5628143b8fa2008bbab9782836a856"
     },
     {
-      "passed": true,
+      "passed": false,
       "title": "原计划倒数第5天新增10张卡片",
       "filename": "22-原计划倒数第5天新增10张卡片.md",
       "outputPath": "/Users/wendell/Project/LIXI/Learn/.local/lixi-review-fixtures/scenario-markdown-samples/固定每日时长/基础异常场景/22-原计划倒数第5天新增10张卡片.md",
@@ -181,27 +189,27 @@
         },
         {
           "dayNumber": 18,
-          "pageCount": 30.734685,
+          "pageCount": 30.434086,
           "withinTargetBand": true
         },
         {
           "dayNumber": 19,
-          "pageCount": 31.299911,
+          "pageCount": 33.015438,
           "withinTargetBand": true
         },
         {
           "dayNumber": 20,
-          "pageCount": 32.322803,
+          "pageCount": 30.418325,
           "withinTargetBand": true
         },
         {
           "dayNumber": 21,
-          "pageCount": 32.092626,
+          "pageCount": 32.263949,
           "withinTargetBand": true
         },
         {
           "dayNumber": 22,
-          "pageCount": 34.601462,
+          "pageCount": 34.919689,
           "withinTargetBand": true
         }
       ],
@@ -247,8 +255,8 @@
         {
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
-          "passed": true,
-          "status": "exempt"
+          "passed": false,
+          "status": "violated"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -257,7 +265,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "4a345ec8967e3345e01ec02547f498e955506f56bd3eddea8c5c34d735141f4d"
+      "deterministicDigest": "536efab4edd392843838267fb6c84a2b3bf49389239a75f60fbe10f89a9c8554"
     },
     {
       "passed": true,
@@ -279,52 +287,52 @@
         },
         {
           "dayNumber": 13,
-          "pageCount": 30.432805,
+          "pageCount": 32.338568,
           "withinTargetBand": true
         },
         {
           "dayNumber": 14,
-          "pageCount": 30.616743,
+          "pageCount": 32.064021,
           "withinTargetBand": true
         },
         {
           "dayNumber": 15,
-          "pageCount": 32.339227,
+          "pageCount": 32.175659,
           "withinTargetBand": true
         },
         {
           "dayNumber": 16,
-          "pageCount": 31.63979,
+          "pageCount": 32.381349,
           "withinTargetBand": true
         },
         {
           "dayNumber": 17,
-          "pageCount": 31.510119,
+          "pageCount": 32.022285,
           "withinTargetBand": true
         },
         {
           "dayNumber": 18,
-          "pageCount": 31.789695,
+          "pageCount": 32.793434,
           "withinTargetBand": true
         },
         {
           "dayNumber": 19,
-          "pageCount": 32.642086,
+          "pageCount": 31.923407,
           "withinTargetBand": true
         },
         {
           "dayNumber": 20,
-          "pageCount": 31.979116,
+          "pageCount": 32.048253,
           "withinTargetBand": true
         },
         {
           "dayNumber": 21,
-          "pageCount": 31.917107,
+          "pageCount": 32.014624,
           "withinTargetBand": true
         },
         {
           "dayNumber": 22,
-          "pageCount": 34.707612,
+          "pageCount": 29.8127,
           "withinTargetBand": true
         }
       ],
@@ -371,7 +379,7 @@
           "name": "单格负载偏差（仅诊断）",
           "hard": false,
           "passed": true,
-          "status": "exempt"
+          "status": "satisfied"
         },
         {
           "name": "单格卡号连续性（仅诊断）",
@@ -380,7 +388,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "6ef326ab12faa67f241df267dbafa1b162126126fb4c4508de6af36081141c8c"
+      "deterministicDigest": "546714fdb30b45e07fc780c1c703ee0a3dc1f71e37da09d2fc97a97bf6f3bef3"
     }
   ]
 }
