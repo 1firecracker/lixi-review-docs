@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-e2d5208d76c317031b47c76c38f0c8b73a01363206dcc008e2537e50c9cd81ff",
-  "generatedAt": "2026-07-30T07:40:52.055Z",
+  "revision": "snapshot-d4a3f4d1036a4ddab20ff9f273583102f6fa8908988338e6829db79cd671d230",
+  "generatedAt": "2026-07-30T09:21:18.395Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -551,8 +551,8 @@
     },
     {
       "path": "固定每日时长/基础异常场景/21-原计划倒数第3天新增10张卡片.md",
-      "sha256": "ab83432b67044af62dbd088e26438bc1684bee616bf55aa1006179f8b207cc3e",
-      "bytes": 8647,
+      "sha256": "c172b31002705859e2487740a490b6965006a2ef7fa17b7f9288ce2ac1f81035",
+      "bytes": 8323,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -649,7 +649,7 @@
     },
     {
       "path": "固定每日时长/基础异常场景/晚新增时点场景结果.json",
-      "sha256": "9f2dbd246afe9a21a6613864b60524b9629b18493c2dcefb82a1d08e99d0e27d",
+      "sha256": "ae04e1027cf8a854830fd43444410440113a55bed4a3f9e7b289133ac2ec9cf6",
       "bytes": 11047,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"

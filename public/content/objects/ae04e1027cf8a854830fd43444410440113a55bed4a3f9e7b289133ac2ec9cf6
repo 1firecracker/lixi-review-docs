@@ -101,12 +101,12 @@
         },
         {
           "dayNumber": 21,
-          "pageCount": 30.963816,
+          "pageCount": 31.279129,
           "withinTargetBand": true
         },
         {
           "dayNumber": 22,
-          "pageCount": 30.067275,
+          "pageCount": 29.751962,
           "withinTargetBand": true
         },
         {
@@ -167,7 +167,7 @@
           "status": "exempt"
         }
       ],
-      "deterministicDigest": "82b981a5be3f96c79963a992a52ebb269f5628143b8fa2008bbab9782836a856"
+      "deterministicDigest": "c9f103a19c7b386afc585b28b0f98f541f3d089aa5848cfcadeb226ad0451e25"
     },
     {
       "passed": true,
