@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-6f55e40dba43c0984cd859f97ea80142174a79c834147f77b401db1827b96416",
-  "generatedAt": "2026-08-30T05:29:24.149Z",
+  "revision": "snapshot-2f374672614b78bb4309e065996973c06e91be6dd092f1e5fcd8967f8c4a762f",
+  "generatedAt": "2026-08-30T05:39:42.296Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -117,15 +117,15 @@
     },
     {
       "path": "固定总复习天数/全部场景统一验收结果.json",
-      "sha256": "c675909d7ea7bc5a2a628cc93b0f6104d66bceb28f6914de808dea7b930e03ca",
-      "bytes": 33085,
+      "sha256": "72fa1d16eeee0e12f426327c7ad3536eb1d2a570e5e236d63610304ba6a438f7",
+      "bytes": 33081,
       "mediaType": "application/json; charset=utf-8",
       "kind": "asset"
     },
     {
       "path": "固定总复习天数/全部场景统一验收结果.md",
-      "sha256": "e4d87475c14c54faea9c679ee411322caa8ade898da95932dabaccc8a591881f",
-      "bytes": 6319,
+      "sha256": "4f5d76b2dce28d113273c0c9e5641b99230e7970c459089d1ac7f89ec6682a71",
+      "bytes": 6323,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
@@ -341,63 +341,63 @@
     },
     {
       "path": "固定总复习天数/混合异常场景/06-删除已学习卡片并在原位置补卡.md",
-      "sha256": "25907d0a09128e7dca4c93613dee3fde13cc1cb7bbd1bc78d9f67f36f1a14a75",
+      "sha256": "b139528b94b1394e011c328f58b5fe55a9ffe9139712738ff14bf5ffb6cf3cd8",
       "bytes": 6082,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/07-删除未学卡片后在附近新增5张.md",
-      "sha256": "726ff65ad705125769c0acdd808435ddd59bd03722fd8f811fc71a3d84c2b17c",
-      "bytes": 6115,
+      "sha256": "ba0dc28843bf17fbb5d38e52696a87fedece89c271aa7dfdbc30b98ccfad93ef",
+      "bytes": 6116,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/08-连续两日中断后新增卡片.md",
-      "sha256": "ec51b5e1d419731d71e3541d3ddc901e426f468a6d5c699819a289b4482f552f",
-      "bytes": 3083,
+      "sha256": "639c36179c589bc877bf763662abe88885e554f2462b8bbd4b82de5e17c018eb",
+      "bytes": 3084,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/09-连续两日中断后删除卡片.md",
-      "sha256": "3a52e0352c277934eec9d89fd237cba5193aebac582c0e7ea20ee0b4c86965f5",
-      "bytes": 5879,
+      "sha256": "c8252f353059d1ba3566f371fe943aedb93bbaf64afcba2ad8e70d5ca3d1033d",
+      "bytes": 5880,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/10-当天中断后新增并编辑旧卡.md",
-      "sha256": "a673e9f401ae04c5e67c0e84ef4626a408d69db357a213acff450715e99fae9c",
-      "bytes": 3418,
+      "sha256": "1ee7feed30aa71d1f9c028df9d9e1db5d0a7288cb4437c6023a35afa8c8697a4",
+      "bytes": 3419,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/11-同日头中尾三处新增.md",
-      "sha256": "de73704553ba75bbe4e9f57403c1e1a8246a2749eb1e5e68a060310ed2ab3a56",
+      "sha256": "b5ebd5ae8ae49e644706a8012f84374d12a7931768d81457d410837968cffdbb",
       "bytes": 6286,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/12-同日头中尾分散删除.md",
-      "sha256": "a0d08e1d3b613d960d508b8a553c967f52fd08dda3e918a919c8f3b8e8d5ffdf",
-      "bytes": 3361,
+      "sha256": "def9f63b5f512faff72df60ac938d5d5a85174ef75519fe22cd7b578483953dd",
+      "bytes": 3362,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/13-同日新增删除及页数编辑.md",
-      "sha256": "c45872a37346cb3a19434c804cf69469c8b339c4488e49168045716dfda96eba",
+      "sha256": "92d4094d33890a935e8645141c880225681b1a77f1f6b3728a661c18d3d3dac8",
       "bytes": 6154,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
     {
       "path": "固定总复习天数/混合异常场景/14-重复事件重放夹杂真实编辑.md",
-      "sha256": "83275ff77b9bd61c115e661c84a1881d5d64c5eec7a031ef57abbace77aa02aa",
+      "sha256": "1e6a1387200776fea585efbbacbcb86c99705ca1da7e6ef0e088b2dc629db30f",
       "bytes": 6309,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"

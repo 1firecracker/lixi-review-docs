@@ -10,7 +10,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 969.494125,
+      "elapsedMs": 904.2275,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -29,7 +29,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 865.315542,
+      "elapsedMs": 1888.2562080000002,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -48,7 +48,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 609.3781669999998,
+      "elapsedMs": 739.254167,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -67,7 +67,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 1113.0568329999996,
+      "elapsedMs": 990.6179579999998,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -86,7 +86,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 698.2691250000007,
+      "elapsedMs": 698.1998330000006,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -105,7 +105,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 887.9030419999999,
+      "elapsedMs": 878.5771249999998,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -124,7 +124,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 683.3357079999987,
+      "elapsedMs": 683.7383750000008,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -143,7 +143,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 687.8601250000011,
+      "elapsedMs": 681.6346659999999,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -162,7 +162,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 1083.3267079999987,
+      "elapsedMs": 995.3144170000014,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -181,7 +181,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 994.472749999999,
+      "elapsedMs": 998.1027919999979,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -200,7 +200,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 933.3432500000017,
+      "elapsedMs": 941.8300830000007,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -219,7 +219,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 680.0432080000028,
+      "elapsedMs": 879.403291999999,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -238,7 +238,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 702.0404169999965,
+      "elapsedMs": 749.4259160000001,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -257,7 +257,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 686.6582920000001,
+      "elapsedMs": 737.9412499999999,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -276,7 +276,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 701.2612910000025,
+      "elapsedMs": 728.9626660000031,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -295,7 +295,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 657.4184580000001,
+      "elapsedMs": 696.8878330000007,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -314,7 +314,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 647.8797920000034,
+      "elapsedMs": 735.1753749999989,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -333,7 +333,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 644.7995840000003,
+      "elapsedMs": 731.682041,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -352,7 +352,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 573.7081670000007,
+      "elapsedMs": 614.6497089999975,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -371,7 +371,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.2702079999980924,
+      "elapsedMs": 0.2715840000018943,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -390,7 +390,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.5494170000019949,
+      "elapsedMs": 0.5844169999982114,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -409,7 +409,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 17.2498749999977,
+      "elapsedMs": 17.22087499999907,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -428,7 +428,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 147.1856250000019,
+      "elapsedMs": 159.65204200000153,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -447,7 +447,7 @@
       "handled": true,
       "status": "infeasible",
       "reason": "same_node_day_shortage",
-      "elapsedMs": 0.6429580000003625,
+      "elapsedMs": 0.6454999999987194,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -466,7 +466,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 1051.9885409999988,
+      "elapsedMs": 1090.8816660000011,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -485,7 +485,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 862.2887919999994,
+      "elapsedMs": 761.0645000000004,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -504,7 +504,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 699.7439159999994,
+      "elapsedMs": 854.0514160000021,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -523,7 +523,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 689.7278330000045,
+      "elapsedMs": 737.2106660000063,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -542,7 +542,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 693.297541999993,
+      "elapsedMs": 735.0066670000015,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -561,7 +561,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 681.7569169999988,
+      "elapsedMs": 765.0220419999969,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -580,7 +580,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 687.8684590000048,
+      "elapsedMs": 1389.0951669999995,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -599,7 +599,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 926.9535830000023,
+      "elapsedMs": 1140.771415999996,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -618,7 +618,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 728.4961669999975,
+      "elapsedMs": 1054.637125000001,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -637,7 +637,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 864.713708000003,
+      "elapsedMs": 1149.736208000002,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -656,7 +656,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 1001.9567080000052,
+      "elapsedMs": 1366.1406659999993,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -675,7 +675,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 998.3510840000017,
+      "elapsedMs": 1280.6639579999974,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -694,7 +694,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 804.8263330000045,
+      "elapsedMs": 965.7540829999998,
       "deterministic": true,
       "failures": [],
       "coverage": {
@@ -713,7 +713,7 @@
       "handled": true,
       "status": "scheduled",
       "reason": null,
-      "elapsedMs": 796.9337500000038,
+      "elapsedMs": 728.3837910000002,
       "deterministic": true,
       "failures": [],
       "coverage": {
