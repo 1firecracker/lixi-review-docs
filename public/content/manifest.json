@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-91c3e07b7d640d7f24c479f70031463dd686a2a53baa628e93933e2b2733685d",
-  "generatedAt": "2026-09-08T01:55:48.995Z",
+  "revision": "snapshot-1c72b3e97c56886d44385e6f2d93a8d1995cd28607165303c231d92541a50384",
+  "generatedAt": "2026-09-08T02:46:34.100Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -399,6 +399,34 @@
       "path": "固定总复习天数/混合异常场景/14-重复事件重放夹杂真实编辑.md",
       "sha256": "1e6a1387200776fea585efbbacbcb86c99705ca1da7e6ef0e088b2dc629db30f",
       "bytes": 6309,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/新增百张连续三次/接入首轮-20260907/第1次完整计划表.md",
+      "sha256": "9423bb8def7e3816a6d196429f1c0479965cb28bb878ab958a2f612d3eac33f0",
+      "bytes": 11561,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/新增百张连续三次/接入首轮-20260907/第2次完整计划表.md",
+      "sha256": "a02666412c8ea391b8b9a650d0ff0d44c64054b093a8c29c388f449fa948e847",
+      "bytes": 11561,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/新增百张连续三次/接入首轮-20260907/第3次完整计划表.md",
+      "sha256": "bdcc797afdebdb8b5b99184460717795bdf5869f3ab58929eb8ef251ad579959",
+      "bytes": 11561,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/新增百张连续三次/接入首轮-20260907/验收汇总.md",
+      "sha256": "711615ae6edbc8fe5cb206bf6ccbba2e796c5b36b687bb351641fa667c83f844",
+      "bytes": 787,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
