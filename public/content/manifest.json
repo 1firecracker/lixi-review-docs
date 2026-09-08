@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-0d4dde89d81664a71c264aeda9f658d73a93d777bbb44f6cfef699853b189e9e",
-  "generatedAt": "2026-09-08T09:30:33.094Z",
+  "revision": "snapshot-64e387a99b1c1d809638d32e39b1053dd4882dc238398fa227586d659be97fa1",
+  "generatedAt": "2026-09-08T09:40:43.983Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -658,6 +658,13 @@
       "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/14-重复事件重放夹杂真实编辑.md",
       "sha256": "e8e6ed5111493ddcc85cb400eec7f589ea4bf215af751891603c2236f1915c85",
       "bytes": 6609,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/表格连贯性分类.md",
+      "sha256": "02e4583249d8a3a1ce358bbb306a8cb5c7deee7a08cd9cec2678212b764d031f",
+      "bytes": 7511,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
