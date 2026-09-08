@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-135bac1e56c238c46e646ebc443f488ab10e11406693aeed9e8e7e1281008beb",
-  "generatedAt": "2026-09-07T15:12:36.982Z",
+  "revision": "snapshot-91c3e07b7d640d7f24c479f70031463dd686a2a53baa628e93933e2b2733685d",
+  "generatedAt": "2026-09-08T01:55:48.995Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -406,6 +406,104 @@
       "path": "固定每日时长/CP-SAT/诊断/新增100张完整提示后的计划.md",
       "sha256": "4ab0effa35813844709fac69191e918b43c14f5a41b0b7df0a6094390435c428",
       "bytes": 10747,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/01-无异常基准计划-120秒.md",
+      "sha256": "5125e5319f22d8e216eee904b38defa3f5cf3604091d8ce0250e4346e12f5fd3",
+      "bytes": 6214,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/01-无异常基准计划-30秒.md",
+      "sha256": "65fc563cbe87b31c836bbd036186c7e3e43e2539a5591b6df11cd03e08ac6660",
+      "bytes": 6198,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/01-无异常基准计划-60秒-日量优先对照.md",
+      "sha256": "23061a09981430badf7078766e6038dae66f44d7157d1d35182f56d1211fda5a",
+      "bytes": 6217,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/01-无异常基准计划-60秒.md",
+      "sha256": "67d000110d9c27b92b1b3668a1aac710597fc3abe2c65f2b4b5c22deb81c2537",
+      "bytes": 6203,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/02-第二天中途停止并顺延-120秒.md",
+      "sha256": "67d231781b642208bed472237fd1da5e643c33f41badbdec97d1b00d0898c110",
+      "bytes": 6374,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/02-第二天中途停止并顺延-30秒.md",
+      "sha256": "c47799f5025a1519373efeeefa0afa465e71ef4deb672f2c09e72787b0e66513",
+      "bytes": 6370,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/02-第二天中途停止并顺延-60秒.md",
+      "sha256": "3e3b05d02cb6d02ff224b26bb25e41582906dbba5288e728fc3bca5de99f3d3e",
+      "bytes": 6369,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/06-教材多处新增100张卡片-120秒.md",
+      "sha256": "b89f762ea06287e9ad78e1ce23e351b7931f9c71afe3a834bc424620f483c2ec",
+      "bytes": 1229,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/06-教材多处新增100张卡片-30秒.md",
+      "sha256": "1c7b2cd40100a4dc92cfd1b78f2f9fae77a478252d1e76468aebd7a9351c02f8",
+      "bytes": 1226,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/06-教材多处新增100张卡片-60秒.md",
+      "sha256": "520b7ddbdfc14fe645dd009e352dda7a600267d319e79bfa7009f6a4c6fda5ab",
+      "bytes": 1226,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/17-合并已有历史形成约10页父卡-120秒.md",
+      "sha256": "64f8e07ef6dbe814c68afafa5d79089c709f8f4a3d33efd1962c6441d0ecf579",
+      "bytes": 7374,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/17-合并已有历史形成约10页父卡-30秒.md",
+      "sha256": "a4118356d5942c88769349b8eb7466dffeac729f35d19df337f9aa7cb81d3ce0",
+      "bytes": 7263,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/17-合并已有历史形成约10页父卡-60秒.md",
+      "sha256": "82cde59aa9445fc169dc44cb92fc7c9aad5d09257c642b2543521eb315c4241f",
+      "bytes": 7286,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连贯优先实验/20-原计划倒数第1天新增10张卡片-30秒.md",
+      "sha256": "e054607582e6c3ab585f93e2c2d7696e49f1be3f1f9c3ce2e329d8d7ff463ebe",
+      "bytes": 1268,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
