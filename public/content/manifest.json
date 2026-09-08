@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-3eba9675fedb0c5a7f23035ff08e5ad11242d5e7700e485fc7c941a4b58650e2",
-  "generatedAt": "2026-09-08T09:10:08.916Z",
+  "revision": "snapshot-0d4dde89d81664a71c264aeda9f658d73a93d777bbb44f6cfef699853b189e9e",
+  "generatedAt": "2026-09-08T09:30:33.094Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -522,9 +522,149 @@
       "kind": "markdown"
     },
     {
-      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/验收汇总.md",
-      "sha256": "816ba3a3068cbe7d1f2910a7d01cba4466ce6a03d3fc4b028ec5b675af04fab4",
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/18-跨任务包形成约10页父卡.md",
+      "sha256": "326c91d11223b8889c50b11d651a2733b790d0b15a0941f1af47e81b654e5f7c",
+      "bytes": 6529,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/19-当天中断后形成约10页父卡.md",
+      "sha256": "ec694e0c77fd28ec57dac8f323476dee108fa58ec0a6dc6de69b35725f92fcf5",
+      "bytes": 7385,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/20-原计划倒数第1天新增10张卡片.md",
+      "sha256": "a78f0dfe4913e3e9208f226d77830b868a80a02ca7bd9b81bd0fcdb53f50f5d9",
+      "bytes": 1247,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/21-原计划倒数第3天新增10张卡片.md",
+      "sha256": "c234ca1c4e02ade6b3a1b9dddf48a5dc12614202bf5a38ab2b6f7d686c9f4739",
+      "bytes": 6487,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/22-原计划倒数第5天新增10张卡片.md",
+      "sha256": "7dfd4894a288564e548c090869a80b83eb1dc817e4f6c49932b346c4fb3efc88",
+      "bytes": 6275,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "sha256": "57e6366c836e9108cbcd40037d938222983f51e14b3599a27ca58aa6bfc3ee42",
+      "bytes": 6638,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/01-第二天中断后在教材中部新增3张.md",
+      "sha256": "8c4d7c29459cfdd9e7a886846eb28843b9779aa649a3d0c9dd8f8e2094e4bbbc",
+      "bytes": 6377,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/02-第二天中断后删除未学习卡片.md",
+      "sha256": "a2c766c429bda48614d03f2aea2a02fb6d3fe5c08dbff9d50c0e00267562551d",
+      "bytes": 6319,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/03-顺延后同时增大有效页数.md",
+      "sha256": "31c8f97e70aef46d977d65f0edd524a634880b2e208cd4530e1c3c4e2cfad364",
+      "bytes": 6302,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/04-头部新增后删除其中一张新卡.md",
+      "sha256": "c7f10aadc9b5ac465370325b15b38112338015cf67aede774a61b456294846ac",
+      "bytes": 6613,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/05-尾部新增后修改新卡页数.md",
+      "sha256": "5ac668f09ae12133ac5832ac8e99387c62c1bc315e2fc15f2df85e9adbad2178",
+      "bytes": 6422,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/06-删除已学习卡片并在原位置补卡.md",
+      "sha256": "5da095f52a9d4d7592c42d7b1f6ec5cab64dd5f6527253eb192743602c74425a",
       "bytes": 6271,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/07-删除未学卡片后在附近新增5张.md",
+      "sha256": "90c5e5d39ac38bc94889a14bfabd0b1d249b6e8b85f0bcf6f6770b02b385fa05",
+      "bytes": 6565,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/08-连续两日中断后新增卡片.md",
+      "sha256": "f9438783e13c2867e2de272d4e18762d09d7a1bead05ca7e2aad0f7c3858c9ce",
+      "bytes": 6563,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/09-连续两日中断后删除卡片.md",
+      "sha256": "b3ee827c454259e595d22f89a972eeeb3d7efc983061dc30730c3e27c7b961db",
+      "bytes": 6287,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/10-当天中断后新增并编辑旧卡.md",
+      "sha256": "f99e0a646b22d00a7735a7fe72641b4a5bfff2546250d52d9fe1fb2996f012be",
+      "bytes": 6755,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/11-同日头中尾三处新增.md",
+      "sha256": "280da2da7fcdcab9e425dc081efbba40eb1c723a12fcbf7c2b1f51bfe3fe4dfa",
+      "bytes": 6691,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/12-同日头中尾分散删除.md",
+      "sha256": "1355579af4503d13fa2cd02a227db8f65d20772f211f65266a48faf0d2695582",
+      "bytes": 6443,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/13-同日新增删除及页数编辑.md",
+      "sha256": "c4da1423f008c5bc00f6474072a9c00fba4411586a139ff152d4f7a83d969f49",
+      "bytes": 6567,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/混合异常场景/14-重复事件重放夹杂真实编辑.md",
+      "sha256": "e8e6ed5111493ddcc85cb400eec7f589ea4bf215af751891603c2236f1915c85",
+      "bytes": 6609,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/验收汇总.md",
+      "sha256": "3a6d8bac7a2908eb15b5fa85519204c8c23fdecea7c13d596e9b4cb224702b6a",
+      "bytes": 13081,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
