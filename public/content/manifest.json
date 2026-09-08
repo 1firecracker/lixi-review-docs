@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-9f601f4fceb69e5ec0435d012370c1bcd24cdccbd4af23892623bfebc3b88eef",
-  "generatedAt": "2026-09-08T08:59:54.405Z",
+  "revision": "snapshot-3eba9675fedb0c5a7f23035ff08e5ad11242d5e7700e485fc7c941a4b58650e2",
+  "generatedAt": "2026-09-08T09:10:08.916Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -452,9 +452,79 @@
       "kind": "markdown"
     },
     {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/08-删除已经学习过的卡片.md",
+      "sha256": "6b9723fe7d9862d1b2c882e976ec433e5b319d13b5bab2a845a747a016832ad8",
+      "bytes": 6345,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/09-只在教材头部新增10张卡片.md",
+      "sha256": "28921998805918b6b2d5977f0a5b6afdf8b62c3fd45fad6b31b754440deff74a",
+      "bytes": 6589,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/10-只在教材尾部新增10张卡片.md",
+      "sha256": "5a7372e765b35c99cdafc7edc41a1632fae77e94aa74d0a05358cd15fb3bfff9",
+      "bytes": 6394,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/11-当天学习开始后新增10张卡片.md",
+      "sha256": "ff47a03aea8b2e36edeb0395f9ac31d68923f4b2a7d5ac63a30f62df3eb8c97b",
+      "bytes": 6800,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/12-合并从未学习的连续5张卡片.md",
+      "sha256": "5f334f45603131d287b965142031bf04134626cde6dce916e13432dd067a262e",
+      "bytes": 6510,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/13-合并已有历史的连续3张卡片.md",
+      "sha256": "389b3c6c7eacdbf19adb4104d34ebe2dd73e2f7d632ff064bb48b756a111b5c6",
+      "bytes": 6604,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/14-跨任务包合并4张卡片.md",
+      "sha256": "f49887aa24726720c3fb8955be7cb04992e33a0321ade44f46cf518247ba079e",
+      "bytes": 6547,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/15-当天中断后合并5张卡片.md",
+      "sha256": "081118b4579be17e34fce628e1cc873ca57843e401c195f7251eef8e749964ce",
+      "bytes": 6751,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/16-合并未学卡形成约10页父卡.md",
+      "sha256": "4e07bab0aeb979a100e992658500ac4d73719dc034482ad0d0ab6b6889b2421e",
+      "bytes": 6567,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/基础异常场景/17-合并已有历史形成约10页父卡.md",
+      "sha256": "2334bfbc9f78ccc7a22499873c5dfb59120ad3731aeaaba802f5f321e67e78e6",
+      "bytes": 7259,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
       "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/验收汇总.md",
-      "sha256": "c36f6a513b250b769878c8cba95521e110ae27af9b164136c8c71b2c66c60469",
-      "bytes": 2893,
+      "sha256": "816ba3a3068cbe7d1f2910a7d01cba4466ce6a03d3fc4b028ec5b675af04fab4",
+      "bytes": 6271,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
