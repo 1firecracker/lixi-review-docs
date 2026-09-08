@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-ddbe3f7e1b73fc9586fc3ccef9da896a30a5d01f440ca927b71e5802e8f2ea11",
-  "generatedAt": "2026-09-08T12:21:11.240Z",
+  "revision": "snapshot-d00a9073728022e436752451ba7b5a343c4e0cc59bd54a816fe012e02dc27eae",
+  "generatedAt": "2026-09-08T12:31:21.383Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -672,6 +672,34 @@
       "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/验收汇总.md",
       "sha256": "3a6d8bac7a2908eb15b5fa85519204c8c23fdecea7c13d596e9b4cb224702b6a",
       "bytes": 13081,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/基础异常场景/06-教材多处新增100张卡片.md",
+      "sha256": "7863bc91a6573427d1162cedf7ef89d297eebacc7ba70f65bc7ccea410be6605",
+      "bytes": 8081,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/基础异常场景/17-合并已有历史形成约10页父卡.md",
+      "sha256": "31e68ab397251a6e3d2f0d239eda380442f66e82499c21a2f9687173e7fd54a3",
+      "bytes": 5808,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/基础异常场景/18-跨任务包形成约10页父卡.md",
+      "sha256": "34620a69d5c21a61004fe736ecb7a38cc83db415ed77ccca7d2a298508e48ea1",
+      "bytes": 5255,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/验收汇总.md",
+      "sha256": "1bc367ef84985272eeb71d938d20965d42b3c9514edc29c762dac35d56270ddc",
+      "bytes": 1959,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
