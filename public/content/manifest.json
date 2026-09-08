@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-a78618001905942bf5be212bc2252e79f779e78946396c7f9e89468ad026c539",
-  "generatedAt": "2026-09-08T10:00:54.680Z",
+  "revision": "snapshot-ddbe3f7e1b73fc9586fc3ccef9da896a30a5d01f440ca927b71e5802e8f2ea11",
+  "generatedAt": "2026-09-08T12:21:11.240Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -672,6 +672,20 @@
       "path": "固定每日时长/CP-SAT/全部37场景/当前版本-20260908/验收汇总.md",
       "sha256": "3a6d8bac7a2908eb15b5fa85519204c8c23fdecea7c13d596e9b4cb224702b6a",
       "bytes": 13081,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/首轮-20260908/基础异常场景/06-教材多处新增100张卡片.md",
+      "sha256": "64dc996a545af749c79ecfe8c003c759e7c1b59dd7f3db11e2b1f1e7b98f72f0",
+      "bytes": 8081,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/首轮-20260908/验收汇总.md",
+      "sha256": "861e2b59f6fb580484422f0908d48163600870b9927d2ab64367f1cb2ec7abda",
+      "bytes": 1295,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
