@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-d00a9073728022e436752451ba7b5a343c4e0cc59bd54a816fe012e02dc27eae",
-  "generatedAt": "2026-09-08T12:31:21.383Z",
+  "revision": "snapshot-54e79e49ca354dfe280d0b51e564cb74d86034fcb237e4ee39ab161c7d26b5a0",
+  "generatedAt": "2026-09-08T13:55:00.944Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -697,9 +697,23 @@
       "kind": "markdown"
     },
     {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/基础异常场景/19-当天中断后形成约10页父卡.md",
+      "sha256": "a3a88304a73ae936f16a0cf143dadc0f91b04a328cedf5251a8830f77651604a",
+      "bytes": 5905,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "sha256": "78ec63797fc68e4acb7d040d8cf8684c6df4278a153ff6a856397338bf6019c7",
+      "bytes": 6762,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
       "path": "固定每日时长/CP-SAT/切点模型实验/完整复测-20260908/验收汇总.md",
-      "sha256": "1bc367ef84985272eeb71d938d20965d42b3c9514edc29c762dac35d56270ddc",
-      "bytes": 1959,
+      "sha256": "6399b23f4d4c399b94a5c334c76dfefaeec01bef098bf77f9a55163dfbea3205",
+      "bytes": 2623,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
