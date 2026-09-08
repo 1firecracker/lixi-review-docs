@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-54e79e49ca354dfe280d0b51e564cb74d86034fcb237e4ee39ab161c7d26b5a0",
-  "generatedAt": "2026-09-08T13:55:00.944Z",
+  "revision": "snapshot-d80c4e927a2c0ec83a2cc3934965bab6d2ef58b6456642ce807f83935bb7e8b2",
+  "generatedAt": "2026-09-08T14:25:29.223Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -728,6 +728,48 @@
       "path": "固定每日时长/CP-SAT/切点模型实验/首轮-20260908/验收汇总.md",
       "sha256": "861e2b59f6fb580484422f0908d48163600870b9927d2ab64367f1cb2ec7abda",
       "bytes": 1295,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/基础异常场景/06-教材多处新增100张卡片.md",
+      "sha256": "c5909c5522709822a9d1934fd8f1b7bd4e8e4e72fa96d6db389892e15fcb6d1b",
+      "bytes": 8617,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/基础异常场景/17-合并已有历史形成约10页父卡.md",
+      "sha256": "f0084330a6ca196b20165cc90f6b5409b76ca32e84fa3cc28d0f198b35fede09",
+      "bytes": 6034,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/基础异常场景/18-跨任务包形成约10页父卡.md",
+      "sha256": "acc4705e3b702096de40af4965c89e04e8763af7943241229f3caa0a74559479",
+      "bytes": 6129,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/基础异常场景/19-当天中断后形成约10页父卡.md",
+      "sha256": "acd9c596e6c2371ef06ccd17f85a59b8e63ad63522ee045973300a0b36d8b6ed",
+      "bytes": 5720,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "sha256": "e7461008dfe57525caaf8dcbc831d0a0e5cd19f736d24068de196db6f5ad08aa",
+      "bytes": 6318,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/原生崩溃规避/五例参数规避-20260908/验收汇总.md",
+      "sha256": "c7e9ab7267e64cacd15ab6d8f547a4a60b53c7b469124d94b5aba8ed15b44bd0",
+      "bytes": 2960,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
