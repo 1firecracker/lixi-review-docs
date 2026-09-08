@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "snapshot-64e387a99b1c1d809638d32e39b1053dd4882dc238398fa227586d659be97fa1",
-  "generatedAt": "2026-09-08T09:40:43.983Z",
+  "revision": "snapshot-a78618001905942bf5be212bc2252e79f779e78946396c7f9e89468ad026c539",
+  "generatedAt": "2026-09-08T10:00:54.680Z",
   "files": [
     {
       "path": "参数变更场景/全部参数变更场景验收结果.json",
@@ -707,6 +707,48 @@
       "path": "固定每日时长/CP-SAT/诊断/新增100张完整提示后的计划.md",
       "sha256": "4ab0effa35813844709fac69191e918b43c14f5a41b0b7df0a6094390435c428",
       "bytes": 10747,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/基础异常场景/06-教材多处新增100张卡片.md",
+      "sha256": "bd3ee78f8d22a3023468809f2dcc449c66c364fe38898f39bbe7c4276f0443e0",
+      "bytes": 1368,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/基础异常场景/17-合并已有历史形成约10页父卡.md",
+      "sha256": "91b63c399b1a95aa3c2284a6cda854230aa219efd4180295707955e0b4749c08",
+      "bytes": 1248,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/基础异常场景/18-跨任务包形成约10页父卡.md",
+      "sha256": "ea9cc29aaba6353fe260233fb7033e0d5728de54f049d41f6467e6ec1c00a888",
+      "bytes": 1251,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/基础异常场景/19-当天中断后形成约10页父卡.md",
+      "sha256": "5307387dd8cf3308ecbdff1dc595aadbdb8c52a20b57729ec9b4dbd641d30473",
+      "bytes": 1302,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/基础异常场景/23-原计划倒数第10天新增10张卡片.md",
+      "sha256": "cf0eda778fd5af8433f670ecea8d47014723c430aee644fde100bb324ba875c8",
+      "bytes": 6387,
+      "mediaType": "text/markdown; charset=utf-8",
+      "kind": "markdown"
+    },
+    {
+      "path": "固定每日时长/CP-SAT/连续硬约束实验/首轮-20260908/验收汇总.md",
+      "sha256": "208bd11a9834af6a49806ac56c88e9a1c5d9483c8ae152a4a7a944cf1c8fefbd",
+      "bytes": 2542,
       "mediaType": "text/markdown; charset=utf-8",
       "kind": "markdown"
     },
